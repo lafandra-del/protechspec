@@ -1,0 +1,20 @@
+name: repo-check
+
+on:
+  push:
+    branches:
+      - master
+      - main
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run repo checks
+        shell: pwsh
+        run: ./tools/check.ps1
+
