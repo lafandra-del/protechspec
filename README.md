@@ -31,3 +31,14 @@ Before release:
 - Ensure `log_project.md` has the latest meaningful entries.
 - Ensure `commit.md` contains the intended release commit title.
 
+## VS Code + Claude Code Pro
+
+Working in the same project folder is safe if you avoid overlapping writes.
+
+1. Do not edit the same file from both tools at the same time.
+2. Keep auto-formatting rules consistent (`.editorconfig`).
+3. Run checks before push:
+   ```powershell
+   pwsh -NoProfile -File tools/check.ps1
+   ```
+4. Commit frequently so rollback and merge are simple.
