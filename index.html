@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Максим Афанасьев — техспец онлайн-школ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Переменные ── */
+    :root {
+      --bg:        #0f0f13;
+      --surface:   #1a1a22;
+      --border:    #2a2a38;
+      --accent:    #7c6af7;
+      --accent-dim:#5a4fd4;
+      --text:      #e8e8f0;
+      --muted:     #6b6b80;
+      --radius:    12px;
+      --gap:       clamp(1.5rem, 4vw, 2.5rem);
+    }
+
+    /* ── Сброс ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 1rem;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    /* ── Утилиты ── */
+    .container {
+      width: min(1100px, 92%);
+      margin-inline: auto;
+    }
+    .section {
+      padding-block: clamp(4rem, 10vw, 7rem);
+    }
+    .section-label {
+      font-size: .75rem;
+      font-weight: 500;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+    .section-title {
+      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 3rem;
+    }
+
+    /* ── Навигация ── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(15, 15, 19, .85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      gap: 1rem;
+    }
+    .nav-logo {
+      font-weight: 700;
+      font-size: 1rem;
+      white-space: nowrap;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: clamp(.75rem, 3vw, 2rem);
+      font-size: .9rem;
+    }
+    .nav-links a {
+      color: var(--muted);
+      transition: color .2s;
+    }
+    .nav-links a:hover,
+    .nav-links a.active { color: var(--text); }
+
+    /* ── Hero ── */
+    #hero {
+      min-height: calc(100svh - 64px);
+      display: flex;
+      align-items: center;
+      padding-block: clamp(4rem, 10vw, 8rem);
+      position: relative;
+      overflow: hidden;
+    }
+    #hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 50% at 70% 40%, rgba(124,106,247,.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: clamp(2rem, 6vw, 5rem);
+    }
+    .hero-photo-wrap {
+      flex-shrink: 0;
+      position: relative;
+    }
+    .hero-photo-wrap::before {
+      content: '';
+      position: absolute;
+      inset: -3px;
+      border-radius: 22px;
+      background: linear-gradient(135deg, var(--accent) 0%, transparent 60%);
+      z-index: 0;
+    }
+    .hero-photo {
+      position: relative;
+      z-index: 1;
+      width: 320px;
+      height: 360px;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 20px;
+      display: block;
+      box-shadow: 0 24px 60px rgba(0,0,0,.5), 0 0 0 1px var(--border);
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      background: rgba(124,106,247,.12);
+      border: 1px solid rgba(124,106,247,.3);
+      color: var(--accent);
+      font-size: .8rem;
+      font-weight: 500;
+      padding: .3rem .85rem;
+      border-radius: 999px;
+      margin-bottom: 1.75rem;
+    }
+    .hero-badge::before {
+      content: '';
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: .4; }
+    }
+    .hero-name {
+      font-size: clamp(2.4rem, 6vw, 4.5rem);
+      font-weight: 700;
+      line-height: 1.05;
+      letter-spacing: -.02em;
+      margin-bottom: 1.25rem;
+    }
+    .hero-name em {
+      font-style: normal;
+      color: var(--accent);
+    }
+    .hero-offer {
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      color: var(--muted);
+      max-width: 520px;
+      margin-bottom: 2.5rem;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      background: var(--accent);
+      color: #fff;
+      font-size: .95rem;
+      font-weight: 500;
+      padding: .8rem 1.75rem;
+      border-radius: var(--radius);
+      border: none;
+      cursor: pointer;
+      transition: background .2s, transform .15s;
+    }
+    .btn:hover {
+      background: var(--accent-dim);
+      transform: translateY(-2px);
+    }
+    .btn-ghost {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+    .btn-ghost:hover {
+      background: var(--surface);
+      border-color: var(--accent);
+    }
+    .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+    /* ── Услуги ── */
+    #services { background: var(--surface); }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--gap);
+    }
+    .card {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      transition: border-color .25s, transform .25s;
+    }
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-4px);
+    }
+    .card-icon {
+      font-size: 2rem;
+      line-height: 1;
+      margin-bottom: 1.25rem;
+    }
+    .card-icon svg {
+      width: 48px;
+      height: 48px;
+      display: block;
+    }
+    .card h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: .5rem;
+    }
+    .card p { font-size: .9rem; color: var(--muted); }
+
+    /* ── Процесс ── */
+    #process { }
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: var(--gap);
+      counter-reset: steps;
+    }
+    .step {
+      position: relative;
+      padding: 1.75rem;
+      border-radius: var(--radius);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      counter-increment: steps;
+    }
+    .step::before {
+      content: counter(steps, decimal-leading-zero);
+      font-size: 2rem;
+      font-weight: 700;
+      color: rgba(124,106,247,.2);
+      line-height: 1;
+      margin-bottom: .75rem;
+      display: block;
+    }
+    .step h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: .5rem;
+      display: flex;
+      align-items: baseline;
+      gap: .5rem;
+      flex-wrap: wrap;
+    }
+    .step-time {
+      font-size: .75rem;
+      font-weight: 400;
+      color: var(--accent);
+      background: rgba(124,106,247,.1);
+      border: 1px solid rgba(124,106,247,.2);
+      padding: .1rem .5rem;
+      border-radius: 999px;
+    }
+    .step p { font-size: .9rem; color: var(--muted); }
+
+    /* ── Кейсы ── */
+    #cases { background: var(--surface); }
+    .cases-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: var(--gap);
+    }
+    .case-card {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      transition: border-color .25s;
+    }
+    .case-card:hover { border-color: var(--accent); }
+    .case-tag {
+      display: inline-block;
+      font-size: .72rem;
+      font-weight: 500;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: rgba(124,106,247,.1);
+      border: 1px solid rgba(124,106,247,.2);
+      padding: .2rem .65rem;
+      border-radius: 6px;
+      width: fit-content;
+    }
+    .case-card h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--muted);
+      font-style: italic;
+    }
+    .case-meta { display: flex; flex-direction: column; gap: .5rem; }
+    .case-row { font-size: .88rem; }
+    .case-row span:first-child {
+      color: var(--muted);
+      margin-right: .35rem;
+    }
+    .case-placeholder {
+      font-size: .8rem;
+      color: rgba(107,107,128,.5);
+      border: 1px dashed var(--border);
+      border-radius: 8px;
+      padding: .4rem .75rem;
+      margin-top: auto;
+      text-align: center;
+    }
+    .case-link {
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      font-size: .85rem;
+      color: var(--accent);
+      margin-top: auto;
+      transition: gap .2s;
+    }
+    .case-link:hover { gap: .65rem; }
+    .case-invite {
+      background: var(--bg);
+      border: 1px dashed var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1.25rem;
+      transition: border-color .25s;
+    }
+    .case-invite:hover { border-color: var(--accent); }
+    .case-invite p {
+      font-size: .95rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* ── Контакты ── */
+    #contacts { }
+    .contacts-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2rem;
+      max-width: 560px;
+    }
+    .contacts-desc {
+      font-size: 1.05rem;
+      color: var(--muted);
+    }
+    .contact-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+    }
+    .contact-link {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+      font-size: .95rem;
+      font-weight: 500;
+      transition: border-color .2s, background .2s;
+    }
+    .contact-link:hover {
+      border-color: var(--accent);
+      background: rgba(124,106,247,.05);
+    }
+    .contact-link svg {
+      width: 20px; height: 20px;
+      fill: var(--accent);
+      flex-shrink: 0;
+    }
+    .contact-link-label { color: var(--muted); font-size: .8rem; font-weight: 400; }
+    .contact-city {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    .contact-city svg { width: 16px; height: 16px; fill: var(--muted); }
+
+    /* ── Футер ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding-block: 1.75rem;
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .footer-copy { font-size: .85rem; color: var(--muted); }
+    .footer-links { display: flex; gap: 1.25rem; }
+    .footer-links a {
+      color: var(--muted);
+      transition: color .2s;
+      display: flex; align-items: center;
+    }
+    .footer-links a:hover { color: var(--accent); }
+    .footer-links svg { width: 18px; height: 18px; fill: currentColor; }
+
+    /* ── Адаптив ── */
+    @media (max-width: 768px) {
+      .hero-inner {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .hero-offer { margin-inline: auto; }
+      .hero-cta { justify-content: center; }
+      .hero-photo-wrap { order: -1; margin-inline: auto; }
+      .hero-photo { width: 220px; height: 250px; }
+    }
+    @media (max-width: 600px) {
+      .nav-links { display: none; }
+      .services-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ─────────── НАВИГАЦИЯ ─────────── -->
+<header>
+  <nav class="container">
+    <div class="nav-logo">max<span>.</span>tech</div>
+    <ul class="nav-links">
+      <li><a href="#services">Услуги</a></li>
+      <li><a href="#process">Процесс</a></li>
+      <li><a href="#cases">Кейсы</a></li>
+      <li><a href="#contacts">Контакты</a></li>
+    </ul>
+    <a href="#contacts" class="btn" style="padding:.55rem 1.2rem;font-size:.85rem;">Написать</a>
+  </nav>
+</header>
+
+<!-- ─────────── HERO ─────────── -->
+<section id="hero">
+  <div class="container hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge">Открыт к новым проектам</div>
+      <h1 class="hero-name">
+        Максим<br>
+        <em>Афанасьев</em>
+      </h1>
+      <p class="hero-offer">
+        Настраиваю техническую базу онлайн-бизнеса один раз —
+        и она работает сама. Платежи, доступы, интеграции и боты
+        без вашего участия.
+      </p>
+      <div class="hero-cta">
+        <a href="#contacts" class="btn">
+          <svg viewBox="0 0 24 24" style="width:16px;height:16px;fill:currentColor">
+            <path d="M20.665 3.717l-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"/>
+          </svg>
+          Написать в Telegram
+        </a>
+        <a href="#services" class="btn btn-ghost">Смотреть услуги</a>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <img class="hero-photo" src="photo.jpg" alt="Максим Афанасьев — техспец онлайн-школ" />
+    </div>
+  </div>
+</section>
+
+<!-- ─────────── УСЛУГИ ─────────── -->
+<section id="services" class="section">
+  <div class="container">
+    <div class="section-label">Что я делаю</div>
+    <h2 class="section-title">Услуги</h2>
+    <div class="services-grid">
+
+      <div class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="gc-grad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FF8C42"/>
+                <stop offset="1" stop-color="#E8520A"/>
+              </linearGradient>
+            </defs>
+            <rect width="48" height="48" rx="11" fill="url(#gc-grad)"/>
+            <text x="24" y="32" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="17" letter-spacing="-0.5" fill="white">GC</text>
+          </svg>
+        </div>
+        <h3>GetCourse</h3>
+        <p>Ученик оплатил — через минуту у него доступ, письмо и всё нужное. Настраиваю курсы, воронки и цепочки так, чтобы они работали без вас.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🔗</div>
+        <h3>Интеграции и автоматизация</h3>
+        <p>Заявка из рекламы — сразу в CRM. Оплата — сразу в GetCourse. Вся цепочка без ручного труда: ни один лид не потеряется.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="tg-grad" x1="24" y1="0" x2="24" y2="48" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#2AABEE"/>
+                <stop offset="1" stop-color="#229ED9"/>
+              </linearGradient>
+            </defs>
+            <circle cx="24" cy="24" r="24" fill="url(#tg-grad)"/>
+            <path fill="white" d="M10.2 22.8L36.4 12.7c1.2-.5 2.3.3 1.9 2L34.4 35.5c-.3 1.3-1 1.6-2.1 1l-5.9-4.3-2.8 2.7c-.3.3-.6.6-1.2.6l.4-6 10.9-9.8c.5-.4-.1-.6-.7-.2L14.3 29.2l-5.8-1.8c-1.2-.4-1.3-1.2.3-1.9 0 0 0 0-.6.3z"/>
+          </svg>
+        </div>
+        <h3>Telegram-боты</h3>
+        <p>Бот отвечает клиентам, принимает заявки и напоминает об оплате — пока вы не у экрана. Подключается к CRM и GetCourse.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🔍</div>
+        <h3>Аудит и поддержка</h3>
+        <p>Нахожу, где «сыпятся» заявки или зависают доступы — и исправляю. Берусь за постоянное сопровождение, чтобы вы не думали о технике.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─────────── ПРОЦЕСС ─────────── -->
+<section id="process" class="section">
+  <div class="container">
+    <div class="section-label">Как я работаю</div>
+    <h2 class="section-title">Процесс</h2>
+    <div class="process-steps">
+
+      <div class="step">
+        <h3>Созвон <span class="step-time">20–30 мин</span></h3>
+        <p>Разбираем задачу, цели и текущую ситуацию. Определяю, что нужно сделать и что уже есть.</p>
+      </div>
+
+      <div class="step">
+        <h3>Оценка <span class="step-time">1–2 дня</span></h3>
+        <p>Готовлю план работ с чёткими сроками и стоимостью. Никаких неожиданных расходов в процессе.</p>
+      </div>
+
+      <div class="step">
+        <h3>Реализация <span class="step-time">от 3 дней</span></h3>
+        <p>Делаю задачу и держу вас в курсе по ходу. Фиксирую всё, что важно знать о настройках.</p>
+      </div>
+
+      <div class="step">
+        <h3>Передача</h3>
+        <p>Сдаю результат с инструкциями и записью экрана. Остаюсь на связи для вопросов после завершения.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─────────── КЕЙСЫ ─────────── -->
+<section id="cases" class="section">
+  <div class="container">
+    <div class="section-label">Примеры работ</div>
+    <h2 class="section-title">Кейсы</h2>
+    <div class="cases-grid">
+
+      <div class="case-card">
+        <span class="case-tag">Tilda · Cloud Payments · Честный знак</span>
+        <h3>OLESIA YUHOVA beauty services</h3>
+        <div class="case-meta">
+          <div class="case-row">
+            <span>Задача:</span>Запустить интернет-магазин премиальной косметики с нуля: платёжные системы, онлайн-касса, маркировка товаров и каталог на сайте.
+          </div>
+          <div class="case-row">
+            <span>Результат:</span>Магазин работает на Tilda: Cloud Payments + Cloud Kassir + рассрочка Т-Банк «Долями». Все товары зарегистрированы в «Честном знаке», сайт с полной товарной матрицей.
+          </div>
+        </div>
+        <a href="https://oy-hair.ru" target="_blank" rel="noopener" class="case-link">
+          Посмотреть проект
+          <svg viewBox="0 0 16 16" style="width:14px;height:14px;fill:currentColor"><path d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/><path d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/></svg>
+        </a>
+      </div>
+
+      <div class="case-invite">
+        <p>Расскажите о своём проекте — разберём задачу на созвоне и я предложу, как это реализовать.</p>
+        <a href="#contacts" class="btn" style="font-size:.85rem;padding:.65rem 1.25rem;">Обсудить проект</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─────────── КОНТАКТЫ ─────────── -->
+<section id="contacts" class="section">
+  <div class="container">
+    <div class="section-label">Связаться</div>
+    <h2 class="section-title">Контакты</h2>
+    <div class="contacts-wrap">
+      <p class="contacts-desc">
+        Напишите в Telegram — отвечу в течение часа в рабочее время.
+        Созвон на 20 минут бесплатно: разберём задачу и я скажу,
+        можно ли её решить и сколько это займёт.
+      </p>
+      <div class="contact-links">
+
+        <a href="https://t.me/max_sunfire" target="_blank" rel="noopener" class="contact-link">
+          <svg viewBox="0 0 24 24">
+            <path d="M20.665 3.717l-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"/>
+          </svg>
+          <div>
+            <div>@max_sunfire</div>
+            <div class="contact-link-label">Telegram</div>
+          </div>
+        </a>
+
+        <a href="mailto:lafandra@yandex.ru" class="contact-link">
+          <svg viewBox="0 0 24 24">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          <div>
+            <div>lafandra@yandex.ru</div>
+            <div class="contact-link-label">Email</div>
+          </div>
+        </a>
+
+      </div>
+      <div class="contact-city">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+        </svg>
+        Пермь, Россия
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────── ФУТЕР ─────────── -->
+<footer>
+  <div class="container footer-inner">
+    <span class="footer-copy">© 2026 Максим Афанасьев</span>
+    <div class="footer-links">
+      <a href="https://t.me/max_sunfire" target="_blank" rel="noopener" title="Telegram">
+        <svg viewBox="0 0 24 24">
+          <path d="M20.665 3.717l-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"/>
+        </svg>
+      </a>
+      <a href="mailto:lafandra@yandex.ru" title="Email">
+        <svg viewBox="0 0 24 24">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+          <polyline points="22,6 12,13 2,6"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Подсветка активного пункта навигации при скролле
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        navLinks.forEach(a => a.classList.remove('active'));
+        const link = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
+        if (link) link.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-40% 0px -55% 0px' });
+
+  sections.forEach(s => observer.observe(s));
+</script>
+
+</body>
+</html>
