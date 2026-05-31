@@ -9,9 +9,9 @@ development, checks, release preparation, and routine project logs.
    ```powershell
    pwsh -NoProfile -File tools/check.ps1
    ```
-2. Update project logs before commit:
-   - `log_project.md` with factual changes.
-   - `commit.md` with the next commit message draft.
+2. Update `CHANGELOG.md` before commit:
+   - Move the current `## В работе` entry to a dated section.
+   - Add the next commit draft under `## В работе`.
 3. Commit only after checks pass.
 
 ## Daily Loop
@@ -21,15 +21,14 @@ development, checks, release preparation, and routine project logs.
    ```powershell
    pwsh -NoProfile -File tools/check.ps1
    ```
-3. Update `log_project.md` and `commit.md`.
+3. Update `CHANGELOG.md`.
 4. Commit and push.
 
 ## Release Preflight (lightweight)
 
 Before release:
 - Ensure `tools/check.ps1` passes.
-- Ensure `log_project.md` has the latest meaningful entries.
-- Ensure `commit.md` contains the intended release commit title.
+- Ensure `CHANGELOG.md` has the latest entries and `## В работе` is up to date.
 
 ## VS Code + Claude Code Pro
 

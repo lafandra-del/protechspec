@@ -41,11 +41,10 @@ Write-Section '1. Обязательные файлы'
 
 $required = @(
     'README.md',
+    'CHANGELOG.md',
     'index.html',
     '.gitignore',
     '.editorconfig',
-    'log_project.md',
-    'commit.md',
     'photo.jpg',
     'tools/check.ps1',
     'tools/chat_optimizer.ps1',
@@ -234,10 +233,6 @@ foreach ($f in $large) {
 }
 if ($large.Count -eq 0) { Write-OK 'крупные файлы: нет' }
 
-# 4.5 Семантический дубль commit.md + log_project.md
-if ((Test-Path 'commit.md') -and (Test-Path 'log_project.md')) {
-    Add-Info 'commit.md и log_project.md дублируют функцию лога; при рефакторинге рассмотри CHANGELOG.md'
-}
 
 # ────────────────────── 5. КОДИРОВКА И ОКОНЧАНИЯ СТРОК ───────────────────────
 

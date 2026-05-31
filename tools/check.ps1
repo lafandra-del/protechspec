@@ -23,8 +23,7 @@ function Test-RequiredFile {
 
 $requiredFiles = @(
   "README.md",
-  "log_project.md",
-  "commit.md",
+  "CHANGELOG.md",
   ".gitignore",
   ".editorconfig",
   "tools/check.ps1"
