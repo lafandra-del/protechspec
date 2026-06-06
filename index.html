@@ -457,6 +457,78 @@
       .nav-links { display: none; }
       .services-grid { grid-template-columns: 1fr; }
     }
+    /* ── Запись на консультацию ── */
+    #book { }
+    .book-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      max-width: 560px;
+    }
+    .book-field {
+      display: flex;
+      flex-direction: column;
+      gap: .4rem;
+    }
+    .book-field label {
+      font-size: .9rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+    .book-required { color: var(--accent); }
+    .book-optional { color: var(--muted); font-weight: 400; }
+    .book-field input,
+    .book-field textarea {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-family: inherit;
+      font-size: .95rem;
+      padding: .75rem 1rem;
+      outline: none;
+      transition: border-color .2s;
+      resize: vertical;
+      width: 100%;
+    }
+    .book-field input::placeholder,
+    .book-field textarea::placeholder { color: var(--muted); }
+    .book-field input:focus,
+    .book-field textarea:focus { border-color: var(--accent); }
+    .has-error input,
+    .has-error textarea { border-color: #e05c5c; }
+    .book-error {
+      font-size: .8rem;
+      color: #e05c5c;
+      display: none;
+    }
+    .has-error .book-error { display: block; }
+    .book-submit { align-self: flex-start; }
+    .book-success {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      max-width: 560px;
+    }
+    .book-success-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: rgba(124,106,247,.12);
+      border: 1px solid rgba(124,106,247,.3);
+      color: var(--accent);
+      font-size: 1.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .book-success p {
+      font-size: 1.05rem;
+      font-weight: 500;
+    }
+    @media (max-width: 600px) {
+      .book-submit { width: 100%; justify-content: center; }
+    }
   </style>
 </head>
 <body>
@@ -469,6 +541,7 @@
       <li><a href="#services">Услуги</a></li>
       <li><a href="#process">Процесс</a></li>
       <li><a href="#cases">Кейсы</a></li>
+      <li><a href="#book">Консультация</a></li>
       <li><a href="#contacts">Контакты</a></li>
     </ul>
     <a href="#contacts" class="btn" style="padding:.55rem 1.2rem;font-size:.85rem;">Написать</a>
@@ -484,8 +557,14 @@
         Максим<br>
         <em>Афанасьев</em>
       </h1>
+      <p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 1.75rem; line-height: 1.6;">
+        <strong style="color: var(--text);">Твои боли с GetCourse:</strong><br>
+        🔴 Ученик оплатил — где его доступ? (ждёт часами, теряет терпение)<br>
+        🔴 20 вопросов в день в Telegram (не получаешь ответы)<br>
+        🔴 Не видишь статистику заработков (разбросано по системам)
+      </p>
       <p class="hero-offer">
-        Настраиваю техническую базу онлайн-бизнеса один раз —
+        Я настраиваю техническую базу онлайн-бизнеса один раз —
         и она работает сама. Платежи, доступы, интеграции и боты
         без вашего участия.
       </p>
@@ -525,14 +604,8 @@
             <text x="24" y="32" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="17" letter-spacing="-0.5" fill="white">GC</text>
           </svg>
         </div>
-        <h3>GetCourse</h3>
-        <p>Ученик оплатил — через минуту у него доступ, письмо и всё нужное. Настраиваю курсы, воронки и цепочки так, чтобы они работали без вас.</p>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">🔗</div>
-        <h3>Интеграции и автоматизация</h3>
-        <p>Заявка из рекламы — сразу в CRM. Оплата — сразу в GetCourse. Вся цепочка без ручного труда: ни один лид не потеряется.</p>
+        <h3>GetCourse + интеграции</h3>
+        <p>Ученик оплатил — через минуту доступ и письмо. Telegram-бот отвечает на вопросы. Платежи синхронизируются автоматически. Всё работает без вас.</p>
       </div>
 
       <div class="card">
@@ -549,13 +622,19 @@
           </svg>
         </div>
         <h3>Telegram-боты</h3>
-        <p>Бот отвечает клиентам, принимает заявки и напоминает об оплате — пока вы не у экрана. Подключается к CRM и GetCourse.</p>
+        <p>Бот отвечает на вопросы 24/7, принимает заявки и напоминает об оплате. Интегрируется с GetCourse и CRM — никакие сообщения не теряются.</p>
       </div>
 
       <div class="card">
-        <div class="card-icon">🔍</div>
-        <h3>Аудит и поддержка</h3>
-        <p>Нахожу, где «сыпятся» заявки или зависают доступы — и исправляю. Берусь за постоянное сопровождение, чтобы вы не думали о технике.</p>
+        <div class="card-icon">🔗</div>
+        <h3>Интеграции платежей</h3>
+        <p>CloudPayments, Яндекс.Касса, Stripe — выбирайте удобную. Платёж → доступ → письмо → CRM — в одном потоке, без ошибок.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">✅</div>
+        <h3>Постоянная поддержка</h3>
+        <p>3–5k в месяц, я слежу чтобы всё работало. Мелкие апдейты, новые функции, консультации — вы не думаете о технике.</p>
       </div>
 
     </div>
@@ -570,23 +649,23 @@
     <div class="process-steps">
 
       <div class="step">
-        <h3>Созвон <span class="step-time">20–30 мин</span></h3>
-        <p>Разбираем задачу, цели и текущую ситуацию. Определяю, что нужно сделать и что уже есть.</p>
+        <h3>Консультация <span class="step-time">20–30 мин</span></h3>
+        <p>Разбираем вашу задачу: какие боли, какой стек, что нужно. Я честно скажу можно ли это решить и сколько это займёт.</p>
       </div>
 
       <div class="step">
         <h3>Оценка <span class="step-time">1–2 дня</span></h3>
-        <p>Готовлю план работ с чёткими сроками и стоимостью. Никаких неожиданных расходов в процессе.</p>
+        <p>Готовлю план работ: какие системы настраивать, в каком порядке, сроки и стоимость. Никаких неожиданных расходов в процессе.</p>
       </div>
 
       <div class="step">
-        <h3>Реализация <span class="step-time">от 3 дней</span></h3>
-        <p>Делаю задачу и держу вас в курсе по ходу. Фиксирую всё, что важно знать о настройках.</p>
+        <h3>Настройка GetCourse <span class="step-time">3–5 дней</span></h3>
+        <p>Включаю бота, настраиваю платежи, интеграции, письма. Тестирую всё. Держу вас в курсе каждый день.</p>
       </div>
 
       <div class="step">
-        <h3>Передача</h3>
-        <p>Сдаю результат с инструкциями и записью экрана. Остаюсь на связи для вопросов после завершения.</p>
+        <h3>Передача + поддержка</h3>
+        <p>Показываю как всё работает, записываю экран. Предлагаю постоянную поддержку (3–5k/месяц) чтобы вы не думали о технике.</p>
       </div>
 
     </div>
@@ -622,6 +701,47 @@
         <a href="#contacts" class="btn" style="font-size:.85rem;padding:.65rem 1.25rem;">Обсудить проект</a>
       </div>
 
+    </div>
+  </div>
+</section>
+
+<!-- ─────────── ЗАПИСЬ ─────────── -->
+<section id="book" class="section">
+  <div class="container">
+    <div class="section-label">Бесплатно</div>
+    <h2 class="section-title">Записаться на консультацию</h2>
+    <form class="book-form" id="bookForm" novalidate>
+
+      <div class="book-field" id="field-name">
+        <label for="book-name">Имя <span class="book-required">*</span></label>
+        <input type="text" id="book-name" name="name"
+               placeholder="Как вас зовут?" autocomplete="name" />
+        <span class="book-error">Укажите ваше имя</span>
+      </div>
+
+      <div class="book-field" id="field-tg">
+        <label for="book-tg">Telegram <span class="book-required">*</span></label>
+        <input type="text" id="book-tg" name="telegram"
+               placeholder="@ваш_ник" />
+        <span class="book-error">Укажите Telegram-ник</span>
+      </div>
+
+      <div class="book-field">
+        <label for="book-desc">
+          Задача <span class="book-optional">(необязательно)</span>
+        </label>
+        <textarea id="book-desc" name="description" rows="4"
+                  placeholder="Кратко опишите, что нужно сделать..."></textarea>
+      </div>
+
+      <button type="submit" class="btn book-submit">
+        Записаться на консультацию
+      </button>
+    </form>
+
+    <div class="book-success" id="bookSuccess" hidden>
+      <div class="book-success-icon">✓</div>
+      <p>Спасибо, я свяжусь с тобой в течение дня</p>
     </div>
   </div>
 </section>
@@ -707,6 +827,44 @@
   }, { rootMargin: '-40% 0px -55% 0px' });
 
   sections.forEach(s => observer.observe(s));
+
+  // Форма записи на консультацию
+  const bookForm    = document.getElementById('bookForm');
+  const bookSuccess = document.getElementById('bookSuccess');
+
+  bookForm.addEventListener('submit', e => {
+    e.preventDefault();
+    let valid = true;
+
+    const nameField = document.getElementById('field-name');
+    const nameVal   = document.getElementById('book-name').value.trim();
+    if (!nameVal) {
+      nameField.classList.add('has-error');
+      valid = false;
+    } else {
+      nameField.classList.remove('has-error');
+    }
+
+    const tgField = document.getElementById('field-tg');
+    const tgVal   = document.getElementById('book-tg').value.trim();
+    if (!tgVal) {
+      tgField.classList.add('has-error');
+      valid = false;
+    } else {
+      tgField.classList.remove('has-error');
+    }
+
+    if (!valid) return;
+
+    console.log('Заявка на консультацию:', {
+      name:        nameVal,
+      telegram:    tgVal,
+      description: document.getElementById('book-desc').value.trim(),
+    });
+
+    bookForm.hidden    = true;
+    bookSuccess.hidden = false;
+  });
 </script>
 
 </body>

@@ -1,0 +1,17 @@
+{
+  "file_hashes": {
+    ".github/copilot-instructions.md": "8d01debc88b0ec4c39b84b14264eedf248f6f567007d9d6326ea4ed337f04309",
+    "README.md": "0e442381ffda0689ede1631d628d484fb3514558e0d27e8f929437016f318e70",
+    "commit.md": "ef9a2a3a4760b0c796a29f8c8c8544978bc60ed21590cd2c168f5d5144b71f1f",
+    "log_project.md": "d5e9626d1a810e289943855af7373afac8ca651706435ab4502d9d60725b5a82"
+  },
+  "indexed_at_commit": "e74d9032734c222c9a52b44da14426861a1a2c2d",
+  "indexed_at_timestamp": "2026-05-31T06:04:25.760320+00:00",
+  "schema_version": 3,
+  "stats": {
+    "total_edges": 13,
+    "total_files": 4,
+    "total_nodes": 17
+  },
+  "vexp_version": "2.0.23"
+}
