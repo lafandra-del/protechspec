@@ -28,6 +28,7 @@ $RECYCLE.BIN/
 .env
 .env.*
 .env.local
+!.env.example
 *.key
 *.pem
 credentials.json
