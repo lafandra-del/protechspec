@@ -12,4 +12,8 @@ Thumbs.db
 .env
 .env.*
 
+# Claude Code project instructions (local only)
+CLAUDE.md
+CLAUDE.MD
+
 
