@@ -463,6 +463,43 @@
       .nav-links { display: none; }
       .services-grid { grid-template-columns: 1fr; }
     }
+    /* ── Стек ── */
+    #stack { background: var(--surface); padding-block: 1.5rem; border-bottom: 1px solid var(--border); }
+    .stack-inner {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .stack-label { color: var(--muted); font-size: .82rem; white-space: nowrap; }
+    .stack-tags { display: flex; gap: .5rem; flex-wrap: wrap; }
+    .stack-tag {
+      font-size: .78rem;
+      font-weight: 500;
+      color: var(--text);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: .25rem .7rem;
+    }
+
+    /* ── Боли ── */
+    #pain { }
+    .pain-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: var(--gap);
+    }
+    .pain-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid rgba(124,106,247,.5);
+      border-radius: var(--radius);
+      padding: 1.5rem 1.75rem;
+    }
+    .pain-card h3 { font-size: .95rem; font-weight: 600; margin-bottom: .4rem; }
+    .pain-card p { font-size: .87rem; color: var(--muted); }
+
     /* ── Запись на консультацию ── */
     #book { }
     .book-form {
@@ -563,16 +600,10 @@
         Максим<br>
         <em>Афанасьев</em>
       </h1>
-      <p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 1.75rem; line-height: 1.6;">
-        <strong style="color: var(--text);">Твои боли с GetCourse:</strong><br>
-        🔴 Ученик оплатил — где его доступ? (ждёт часами, теряет терпение и нервы)<br>
-        🔴 20 вопросов в день в Telegram (не получаешь ответы)<br>
-        🔴 Не видишь статистику заработков (разбросано по системам)
-      </p>
       <p class="hero-offer">
-        Я настраиваю техническую базу онлайн-бизнеса один раз —
-        и она работает сама. Платежи, доступы, интеграции и боты
-        без вашего участия.
+        Настраиваю техническую базу онлайн-школы:
+        платежи, доступы, интеграции и Telegram-боты.
+        Работает без вас — с первого раза.
       </p>
       <div class="hero-cta">
         <a href="#contacts" class="btn">
@@ -586,6 +617,56 @@
     </div>
     <div class="hero-photo-wrap">
       <img class="hero-photo" src="photo.jpg" alt="Максим Афанасьев — техспец онлайн-школ" />
+    </div>
+  </div>
+</section>
+
+<!-- ─────────── СТЕК ─────────── -->
+<section id="stack">
+  <div class="container">
+    <div class="stack-inner">
+      <span class="stack-label">Работаю с:</span>
+      <div class="stack-tags">
+        <span class="stack-tag">GetCourse</span>
+        <span class="stack-tag">Salebot</span>
+        <span class="stack-tag">AmoCRM</span>
+        <span class="stack-tag">aiogram</span>
+        <span class="stack-tag">Python</span>
+        <span class="stack-tag">CloudPayments</span>
+        <span class="stack-tag">Яндекс.Касса</span>
+        <span class="stack-tag">Webhooks & API</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────── БОЛИ КЛИЕНТА ─────────── -->
+<section id="pain" class="section">
+  <div class="container">
+    <div class="section-label">Узнаёшь ситуацию?</div>
+    <h2 class="section-title">Типичные боли онлайн-школы</h2>
+    <div class="pain-grid">
+
+      <div class="pain-card">
+        <h3>Ученик оплатил — где его доступ?</h3>
+        <p>Ждёт часами, пишет в поддержку, злится. Вы выдаёте доступ вручную — это не масштабируется.</p>
+      </div>
+
+      <div class="pain-card">
+        <h3>20 вопросов в день в Telegram</h3>
+        <p>Менеджер не справляется, ответы теряются. Клиент чувствует, что его игнорируют.</p>
+      </div>
+
+      <div class="pain-card">
+        <h3>Заявки теряются между системами</h3>
+        <p>GetCourse, AmoCRM, таблица — данные разбросаны. Никто не видит полной картины.</p>
+      </div>
+
+      <div class="pain-card">
+        <h3>Интеграция сломалась — никто не знает</h3>
+        <p>Вебхук упал, платёж не прошёл. Узнаёте от клиента, а не от системы.</p>
+      </div>
+
     </div>
   </div>
 </section>
