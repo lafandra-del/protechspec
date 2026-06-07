@@ -1,19 +1,38 @@
-# OS and editor noise
-desktop.ini
-Thumbs.db
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+._*
 
-# Logs and temporary files
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.suo
+*.user
+
+# Logs & temp
 *.log
 *.tmp
 *.bak
+*.swp
+*~
 
-# Local env files
+# Environment
 .env
 .env.*
+.env.local
 
-# Claude Code project instructions (local only)
+# Node (на случай появления)
+node_modules/
+npm-debug.log*
+
+# Claude Code (локальный конфиг)
 CLAUDE.md
 CLAUDE.MD
-
-
