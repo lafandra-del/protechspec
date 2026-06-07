@@ -32,6 +32,7 @@ $RECYCLE.BIN/
 *.key
 *.pem
 credentials.json
+.ssh/
 
 # Node (на случай появления)
 node_modules/
