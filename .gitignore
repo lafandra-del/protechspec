@@ -24,10 +24,13 @@ $RECYCLE.BIN/
 *.swp
 *~
 
-# Environment
+# Environment & secrets
 .env
 .env.*
 .env.local
+*.key
+*.pem
+credentials.json
 
 # Node (на случай появления)
 node_modules/
