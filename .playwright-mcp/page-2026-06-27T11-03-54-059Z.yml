@@ -1,0 +1,194 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]: max.tech
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - link "Услуги" [ref=e7] [cursor=pointer]:
+            - /url: "#services"
+        - listitem [ref=e8]:
+          - link "Процесс" [ref=e9] [cursor=pointer]:
+            - /url: "#process"
+        - listitem [ref=e10]:
+          - link "Кейсы" [ref=e11] [cursor=pointer]:
+            - /url: "#cases"
+        - listitem [ref=e12]:
+          - link "Консультация" [ref=e13] [cursor=pointer]:
+            - /url: "#book"
+        - listitem [ref=e14]:
+          - link "Контакты" [ref=e15] [cursor=pointer]:
+            - /url: "#contacts"
+      - link "Написать" [ref=e16] [cursor=pointer]:
+        - /url: "#contacts"
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]: Открыт к новым проектам
+      - heading "Максим Афанасьев" [level=1] [ref=e21]:
+        - text: Максим
+        - emphasis [ref=e22]: Афанасьев
+      - paragraph [ref=e23]: "Настраиваю техническую базу онлайн-школы: платежи, доступы, интеграции и Telegram-боты. Работает без вас — с первого раза."
+      - generic [ref=e24]:
+        - link "Написать в Telegram" [ref=e25] [cursor=pointer]:
+          - /url: "#contacts"
+          - img [ref=e26]
+          - text: Написать в Telegram
+        - link "Смотреть услуги" [ref=e28] [cursor=pointer]:
+          - /url: "#services"
+    - img "Максим Афанасьев — техспец онлайн-школ" [ref=e30]
+  - generic [ref=e33]:
+    - generic [ref=e34]: "Работаю с:"
+    - generic [ref=e35]:
+      - generic [ref=e36]: GetCourse
+      - generic [ref=e37]: Salebot
+      - generic [ref=e38]: AmoCRM
+      - generic [ref=e39]: aiogram
+      - generic [ref=e40]: Python
+      - generic [ref=e41]: CloudPayments
+      - generic [ref=e42]: Яндекс.Касса
+      - generic [ref=e43]: Webhooks & API
+  - generic [ref=e45]:
+    - generic [ref=e46]: Узнаёшь ситуацию?
+    - heading "Типичные боли онлайн-школы" [level=2] [ref=e47]
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - heading "Ученик оплатил — где его доступ?" [level=3] [ref=e50]
+        - paragraph [ref=e51]: Ждёт часами, пишет в поддержку, злится. Вы выдаёте доступ вручную — это не масштабируется.
+      - generic [ref=e52]:
+        - heading "20 вопросов в день в Telegram" [level=3] [ref=e53]
+        - paragraph [ref=e54]: Менеджер не справляется, ответы теряются. Клиент чувствует, что его игнорируют.
+      - generic [ref=e55]:
+        - heading "Заявки теряются между системами" [level=3] [ref=e56]
+        - paragraph [ref=e57]: GetCourse, AmoCRM, таблица — данные разбросаны. Никто не видит полной картины.
+      - generic [ref=e58]:
+        - heading "Интеграция сломалась — никто не знает" [level=3] [ref=e59]
+        - paragraph [ref=e60]: Вебхук упал, платёж не прошёл. Узнаёте от клиента, а не от системы.
+  - generic [ref=e62]:
+    - generic [ref=e63]: Что я делаю
+    - heading "Услуги" [level=2] [ref=e64]
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - img [ref=e68]:
+          - generic [ref=e70]: GC
+        - heading "GetCourse + интеграции" [level=3] [ref=e71]
+        - paragraph [ref=e72]: Ученик оплатил — через минуту доступ и письмо. Telegram-бот отвечает на вопросы. Платежи синхронизируются автоматически. Всё работает без вас.
+      - generic [ref=e73]:
+        - img [ref=e75]
+        - heading "Telegram-боты" [level=3] [ref=e78]
+        - paragraph [ref=e79]: Бот отвечает на вопросы 24/7, принимает заявки и напоминает об оплате. Интегрируется с GetCourse и CRM — никакие сообщения не теряются.
+      - generic [ref=e80]:
+        - generic [ref=e81]: 🔗
+        - heading "Интеграции платежей" [level=3] [ref=e82]
+        - paragraph [ref=e83]: CloudPayments, Яндекс.Касса, Stripe — выбирайте удобную. Платёж → доступ → письмо → CRM — в одном потоке, без ошибок.
+      - generic [ref=e84]:
+        - generic [ref=e85]: ✅
+        - heading "Постоянная поддержка" [level=3] [ref=e86]
+        - paragraph [ref=e87]: 3–5k в месяц, я слежу чтобы всё работало. Мелкие апдейты, новые функции, консультации — вы не думаете о технике.
+  - generic [ref=e89]:
+    - generic [ref=e90]: Как я работаю
+    - heading "Процесс" [level=2] [ref=e91]
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - heading "Консультация 20–30 мин" [level=3] [ref=e94]:
+          - text: Консультация
+          - generic [ref=e95]: 20–30 мин
+        - paragraph [ref=e96]: "Разбираем вашу задачу: какие боли, какой стек, что нужно. Я честно скажу можно ли это решить и сколько это займёт."
+      - generic [ref=e97]:
+        - heading "Оценка 1–2 дня" [level=3] [ref=e98]:
+          - text: Оценка
+          - generic [ref=e99]: 1–2 дня
+        - paragraph [ref=e100]: "Готовлю план работ: какие системы настраивать, в каком порядке, сроки и стоимость. Никаких неожиданных расходов в процессе."
+      - generic [ref=e101]:
+        - heading "Настройка GetCourse 3–5 дней" [level=3] [ref=e102]:
+          - text: Настройка GetCourse
+          - generic [ref=e103]: 3–5 дней
+        - paragraph [ref=e104]: Включаю бота, настраиваю платежи, интеграции, письма. Тестирую всё. Держу вас в курсе каждый день.
+      - generic [ref=e105]:
+        - heading "Передача + поддержка" [level=3] [ref=e106]
+        - paragraph [ref=e107]: Показываю как всё работает, записываю экран. Предлагаю постоянную поддержку (3–5k/месяц) чтобы вы не думали о технике.
+  - generic [ref=e109]:
+    - generic [ref=e110]: Примеры работ
+    - heading "Кейсы" [level=2] [ref=e111]
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]: GetCourse · Telegram · CloudPayments
+        - 'heading "[PLACEHOLDER: Название онлайн-школы]" [level=3] [ref=e115]'
+        - generic [ref=e116]:
+          - generic [ref=e117]: Задача:Автоматизировать выдачу доступа в GetCourse, подключить Telegram-бота для ответов на вопросы, синхронизировать платежи.
+          - generic [ref=e118]: "Результат:[PLACEHOLDER: экономия X часов в месяц на ручных действиях, % рост в конверсии, или другая метрика]."
+        - link "В разработке":
+          - /url: "#"
+          - text: В разработке
+          - img
+      - generic [ref=e119]:
+        - generic [ref=e120]: GetCourse · Интеграции · CRM
+        - 'heading "[PLACEHOLDER: Название проекта 2]" [level=3] [ref=e121]'
+        - generic [ref=e122]:
+          - generic [ref=e123]: "Задача:[PLACEHOLDER: описание проблемы и цели]."
+          - generic [ref=e124]: "Результат:[PLACEHOLDER: конкретный результат и метрика]."
+        - link "В разработке":
+          - /url: "#"
+          - text: В разработке
+          - img
+      - generic [ref=e125]:
+        - paragraph [ref=e126]: Расскажите о своём проекте — разберём задачу на созвоне и я предложу, как это реализовать.
+        - link "Обсудить проект" [ref=e127] [cursor=pointer]:
+          - /url: "#contacts"
+  - generic [ref=e129]:
+    - generic [ref=e130]: Бесплатно
+    - heading "Записаться на консультацию" [level=2] [ref=e131]
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]: Имя *
+        - textbox "Имя *" [ref=e135]:
+          - /placeholder: Как вас зовут?
+      - generic [ref=e136]:
+        - generic [ref=e137]: Telegram *
+        - textbox "Telegram *" [ref=e138]:
+          - /placeholder: "@ваш_ник"
+      - generic [ref=e139]:
+        - generic [ref=e140]: Задача (необязательно)
+        - textbox "Задача (необязательно)" [ref=e141]:
+          - /placeholder: Кратко опишите, что нужно сделать...
+      - generic [ref=e142]:
+        - checkbox "Интересует постоянная поддержка? 3–5k/месяц" [ref=e143] [cursor=pointer]
+        - generic [ref=e144] [cursor=pointer]: Интересует постоянная поддержка? 3–5k/месяц
+      - button "Записаться на консультацию" [ref=e145] [cursor=pointer]
+    - generic [ref=e146]:
+      - generic [ref=e147]: ✓
+      - paragraph [ref=e148]: Спасибо, я свяжусь с тобой в течение дня
+  - generic [ref=e150]:
+    - generic [ref=e151]: Связаться
+    - heading "Контакты" [level=2] [ref=e152]
+    - generic [ref=e153]:
+      - paragraph [ref=e154]: "Напишите в Telegram — отвечу в течение часа в рабочее время. Созвон на 20 минут бесплатно: разберём задачу и я скажу, можно ли её решить и сколько это займёт."
+      - generic [ref=e155]:
+        - link "@max_sunfire Telegram" [ref=e156] [cursor=pointer]:
+          - /url: https://t.me/max_sunfire
+          - img [ref=e157]
+          - generic [ref=e159]:
+            - generic [ref=e160]: "@max_sunfire"
+            - generic [ref=e161]: Telegram
+        - link "lafandra@yandex.ru Email" [ref=e162] [cursor=pointer]:
+          - /url: mailto:lafandra@yandex.ru
+          - img [ref=e163]
+          - generic [ref=e166]:
+            - generic [ref=e167]: lafandra@yandex.ru
+            - generic [ref=e168]: Email
+        - generic [ref=e169]:
+          - img [ref=e170]
+          - generic [ref=e172]:
+            - generic [ref=e173]: Поддержка 3–5k/месяц
+            - generic [ref=e174]: Постоянное обслуживание
+      - generic [ref=e175]:
+        - img [ref=e176]
+        - text: Пермь, Россия
+  - contentinfo [ref=e178]:
+    - generic [ref=e179]:
+      - generic [ref=e180]: © 2026 Максим Афанасьев
+      - generic [ref=e181]:
+        - link "Telegram" [ref=e182] [cursor=pointer]:
+          - /url: https://t.me/max_sunfire
+          - img [ref=e183]
+        - link "Email" [ref=e185] [cursor=pointer]:
+          - /url: mailto:lafandra@yandex.ru
+          - img [ref=e186]
