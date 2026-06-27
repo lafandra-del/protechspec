@@ -1,0 +1,77 @@
+> For the complete documentation index, see [llms.txt](https://docs.salebot.pro/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://docs.salebot.pro/onlain-zapis/onlain-zapis-na-yandeks-kartakh.md).
+
+# Онлайн-запись на Яндекс Картах
+
+Яндекс Карты уже приносят компаниям новых клиентов, которые активно записываются онлайн. Каждый месяц через этот канал совершается более 500 тыс. онлайн-записей.
+
+С Salebot у вас есть возможность установить виджет онлайн-записи в интерфейс Яндекс Карт. При интеграции Яндекс создает свой виджет, основываясь на данных вашего филиала в Salebot.
+
+<div data-with-frame="true"><figure><img src="/files/1Vtvz4C3NOLG0D4w95aZ" alt="" width="375"><figcaption></figcaption></figure></div>
+
+Клиентам с этим виджетом будет гораздо проще записываться на услуги, потому что не нужно переходить на сайт, в другое приложение или звонить. Они смогут с легкостью создавать записи, при этом в приложении можно сразу проложить маршрут до места.
+
+### Подключение онлайн-записи на Яндекс Картах возможно при соблюдении условий:
+
+1\. Вид деятельности, указанный в карточке организации на Яндекс Картах, доступен для онлайн-записи через Яндекс Карты. Список таких видов деятельности можно посмотреть по [ссылке ](<https://yandex.ru/support/business-priority/manage/categories-all.html#categories-all. >)
+
+2\. Страны: Россия и Беларусь.
+
+3\. Оплаченная подписка Salebot "Бизнес" и выше.
+
+{% hint style="success" %}
+Подключение интеграции бесплатно.
+{% endhint %}
+
+Карточка вашей организации появится только в случае, если у вас доступна для онлайн-записи хотя бы одна индивидуальная услуга. Услуги для групповых событий не будут отображаться в виджете Яндекс Карт.
+
+### Настройка интеграции
+
+Перед подключением интеграции убедитесь, что ваша организация [добавлена на Яндекс.Карты](https://yandex.ru/support/maps/concept/add_place.html).
+
+В Salebot перейдите в раздел "Услуги" и выберите нужный филиал:
+
+<div data-with-frame="true"><figure><img src="/files/DFZqkIGnEdDJenl5yvXe" alt=""><figcaption></figcaption></figure></div>
+
+<div data-with-frame="true"><figure><img src="/files/KbjR6GPxnMrbUPxsjHVg" alt="" width="303"><figcaption></figcaption></figure></div>
+
+Далее нажмите на кнопку настроек филиала:
+
+<div data-with-frame="true"><figure><img src="/files/ViCAUw1eyU7pHGx1gYhv" alt=""><figcaption></figcaption></figure></div>
+
+В открывшихся настройках переведите чекбокс  «Интеграция Онлайн-записей с Yandex.Maps» в активный статус:
+
+<div data-with-frame="true"><figure><img src="/files/FyQRuZMz6r5jdKOd1jEv" alt="" width="375"><figcaption></figcaption></figure></div>
+
+Для отображения кнопки онлайн-записи в Яндекс.Картах необходимо, чтобы информация в Salebot совпадала с информацией из вашей карточки компании в Яндекс Картах. Удостоверьтесь, что название и адрес компании совпадают.
+
+Нажмите кнопку «Сохранить», что изменения вступили в силу. После подключения интеграции кнопка «Записаться онлайн» появится в Яндекс Картах в течение 7-10 дней. Если по истечении этого времени кнопка не отображается, обратитесь в техподдержку Яндекса и проверьте правильность введенных данных в настройках филиала в Salebot.
+
+{% hint style="info" %}
+Примечания
+
+* Если у вашей компании появился дубль в Яндекс Картах, то вы можете прямо на Яндекс Картах сообщить о нем. Для этого войдите в профиль организации и в разделе «Обзор» нажмите «Исправить неточность».
+* В данный момент функционалы онлайн-оплаты и онлайн-продажи недоступны для виджетов онлайн-записи через Яндекс Карты.
+* Яндекс выводит в свой виджет только услуги без предоплаты. Услуги с обязательной и необязательной онлайн-предоплатой в нем не отобразятся.
+  {% endhint %}
+
+При онлайн-записи на Яндекс Картах SMS с кодом для подтверждения отправляется от Яндекса.
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+
+```
+GET https://docs.salebot.pro/onlain-zapis/onlain-zapis-na-yandeks-kartakh.md?ask=<question>
+```
+
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

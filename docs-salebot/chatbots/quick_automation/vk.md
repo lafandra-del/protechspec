@@ -1,0 +1,117 @@
+> For the complete documentation index, see [llms.txt](https://docs.salebot.pro/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://docs.salebot.pro/chatbots/quick_automation/vk.md).
+
+# Автоматизация Вконтакте
+
+Теперь в Salebot можно полностью автоматизировать работу закрытых групп во Вконтакте.
+
+<div data-with-frame="true"><figure><img src="/files/qKalHgY8DPlsXTqP54VS" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Выдача доступа после оплаты, добавление и удаление участников, контроль сроков подписки — всё настраивается автоматически.
+
+## Подготовка группы
+
+Для того чтобы автоматизировать подписку, нужно добавить бота к вашей группе.
+
+{% hint style="info" %}
+[Подробнее о том, как подключить чат-бота к группе и к Сейлботу, рассказали здесь.](/chatbots/channels/vk/chat-bot-dlya-gruppy-vk.md)
+{% endhint %}
+
+После того как вы подключили группу Вк к Сейлботу, можно приступить к настройкам автоматизации.
+
+## Настройки автоматизации
+
+Чтобы автоматизировать работу в закрытых группах с платной подпиской, наведите курсором на "Конструктор". Тогда откроется меню, где вы увидите вкладку Вконтакте:
+
+<div data-with-frame="true"><figure><img src="/files/G6ek0xlnN1xdQDBr2Exe" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Далее нажмите на "Добавить автоматизацию". Тогда откроются настройки автоматизации с двумя вкладками: Основные настройки и Настройки сообщений.
+
+### Основные настройки
+
+В основных настройках выберите группу, к которой нужно автоматизировать доступ по платной подписке:
+
+<div data-with-frame="true"><figure><img src="/files/g2A2ZhORT0XLRSJP4eCS" alt="" width="563"><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+При выборе группы, подключенной к Сейлботу, поле "Ссылка на группу для вступления" будет заполнено автоматически.
+{% endhint %}
+
+Далее найдем в настройках группы Вк токен администратора.
+
+Для этого перейдите во вкладку "Управление сообществом":
+
+<div data-with-frame="true"><figure><img src="/files/78KSslPuPlzc62Qqij61" alt=""><figcaption></figcaption></figure></div>
+
+Далее нажмите "Дополнительно" — тогда откроется вкладка "Работа с API", где можно найти токен ВК для группы.
+
+<div data-with-frame="true"><figure><img src="/files/ih9CP1MoFOLrCBLEg5wM" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Можно создать новый ключ (токен) или скопировать существующий. Затем скопируйте токен и вставьте его в поле:
+
+<div data-with-frame="true"><figure><img src="/files/y0N2ngc7SpMiUk356lnS" alt="" width="563"><figcaption></figcaption></figure></div>
+
+В условии запуска бота можно оставить одно условие "/start" и добавить доп. условия через точку с запятой (;).
+
+<div data-with-frame="true"><figure><img src="/files/nWMhkLQzeJ6F8c2qUQbv" alt="" width="563"><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Внимание!
+
+Условие можно прописать только на латинице.
+{% endhint %}
+
+Далее выберите сервис для приема платежей по подписке:
+
+<div data-with-frame="true"><figure><img src="/files/GNoYhXFvknbmBFllAuTs" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Затем настройте тарифы для подписки:
+
+<div data-with-frame="true"><figure><img src="/files/gzevy5tJfZylYPkOo05p" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Нужно прописать:
+
+1. Название тарифа;
+2. Стоимость тарифа;
+3. Количество дней доступа к каналу/группе (период).
+
+Можно создать несколько тарифов для канала:
+
+<div data-with-frame="true"><figure><img src="/files/dugPV68bvgkAw2kUSZuW" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Теперь нажмите "Сохранить" и перейдите к настройкам сообщений.
+
+### Настройки сообщений
+
+Во вкладке "Настройки сообщений" необходимо настроить следующие типы сообщений:
+
+<div data-with-frame="true"><figure><img src="/files/mXTyuSm8utnWqI0yjlNs" alt="" width="563"><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Приветственное сообщение — это сообщение является входом в воронку для покупки клиентом подписки в клуб (НЕ является первым сообщением в канале).
+{% endhint %}
+
+Можно прописать свой текст для каждого сообщения или оставить текст по умолчанию. После чего нажмите "Сохранить".
+
+{% hint style="success" %}
+Готово! Ваша автоматизация подписки в клубы завершена с помощью простых и понятных шагов.
+{% endhint %}
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+
+```
+GET https://docs.salebot.pro/chatbots/quick_automation/vk.md?ask=<question>
+```
+
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

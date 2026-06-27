@@ -1,0 +1,362 @@
+> For the complete documentation index, see [llms.txt](https://docs.salebot.pro/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://docs.salebot.pro/crm-sistema/klienty-v-odnom-okne.md).
+
+# Клиенты в одном окне
+
+<div data-with-frame="true"><figure><img src="/files/vdW5pHnsrXvSyYXHIGw9" alt=""><figcaption></figcaption></figure></div>
+
+## Функции раздела
+
+### Написать в Whatsapp / Написать на Email
+
+{% hint style="success" %}
+Кнопки видны только в случае, если к проекту подключен WhatsApp и/или Email бот.
+{% endhint %}
+
+<div data-with-frame="true"><figure><img src="/files/h6UKoUQYGNNA7p7afBpS" alt="" width="375"><figcaption></figcaption></figure></div>
+
+При нажатии открывается окно, в котором вы добавляете новый контакт из WhatsApp.
+
+<div data-with-frame="true"><figure><img src="/files/6SiroLFTqZftoABLKBvy" alt=""><figcaption></figcaption></figure></div>
+
+Если у вас подключено несколько ботов WhatsApp, можете выбрать, в какого бота добавить клиента
+
+<div data-with-frame="true"><figure><img src="/files/GEyX70dBhlvISZsdkNFv" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Также можно создать нового клиента Email бота и отправить письмо:
+
+<div data-with-frame="true"><figure><img src="/files/LZaVp7EUgzqemtgylM2N" alt="" width="563"><figcaption></figcaption></figure></div>
+
+### Меню дополнительных действий
+
+В разделе “Клиенты” при нажатии на три точки в правом верхнем углу меню можно выполнить ряд действий:
+
+<div data-with-frame="true"><figure><img src="/files/BFJBamzq9hM7yc2hUGno" alt=""><figcaption></figcaption></figure></div>
+
+#### Пометить всё как прочитанное
+
+Данная функция отметит все непрочитанные сообщения как прочитанные:
+
+<div data-with-frame="true"><figure><img src="/files/trtylz2NeA5OD1r3Unu4" alt="" width="375"><figcaption></figcaption></figure></div>
+
+#### **Переотправить сообщения с ошибкой**
+
+Эта функция повторит отправку последнего сообщения ВСЕМ клиентам, у которых красным выделена ОШИБКА отправки в последнем сообщении от бота.
+
+{% hint style="warning" %}
+Важно!
+
+Если сообщение было отправлено давно и оно последнее от бота, оно ТАКЖЕ будет переотправлено при нажатии на эту кнопку.
+{% endhint %}
+
+<div data-with-frame="true"><figure><img src="/files/5CpY4GuaTZOEHYOjbKmi" alt="" width="375"><figcaption></figcaption></figure></div>
+
+После нажатия на кнопку откроется меню настроек. Здесь вы сможете выбрать дату для повторной отправки сообщений, мессенджер и интервал между ними.
+
+<div data-with-frame="true"><figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcrY7BVZrAZj40zJ-lcjTtFdP_QTV0MHRFMyX6Fu_w5wcWt8QLieDL1g5xWxIG4Bf0MMg_SCSVNvkVd0LzzRQm5K08EVk_jgDF6GHaiCmVmMLqrJF8fNCas0QklkeEmbPCpzNpQDA?key=l_hxS1K8d6jDMmdVJYR0f-16" alt="" width="563"><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Важно!&#x20;
+
+Сообщения с ошибкой "Too many requests per second ... " АВТОМАТИЧЕСКИ переотправляются через то количество секунд, которое указано в тексте ошибки
+{% endhint %}
+
+<div data-with-frame="true"><figure><img src="/files/uPSj6FHNTbjoJ3KHGcLR" alt="" width="563"><figcaption></figcaption></figure></div>
+
+#### Настройка превью клиента
+
+<div data-with-frame="true"><figure><img src="/files/Ch52E8qvwHC941F7jiwk" alt="" width="375"><figcaption></figcaption></figure></div>
+
+После нажатия на кнопку откроется меню настроек: здесь вы можете выбрать, что будет отображаться в превью клиента.
+
+<div data-with-frame="true"><figure><img src="/files/ivJ3ku3qdQ4ZjpvHeNKQ" alt="" width="375"><figcaption></figcaption></figure></div>
+
+#### Настройка отображения сообщений в чате
+
+<div data-with-frame="true"><figure><img src="/files/JzMrNj09yyXQBZZD9Mf8" alt="" width="375"><figcaption></figcaption></figure></div>
+
+Здесь вы можете выбрать, какие сообщения будут отображаться в чате:
+
+<div data-with-frame="true"><figure><img src="/files/G9Rd4BCEH60i2Ggry26W" alt="" width="375"><figcaption></figcaption></figure></div>
+
+### **Удалить отписавшихся**
+
+При нажатии из вашей базы будут удалены все пользователи, кто заблокировал бота, и те, кого вы блокировали сами.
+
+<div data-with-frame="true"><figure><img src="/files/rXrc5kBKcOTDnSZSsW5D" alt="" width="375"><figcaption></figcaption></figure></div>
+
+### **Массовые действия с диалогами**
+
+<div data-with-frame="true"><figure><img src="/files/bkg4IecZnShNy1hGfwbj" alt="" width="375"><figcaption></figcaption></figure></div>
+
+Благодаря функционалу "Массовые действия с диалогами" можно отметить два и более необходимых диалога с клиентами, чтобы совершить необходимые действия, например, добавить в список или метку, отметить как прочитанные и т.д.&#x20;
+
+<div data-with-frame="true"><figure><img src="/files/Et6Lm6HGh9hA1IPusVso" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**Какие массовые действия доступны:**&#x20;
+
+1. Отметить, как не прочитано
+
+<div data-with-frame="true"><figure><img src="/files/1XlwVkbFd3ttdYEJjUeA" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Если кликнуть по данной иконке, то все диалоги будут отмечены "не прочитаны".&#x20;
+
+2. Отметить, как прочитано:
+
+<div data-with-frame="true"><figure><img src="/files/Xl9sqTUFgHoMXdtxldju" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Если кликнуть по данной иконке, то все диалоги будут с пометкой "прочитано".&#x20;
+
+3. Заблокировать (разблокировать) клиентов:
+
+<div data-with-frame="true"><figure><img src="/files/mP1iRXREYtjJpX5qCx7w" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Данное массовое действие поможет заблокировать или наоборот разблокировать всех отмеченных клиентов.
+
+4. Удалить клиентов:
+
+<div data-with-frame="true"><figure><img src="/files/wspXjJ7DtinenfBB5efs" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Если кликнуть по данной кнопке, то все отмеченные клиенты будут <mark style="color:red;">**БЕЗВОЗВРАТНО**</mark> удалены!
+
+{% hint style="warning" %}
+Обращаем внимание!&#x20;
+
+После клика на любое из массовых действий, а именно при удалении, блокировке (разблокировке), отметить как прочитано, отметить как не прочитано ДЛЯ ДОПОЛНИТЕЛЬНОГО подтверждения открывается модальное окно:&#x20;
+
+<img src="/files/5uRFiJytEXw2bD5mv2J3" alt="" data-size="original">
+
+в модальном окне указано, что действие НЕОБРАТИМО!&#x20;
+
+В случае, если вы введете слово "Подтвердить", то массовое действие применится к помеченным клиентам.&#x20;
+{% endhint %}
+
+5. Действия со списками / метками:
+
+<div data-with-frame="true"><figure><img src="/files/hF26DpYLtQLJEzaSRXUs" alt="" width="563"><figcaption></figcaption></figure></div>
+
+При необходимости можно массово добавить клиентов в список (добавить метку) или удалить их из выбранного списка:
+
+<div data-with-frame="true"><figure><img src="/files/KYhkhcMa4JxkqvZXRPca" alt="" width="375"><figcaption></figcaption></figure></div>
+
+В списки можно добавлять или удалять из них. То же самое и с метками. Для этого достаточно выбрать необходимые списки (метки), а затем кликнуть на "добавить" ("удалить"):
+
+<div data-with-frame="true"><figure><img src="/files/gOBPnZqBb7blcWean0k4" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**Как выбрать нужные диалоги?**&#x20;
+
+Можно выбрать всех клиентов одновременно, поставив галочку в чекбоксе на строке с действиями:
+
+<div><figure><img src="/files/VGQc2ldCoGyCgVzVkIYu" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="/files/EqNee5s8DyBRWJXD2zFu" alt="" width="375"><figcaption><p>Как отметить всех клиентов одновременно</p></figcaption></figure></div>
+
+А можно выбрать только некоторых из них, поставив галочку напротив нужного диалога:
+
+<div data-with-frame="true"><figure><img src="/files/lIokpRgDJDCUpM6n0fTB" alt="" width="375"><figcaption></figcaption></figure></div>
+
+{% hint style="success" %}
+Теперь вы знаете, как работать с массовыми действиями в списке клиентов!&#x20;
+{% endhint %}
+
+## **Фильтры**
+
+В списке клиентов существует функция фильтрации клиентов по различным критериям:
+
+<div data-with-frame="true"><figure><img src="/files/PC5dUMAOeb2Q6qsbNbQQ" alt="" width="375"><figcaption></figcaption></figure></div>
+
+При этом название вкладок клиентов в верхней панели является дополнительной опцией к фильтрам:
+
+1. Вкладка "**Все**" - отображение всех диалогов с клиентами, которые были сохранены в CRM-системе.
+2. Вкладка "**Без ответа**" - отображение списка клиентов, в диалоге с которыми висят непрочитанные сообщения.&#x20;
+
+{% hint style="info" %}
+Помните, что после того как диалог с пользователем был открыт любым сотрудником, отметка '**Непрочитано**' удаляется.
+{% endhint %}
+
+3. Вкладка "**Мои**" - отображение клиентов, которые привязаны к определенному сотруднику, просматривающего на данный момент списки.&#x20;
+4. Вкладка "**Чужие**" - отображение клиентов, которые привязаны к другим сотрудникам в системе.
+5. Вкладка "**Свободные клиенты**" - отображение клиентов, которые не привязаны ни к одному сотруднику в системе.&#x20;
+
+Рассмотрим варианты настроек фильтров:
+
+<div data-with-frame="true"><figure><img src="/files/qnXMpoFX3jtfcK22R91D" alt="" width="563"><figcaption></figcaption></figure></div>
+
+С помощью фильтров вы сможете просмотреть более узкий круг клиентов по вашим запросам.
+
+{% hint style="info" %}
+Для удобства работы можно сохранить настройки текущего фильтра и при следующей фильтрации выбрать его из списка сохраненных фильтров.&#x20;
+{% endhint %}
+
+**Доступные фильтры**
+
+**Поиск** — поиск по имени или по уникальному идентификатору внутри мессенджера. Например, содержание этого поля “1988” найдёт клиента с именем “Vasya1988” и клиента, у которого id в телеграмме “7771988777”
+
+**По ID клиента** — поиск клиента по его ID внутри нашего сервиса. Особенность, это поле работает по совпадению. Например, значение “10” найдет клиентов в ID 10, 110, 100, 210 и т.д.
+
+**Блоки воронки** — поиск клиентов, которые находятся в определенном блоке. Например, фильтр по блокам “Приветствие” покажет всех клиентов, которые находятся в блоке приветствия.
+
+**Списки рассылок** — фильтр этого типа покажет всех клиентов, которые находятся в выбранном вами списке.
+
+**Исключить списки** - фильтр поможет исключить тех, кто находится в указанных списках.&#x20;
+
+**Исключить метки** - фильтр поможет исключить пользователей с указанными метками Salebot.
+
+**Метки** - фильтр этого типа покажет всех клиентов, с указанными метками Salebot.
+
+**Каналы связи** — показывает клиентов, находящихся в конкретном БОТЕ, например, можно отфильтровать клиентов по двум разным Телеграм ботам.
+
+**Зарегистрирован до** — этот фильтр позволит найти клиентов, которые пришли в вашего бота в определенный промежуток времени.&#x20;
+
+*Пример, Зарегистрирован до 23.05.2023  покажет всех клиентов, кто зарегистрировался в боте до начала 23.05.2023. Те, кто зарегистрировался 22.05.2023 23:59 попадут в фильтр, а те, кто попал в бота 23.05.2023 в 00:00 -в фильтр уже не попадут.*
+
+**Зарегистрирован после** - этот фильтр позволит найти клиентов, которые пришли в вашего бота в определенный промежуток времени.&#x20;
+
+*Пример, Зарегистрирован после 20.05.2023  покажет всех клиентов, кто зарегистрировался в боте после наступления даты  20.05.2023. Те, кто зарегистрировался 20.05.2023 00:01 попадут в фильтр, а те, кто запустил в бота 19.05.2023 в 23:59 -в фильтр уже не попадут.*
+
+чекбокс **Сортировать по дате создания клиента** - клиенты будут отсортированы в порядке убывания (от текущего дня по убыванию дат)
+
+чекбокс **Без ответа** - покажет список клиентов по настройкам фильтра, у которых стоит отметка о непрочитанных сообщениях.
+
+<div data-with-frame="true"><figure><img src="/files/ZvrPlSz3oshu6KtHa3aR" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**Стадия сделки с SalebotCRM**  - покажет всех клиентов на выбранных этапах встроенной SalebotCRM
+
+<div data-with-frame="true"><figure><img src="/files/mzAoXa1cpKXvdTY1yAed" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**Ответственный** - при включенном автораспределении клиентов или ручном распределении в поле клиента отображается сотрудник -ответственный, за которым закреплен данный клиент. С помощью этого фильтра можно получить список клиентов по ответственному сотруднику.
+
+**Поиск по переменным** — два поля “Переменная” и “Значение переменной”. Работают только по полному совпадению с названием переменной или её значением.&#x20;
+
+<div data-with-frame="true"><figure><img src="/files/knzZJSD15kXOJaE3kmsW" alt="" width="375"><figcaption></figcaption></figure></div>
+
+*Например, при значении поля “Переменная” указать название переменной “Цена”, будут показаны клиенты, у которых есть привязанная переменная “Цена”, но если поле будет содержать только “цен”, тогда поиск не найдет поле “Цена”.*&#x20;
+
+*Поле “Значение переменной” работает аналогично.Можно заполнять два поля одновременно, например, если в поле “Переменная” задать значение “Размер”, а поле “Значение переменной” — “М”, будут показаны клиенты у которых, в переменных указан Размер = М*
+
+**Сбросить фильтры** — сбрасывает все фильтры.
+
+<div data-with-frame="true"><figure><img src="/files/VWTOhuVM2oAbB1Vnss6Y" alt="" width="375"><figcaption></figcaption></figure></div>
+
+Также можно комбинировать все вышеперечисленные фильтры, чтобы найти выборку клиентов, которая нужна именно вам.<br>
+
+*Пример, фильтр:*\
+&#x20;*1) Имени = “Ксения”*\
+&#x20;*2) Зарегистрирован до 20.04.2021*\
+&#x20;*3) Переменная = “Размер”*\
+&#x20;*4) Значение переменной = “XS”*\
+*Найдёт всех клиентов, у которых есть в имени “Ксения”, кто зарегистрирован до 20.04.2021, в переменных есть поле “Размер”, а его значение — “XS”.*
+
+### **Выгрузить базу клиентов (Скачать)**&#x20;
+
+Чтобы скачать файлом базу клиентов зайдите в раздел Клиенты - Фильтр - Скачать:&#x20;
+
+<div data-with-frame="true"><figure><img src="/files/St8doXvxWSunqaCKrm3m" alt="" width="563"><figcaption></figcaption></figure></div>
+
+{% hint style="danger" %}
+**Важно!**&#x20;
+
+Файл .csv со всеми переменными клиентов может содержать до 100 тысяч клиентов. Крупные базы (**БОЛЕЕ 100 тысяч** клиентов) **РЕКОМЕНДОВАНО** скачивать **ЧАСТЯМИ** , если в  файле **нужны ВСЕ переменные** клиентов.
+{% endhint %}
+
+{% hint style="info" %}
+В файле формата .xls будут только основные 11 колонок
+{% endhint %}
+
+<div data-with-frame="true"><figure><img src="/files/uJxrEhEgi6Erx7ahzxJb" alt=""><figcaption></figcaption></figure></div>
+
+Кнопка даёт возможность выгрузить ваших клиентов в удобном формате .CSV или .XLS, который можно открыть в Excel, где будут указаны поля:\
+&#x20;1\) ID клиента (client\_id)\
+&#x20;2\) Имя клиента\
+&#x20;3\) Мессенджер, в который писал клиент\
+&#x20;4\) Бот, в которого писал клиент\
+&#x20;5\) Уникальный идентификатор внутри мессенджера (например: для WhatsApp — номер телефона)\
+&#x20;6\) Дата первого обращения\
+&#x20;7\) Дата последнего действия\
+&#x20;8\) URL аватара клиента\
+&#x20;9\) ID блока, в котором находится клиент\
+&#x20;10\) История перехода клиента по блокам\
+&#x20;11\) Тег
+
+{% hint style="info" %}
+**После 11 колонки будут колонки с пользовательскими переменными (ТОЛЬКО в файле формата .CSV).**
+{% endhint %}
+
+Также есть возможность скачать файл с клиентами определенного списка. Для этого в разделе Списки нажмите кнопку Выгрузить клиентов:
+
+<div data-with-frame="true"><figure><img src="/files/X4jSfVmCSKstbJ4JHMES" alt=""><figcaption></figcaption></figure></div>
+
+## **Карточка клиента**
+
+<div data-with-frame="true"><figure><img src="/files/oAb8qf91l3GJEYU8CKFf" alt="" width="375"><figcaption></figcaption></figure></div>
+
+Карточка клиента отображает первичную информацию о клиенте:\
+**Аватар**\
+Иконку **мессенджер**а, в который написал клиент\
+**Имя** клиента\
+**Статус** клиента (может быть: заблокирован![](https://lh5.googleusercontent.com/xBboWAVvPgZkOPXK9TE83F-SKFNrQVd6c_53vLj6zizR75ZQmpTSpW8lSmlUiKdyXJhih-FEfZeEqA-m8kzUh3WwF2U65wwmc9nzm0Vhp-7IM93RlNe4aI_rfqFGWCgaoyPROsyW)/на паузе![](https://lh3.googleusercontent.com/ebG1hsmXgb2UTJ2Fri-PZAR3plneVlzfN-c9KY5CBWPgATCWKfbp74qxqNLkg7oc_9Vi7xnR8-L9bXBs4KjOrru8YF2M-IjjDNiFnqQhvD0bThB9RrEn4Rah9U5oJD4TsEhhcquf))\
+**Сотрудник**а, к которому привязан клиент. Когда клиент привязан к вам, отображается “Ваш клиент”. Когда клиент привязан к другому сотруднику, отображается email или имя сотрудника.  Когда клиент не имеет привязанного сотрудника, надпись отсутствует.\
+**Время последней активности** клиента
+
+\
+**Последнее сообщение** содержит одну из меток:\
+**Клиент** — когда последнее сообщение от клиента; \
+**Вы** — когда последнее сообщение от вас;\
+**Email сотрудника** — когда сообщение отправил другой сотрудник;\
+**Комментарий** — если последнее сообщение является комментарием;
+
+**Вложение** — когда в последнем сообщении есть вложение.\
+Значок **закреплённого клиента** ![](https://lh5.googleusercontent.com/yfzx8wRQovlcYaJBSqYj0d-TZ3YUdG0KYhMbA37i4MinnSThyZJfCu7lWjYR7XftL0lNdb3oBSwTRvYXZ1JMNQtF1BcimbYSh9nGUqI3HriyY2dzjx5xAvkcLE3CNisrv-0JGyNP), если клиент закреплён
+
+{% hint style="info" %}
+При клике на карточку клиента произойдёт переход в диалог с клиентом.
+{% endhint %}
+
+### **Контекстное меню**
+
+<div data-with-frame="true"><figure><img src="/files/CusJ4FTbDMvbRlG5sO2t" alt="" width="375"><figcaption></figcaption></figure></div>
+
+Контекстное меню карточки клиента имеет кнопки:\
+**Отметить непрочитанным** — отметит диалог клиента как непрочитанный и переместит клиента во вкладку "Без ответа"\
+**Открепить диалог/Закрепить диалог** — закрепляет/открепляет диалог. Закреплённые диалоги располагаются всегда в начале, выше всех остальных диалогов.\
+**Заблокировать/Разблокировать** — заблокирует клиента\
+**Удалить клиента** - удалит клиента из базы клиентов. Восстановить данные о клиенте будет невозможно. \
+Вы можете настроить превью клиента так как вам необходимо и разместить в карточке важные для вас данные.
+
+Нажмите на карточку клиента в общем списке, так вы перейдете к диалогу с ним и в правой части у вас откроется полная информация о нем. Подробно каждый пункт карточки клиента расположенной в правом баре [**описали тут.**](/crm-sistema/klienty-v-odnom-okne/dialog-s-klientom.md)
+
+{% hint style="info" %}
+Как добавить клиента в систему, [рассказали выше.](#napisat-v-whatsapp-napisat-na-email)
+{% endhint %}
+
+Стоит отметить, что в меню слева будет отображаться количество непрочитанных сообщений.&#x20;
+
+<div data-with-frame="true"><figure><img src="/files/rieYFVBnicUI821yP5xf" alt="" width="404"><figcaption></figcaption></figure></div>
+
+Так вы сможете увидеть, не заходя в раздел "Клиенты", сколько у вас висит не прочитанных сообщений.
+
+Применительно к роли сотрудника в проекте, для него будет видно:&#x20;
+
+1. Для администратора - количество всех непрочитанных сообщений в проекте;
+2. Для оператора - сообщения из привязанных к нему клиентов.&#x20;
+
+## Как получить контакты клиента до запуска бота
+
+{% embed url="<https://www.youtube.com/watch?v=sXlIXAm7Za4>" %}
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+
+```
+GET https://docs.salebot.pro/crm-sistema/klienty-v-odnom-okne.md?ask=<question>
+```
+
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

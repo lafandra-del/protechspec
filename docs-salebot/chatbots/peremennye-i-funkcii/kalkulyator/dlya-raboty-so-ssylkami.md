@@ -1,0 +1,218 @@
+> For the complete documentation index, see [llms.txt](https://docs.salebot.pro/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://docs.salebot.pro/chatbots/peremennye-i-funkcii/kalkulyator/dlya-raboty-so-ssylkami.md).
+
+# Для работы со ссылками
+
+{% hint style="success" %}
+Подробнее о работе с ссылками на практике рассказали в статье "[Временно доступный контент](https://docs.salebot.pro/chasto-zadavaemye-voprosy/kak-sdelat/vremenno-dostupnyi-kontent)".
+{% endhint %}
+
+## Ссылки с уведомлением о клике <a href="#dlya-raboty-s-ssylkami" id="dlya-raboty-s-ssylkami"></a>
+
+&#x20;<mark style="color:red;">**ОБОЗНАЧЕНИЯ:**</mark>
+
+<mark style="color:red;">**!**</mark> - Обязательные параметры
+
+{% tabs %}
+{% tab title="Описание" %}
+Разберем простой пример:
+
+<figure><img src="/files/MkgO5l8S4Z8Z5RGdxD5F" alt=""><figcaption></figcaption></figure>
+
+Мы создали две прокси-ссылки и вывели их в кнопках и в тексте сообщения. Поскольку мы тестируемся в Telegram, то грех не напомнить как следует работать со ссылками в тексте с использованием Markdown. Поэтому понадобилось использовать функцию экранирования tg\_escape()
+
+Так созданные нами ссылки выглядят в карточке клиента:
+
+<figure><img src="/files/xMEHtpGqmMyXo8qCiitn" alt=""><figcaption></figcaption></figure>
+
+Так клиент их видит, например, в Telegram:
+
+<figure><img src="/files/MYieGLctunbe5q21nwEw" alt="" width="180"><figcaption></figcaption></figure>
+
+При переходе клиента по ссылке мы получаем коллбэк:&#x20;
+
+<figure><img src="/files/1xqkCliEyFO9dXjzI8Nv" alt="" width="428"><figcaption></figcaption></figure>
+
+Давайте настроим реакцию на данное событие:
+
+<figure><img src="/files/8b4PNEm3eIRlnkgbjvR0" alt="" width="563"><figcaption></figcaption></figure>
+
+Теперь проверим функции удаления ссылок:
+
+<figure><img src="/files/z6QutLGy3QsSAkoNzsCm" alt=""><figcaption></figcaption></figure>
+
+После выполнения функции удаления всех одноразовых ссылок, отправленных клиенту, видим:
+
+<figure><img src="/files/o19AmI6XWIcYhgcqWvnN" alt=""><figcaption></figcaption></figure>
+
+Таким образом, при попытке клиента перейти после удаления по одноразовой ссылке он получит ошибку, так как такой ссылки уже не существует:
+
+<figure><img src="/files/fJxrZ75fMUzToYig5aFZ" alt="" width="563"><figcaption></figcaption></figure>
+
+Удалим ссылку, ограниченную временем:&#x20;
+
+<figure><img src="/files/YuK3ixj1uSBVTS7L6aJj" alt=""><figcaption></figcaption></figure>
+
+По итогу исполнения функции в карточке клиента не осталось прокси-ссылок и попытка перехода по ссылке возвращает всё ту же ошибку:
+
+<figure><img src="/files/TzB5KRMhK607OEJUZMIO" alt="" width="563"><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Пример кода для копирования" %}
+Пример кода из поля Сообщение (не забудьте включить Markdown, если работаете с Telegram):
+
+```
+*Тестируем ссылки:*
+[Клац](#{link3})
+```
+
+или тестируйте со следующим выводом данных:
+
+<pre><code><strong>Тестируем ссылки:
+</strong>#{link2}
+</code></pre>
+
+Пример кода из поля Калькулятор:
+
+```
+link1=proxy('https://ya.ru/', 1) 
+link2=short_date('https://yandex.ru/images', '11.06.2025', '14:00') 
+link3=tg_escape(link2)
+```
+
+{% endtab %}
+
+{% tab title="Параметры" %}
+**proxy(lnk, one-shot)** - для получения ссылки с уведомлением о клике. На вход передаются параметры:\ <mark style="color:red;">!</mark> **link** - ссылка \
+**one-shot** - признак того, что ссылка одноразовая. Достаточно передать 1.
+
+**proxy\_date(lnk, date, time)** -  для получения ссылки с уведомлением о клике с заданным временем окончания доступа к ней. На вход передаются параметры: \ <mark style="color:red;">!</mark> **link** - ссылка\ <mark style="color:red;">!</mark> **date** - дата окончания действия ссылки \ <mark style="color:red;">!</mark> **time** - время окончания действия ссылки\
+**one-shot** - признак того, что ссылка одноразовая. Достаточно передать 1.
+
+**proxy\_timeout(lnk, minutes, one-shot)** - для получения ссылки с уведомлением о клике с заданным таймером доступа к ней. На вход подаются параметры: \ <mark style="color:red;">!</mark> **link** - ссылка\ <mark style="color:red;">!</mark> **minutes** - количество минут, которые действует ссылка. \
+**one-shot** - признак того, что ссылка одноразовая. Достаточно передать 1.&#x20;
+
+{% hint style="info" %}
+В результате перехода клиента по прокси-ссылкам Вы получите колбек вида link\_was\_pressed <ссылка>
+
+Таким образом можно настроить реакцию на переход по ссылке. Для этого в поле Условие введите получаемый колбек и укажите тип сопоставления Полное совпадение
+{% endhint %}
+{% endtab %}
+{% endtabs %}
+
+## Укорачивание ссылок&#x20;
+
+**short() | short\_date() | short\_timeout()**
+
+&#x20;<mark style="color:red;">**ОБОЗНАЧЕНИЯ:**</mark>
+
+<mark style="color:red;">**!**</mark> - Обязательные параметры
+
+{% tabs %}
+{% tab title="Описание" %}
+**short(lnk, one-shot)** — для получения ссылки без уведомления о клике. На вход передаются параметры:\ <mark style="color:red;">!</mark> **link** - ссылка \
+**one-shot —** признак того, что ссылка одноразовая. Достаточно передать 1.
+
+**short\_date(lnk, date, time)** — для получения ссылки без  уведомления о клике с заданным временем окончания доступа к ней. На вход передаются параметры: \ <mark style="color:red;">!</mark> **link —** ссылка\ <mark style="color:red;">!</mark> **date —** дата окончания действия ссылки \ <mark style="color:red;">!</mark> **time —** время окончания действия ссылки\
+**one-shot —** признак того, что ссылка одноразовая. Достаточно передать 1.
+
+**short\_timeout(lnk, minutes, one-shot)** — для получения ссылки без уведомления о клике с заданным таймером доступа к ней. На вход подаются параметры: \ <mark style="color:red;">!</mark> **link —** ссылка\ <mark style="color:red;">!</mark> **minutes —** количество минут, которые действует ссылка. \
+**one-shot —** признак того, что ссылка одноразовая. Достаточно передать 1.&#x20;
+{% endtab %}
+{% endtabs %}
+
+## **Удаление ссылок**&#x20;
+
+**remove\_links() | remove\_one\_time\_links()| remove\_timer\_links()**
+
+<mark style="color:red;">**ОБОЗНАЧЕНИЯ:**</mark>
+
+<mark style="color:red;">**!**</mark> - Обязательные параметры
+
+{% tabs %}
+{% tab title="Параметры" %}
+**remove\_links()** - деактивация всех коротких ссылок, отправленных клиенту. Функция без параметров.
+
+**remove\_one\_time\_links()** - деактивация всех одноразовых ссылок, отправленных клиенту, без параметров.
+
+**remove\_timer\_links()** - деактивация всех временно доступных ссылок, отправленных клиенту, без параметров.
+{% endtab %}
+{% endtabs %}
+
+## Ссылка на квиз для Telegram-бота&#x20;
+
+**quiz\_link\_timeout() | quiz\_link\_date() |  quiz\_link()**
+
+{% hint style="warning" %}
+Обращаем внимание!
+
+Существует ограничение на время действительности ссылки - 21 день, поэтому ссылку необходимо обновлять!&#x20;
+{% endhint %}
+
+Для подключения возможности отображения квиз-ссылки в Telegram необходимо:&#x20;
+
+1\. Скопировать id сайта: для этого перейдите в раздел "Сайты", затем выберите нужный сайт. На карточке с информацией о сайте вы найдете его ID.
+
+<figure><img src="/files/thHx6JbpP91YuvnQCUuL" alt=""><figcaption></figcaption></figure>
+
+ID сайта передается в параметр **mini\_landing\_page\_id.**
+
+2\. В поле калькулятор используется одна из функций:
+
+<mark style="color:red;">**ОБОЗНАЧЕНИЯ:**</mark>
+
+<mark style="color:red;">**!**</mark> - Обязательные параметры
+
+{% tabs %}
+{% tab title="Параметры" %}
+**quiz\_link\_timeout(mini\_landing\_page\_id, minutes)  -** создает ссылку с ограничением  срока жизни ссылки в минутах
+
+Параметры:
+
+<mark style="color:red;">**!**</mark>**&#x20;mini\_landing\_page\_id** - идентификатор страницы сайта\
+**minutes -** минуты жизни ссылки, тип число
+
+**quiz\_link\_date(mini\_landing\_page\_id, date, time) -** создает ссылку с ограничением  срока жизни ссылки до конкретного дня и часа
+
+Параметры:
+
+<mark style="color:red;">**!**</mark>**&#x20;mini\_landing\_page\_id** - идентификатор страницы сайта\
+**date** - дата действия ссылки, формат: дд.мм.гггг\
+**time** - время действия ссылки, формат: чч:мм
+
+&#x20;**quiz\_link(mini\_landing\_page\_id)** - создает ссылку без ограничения  срока жизни ссылки
+
+Параметры:
+
+<mark style="color:red;">**!**</mark>**&#x20;mini\_landing\_page\_id** - идентификатор страницы сайта
+{% endtab %}
+{% endtabs %}
+
+Далее короткую срочную ссылку можно передать с помощью переменной в сообщении:
+
+<figure><img src="/files/eZlwPDDPD3pzbaGgHj4c" alt=""><figcaption></figcaption></figure>
+
+Если вы используете quiz\_link\_timeout для перехода клиента насайта, то вы можете пользоваться переменными клиента внутри описания и заголовка. Например, если у клиента есть переменная name со значением "Богдан" и в описании страницы сайта вы напишите "Привет #{name}, как твои дела ?", то вывод будет "Привет, Богдан, как твои дела ?". Однако, если такая переменная будет отсутствовать у клиента, то переменная будет взята из общих переменных проекта.
+
+{% hint style="warning" %}
+**Внимание!** Будьте внимательны с использованием ссылок без срока жизни: Если ссылка будет отправлена кому-то еще и этот кто-то пройдет опрос, то результаты будут записаны клиенту, для которого была создана данная ссылка.
+{% endhint %}
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the current page URL with the `ask` query parameter:
+
+```
+GET https://docs.salebot.pro/chatbots/peremennye-i-funkcii/kalkulyator/dlya-raboty-so-ssylkami.md?ask=<question>
+```
+
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
