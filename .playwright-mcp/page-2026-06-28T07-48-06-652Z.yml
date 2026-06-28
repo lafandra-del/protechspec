@@ -1,0 +1,682 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fnexu-io%2Fopen-design%2Ftree%2Fmain%2Fdocs%2Fdeployment
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ffiles%2Fdisambiguate&source=header-repo&source_repo=nexu-io%2Fopen-design
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "nexu-io" [ref=e70] [cursor=pointer]:
+              - /url: /nexu-io
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "open-design" [ref=e73] [cursor=pointer]:
+                - /url: /nexu-io/open-design
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fnexu-io%2Fopen-design
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 8.2k" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fnexu-io%2Fopen-design
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "8,169" [ref=e84]: 8.2k
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fnexu-io%2Fopen-design
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "72121 users starred this repository" [ref=e90]: 72.1k
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /nexu-io/open-design
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 307" [ref=e99] [cursor=pointer]:
+                - /url: /nexu-io/open-design/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "307" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests 153" [ref=e106] [cursor=pointer]:
+                - /url: /nexu-io/open-design/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+                - generic "153" [ref=e110]
+            - listitem [ref=e111]:
+              - link "Discussions" [ref=e112] [cursor=pointer]:
+                - /url: /nexu-io/open-design/discussions
+                - img [ref=e113]
+                - generic [ref=e115]: Discussions
+            - listitem [ref=e116]:
+              - link "Actions" [ref=e117] [cursor=pointer]:
+                - /url: /nexu-io/open-design/actions
+                - img [ref=e118]
+                - generic [ref=e120]: Actions
+            - listitem [ref=e121]:
+              - link "Projects" [ref=e122] [cursor=pointer]:
+                - /url: /nexu-io/open-design/projects
+                - img [ref=e123]
+                - generic [ref=e125]: Projects
+            - listitem [ref=e126]:
+              - link "Security and quality" [ref=e127] [cursor=pointer]:
+                - /url: /nexu-io/open-design/security
+                - img [ref=e128]
+                - generic [ref=e130]: Security and quality
+            - listitem [ref=e131]
+          - button "Additional navigation options" [ref=e135] [cursor=pointer]:
+            - img
+      - generic [ref=e143]:
+        - generic [ref=e145]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - heading "Collapse file tree" [level=2] [ref=e151]:
+                  - button "Collapse file tree" [expanded] [ref=e152] [cursor=pointer]:
+                    - img [ref=e153]
+                - heading "Files" [level=2] [ref=e156]
+              - generic [ref=e157]:
+                - button "main branch" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e160]:
+                    - generic [ref=e162]:
+                      - img [ref=e164]
+                      - generic [ref=e167]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e169] [cursor=pointer]:
+                  - img [ref=e170]
+            - generic [ref=e173]:
+              - img [ref=e175]
+              - combobox "Go to file" [ref=e177]
+            - navigation "File Tree Navigation" [ref=e183]:
+              - tree "Files" [ref=e185]:
+                - treeitem ".claude-plugin" [level=1] [ref=e186]:
+                  - generic [ref=e187] [cursor=pointer]:
+                    - img [ref=e189]
+                    - generic [ref=e191]:
+                      - img [ref=e195]
+                      - generic [ref=e197]: .claude-plugin
+                - treeitem ".claude" [level=1] [ref=e198]:
+                  - generic [ref=e199] [cursor=pointer]:
+                    - img [ref=e201]
+                    - generic [ref=e203]:
+                      - img [ref=e207]
+                      - generic [ref=e209]: .claude
+                - treeitem ".github" [level=1] [ref=e210]:
+                  - generic [ref=e211] [cursor=pointer]:
+                    - img [ref=e213]
+                    - generic [ref=e215]:
+                      - img [ref=e219]
+                      - generic [ref=e221]: .github
+                - treeitem ".vaunt" [level=1] [ref=e222]:
+                  - generic [ref=e223] [cursor=pointer]:
+                    - img [ref=e225]
+                    - generic [ref=e227]:
+                      - img [ref=e231]
+                      - generic [ref=e233]: .vaunt
+                - treeitem "apps" [level=1] [ref=e234]:
+                  - generic [ref=e235] [cursor=pointer]:
+                    - img [ref=e237]
+                    - generic [ref=e239]:
+                      - img [ref=e243]
+                      - generic [ref=e245]: apps
+                - treeitem "assets" [level=1] [ref=e246]:
+                  - generic [ref=e247] [cursor=pointer]:
+                    - img [ref=e249]
+                    - generic [ref=e251]:
+                      - img [ref=e255]
+                      - generic [ref=e257]: assets
+                - treeitem "charts" [level=1] [ref=e258]:
+                  - generic [ref=e259] [cursor=pointer]:
+                    - img [ref=e261]
+                    - generic [ref=e263]:
+                      - img [ref=e267]
+                      - generic [ref=e269]: charts
+                - treeitem "clipper" [level=1] [ref=e270]:
+                  - generic [ref=e271] [cursor=pointer]:
+                    - img [ref=e273]
+                    - generic [ref=e275]:
+                      - img [ref=e279]
+                      - generic [ref=e281]: clipper
+                - treeitem "craft" [level=1] [ref=e282]:
+                  - generic [ref=e283] [cursor=pointer]:
+                    - img [ref=e285]
+                    - generic [ref=e287]:
+                      - img [ref=e291]
+                      - generic [ref=e293]: craft
+                - treeitem "data" [level=1] [ref=e294]:
+                  - generic [ref=e295] [cursor=pointer]:
+                    - img [ref=e297]
+                    - generic [ref=e299]:
+                      - img [ref=e303]
+                      - generic [ref=e305]: data
+                - treeitem "deploy" [level=1] [ref=e306]:
+                  - generic [ref=e307] [cursor=pointer]:
+                    - img [ref=e309]
+                    - generic [ref=e311]:
+                      - img [ref=e315]
+                      - generic [ref=e317]: deploy
+                - treeitem "design-systems" [level=1] [ref=e318]:
+                  - generic [ref=e319] [cursor=pointer]:
+                    - img [ref=e321]
+                    - generic [ref=e323]:
+                      - img [ref=e327]
+                      - generic [ref=e329]: design-systems
+                - treeitem "design-templates" [level=1] [ref=e330]:
+                  - generic [ref=e331] [cursor=pointer]:
+                    - img [ref=e333]
+                    - generic [ref=e335]:
+                      - img [ref=e339]
+                      - generic [ref=e341]: design-templates
+                - treeitem "docs" [expanded] [level=1] [ref=e342]:
+                  - generic [ref=e343] [cursor=pointer]:
+                    - img [ref=e345]
+                    - generic [ref=e347]:
+                      - img [ref=e351]
+                      - generic [ref=e353]: docs
+                  - group "docs" [ref=e354]:
+                    - treeitem "adr" [level=2] [ref=e355]:
+                      - generic [ref=e356] [cursor=pointer]:
+                        - img [ref=e361]
+                        - generic [ref=e363]:
+                          - img [ref=e367]
+                          - generic [ref=e369]: adr
+                    - treeitem "assets" [level=2] [ref=e370]:
+                      - generic [ref=e371] [cursor=pointer]:
+                        - img [ref=e376]
+                        - generic [ref=e378]:
+                          - img [ref=e382]
+                          - generic [ref=e384]: assets
+                    - treeitem "deployment" [expanded] [level=2] [ref=e385]:
+                      - generic [ref=e386] [cursor=pointer]:
+                        - img [ref=e391]
+                        - generic [ref=e393]:
+                          - img [ref=e397]
+                          - generic [ref=e399]: deployment
+                      - group "deployment" [ref=e400]:
+                        - treeitem "cloud" [level=3] [ref=e401]:
+                          - generic [ref=e402] [cursor=pointer]:
+                            - img [ref=e408]
+                            - generic [ref=e410]:
+                              - img [ref=e414]
+                              - generic [ref=e416]: cloud
+                        - treeitem "docker.md" [level=3] [ref=e417]:
+                          - generic [ref=e423] [cursor=pointer]:
+                            - img [ref=e426]
+                            - generic [ref=e428]: docker.md
+                    - treeitem "examples" [level=2] [ref=e429]:
+                      - generic [ref=e430] [cursor=pointer]:
+                        - img [ref=e435]
+                        - generic [ref=e437]:
+                          - img [ref=e441]
+                          - generic [ref=e443]: examples
+                    - treeitem "i18n" [level=2] [ref=e444]:
+                      - generic [ref=e445] [cursor=pointer]:
+                        - img [ref=e450]
+                        - generic [ref=e452]:
+                          - img [ref=e456]
+                          - generic [ref=e458]: i18n
+                    - treeitem "plans" [level=2] [ref=e459]:
+                      - generic [ref=e460] [cursor=pointer]:
+                        - img [ref=e465]
+                        - generic [ref=e467]:
+                          - img [ref=e471]
+                          - generic [ref=e473]: plans
+                    - treeitem "rfc-drafts" [level=2] [ref=e474]:
+                      - generic [ref=e475] [cursor=pointer]:
+                        - img [ref=e480]
+                        - generic [ref=e482]:
+                          - img [ref=e486]
+                          - generic [ref=e488]: rfc-drafts
+                    - treeitem "schemas" [level=2] [ref=e489]:
+                      - generic [ref=e490] [cursor=pointer]:
+                        - img [ref=e495]
+                        - generic [ref=e497]:
+                          - img [ref=e501]
+                          - generic [ref=e503]: schemas
+                    - treeitem "screenshots" [level=2] [ref=e504]:
+                      - generic [ref=e505] [cursor=pointer]:
+                        - img [ref=e510]
+                        - generic [ref=e512]:
+                          - img [ref=e516]
+                          - generic [ref=e518]: screenshots
+                    - treeitem "superpowers" [level=2] [ref=e519]:
+                      - generic [ref=e520] [cursor=pointer]:
+                        - img [ref=e525]
+                        - generic [ref=e527]:
+                          - img [ref=e531]
+                          - generic [ref=e533]: superpowers
+                    - treeitem "testing" [level=2] [ref=e534]:
+                      - generic [ref=e535] [cursor=pointer]:
+                        - img [ref=e540]
+                        - generic [ref=e542]:
+                          - img [ref=e546]
+                          - generic [ref=e548]: testing
+                    - treeitem "MOCKS-CONTRACT-CHECK.md" [level=2] [ref=e549]:
+                      - generic [ref=e554] [cursor=pointer]:
+                        - img [ref=e557]
+                        - generic [ref=e559]: MOCKS-CONTRACT-CHECK.md
+                    - treeitem "agent-adapters.md" [level=2] [ref=e560]:
+                      - generic [ref=e565] [cursor=pointer]:
+                        - img [ref=e568]
+                        - generic [ref=e570]: agent-adapters.md
+                    - treeitem "ai-native-observability-trace-analysis.md" [level=2] [ref=e571]:
+                      - generic [ref=e576] [cursor=pointer]:
+                        - img [ref=e579]
+                        - generic [ref=e581]: ai-native-observability-trace-analysis.md
+                    - treeitem "architecture.md" [level=2] [ref=e582]:
+                      - generic [ref=e587] [cursor=pointer]:
+                        - img [ref=e590]
+                        - generic [ref=e592]: architecture.md
+                    - treeitem "atoms.md" [level=2] [ref=e593]:
+                      - generic [ref=e598] [cursor=pointer]:
+                        - img [ref=e601]
+                        - generic [ref=e603]: atoms.md
+                    - treeitem "blog-indexing-automation.md" [level=2] [ref=e604]:
+                      - generic [ref=e609] [cursor=pointer]:
+                        - img [ref=e612]
+                        - generic [ref=e614]: blog-indexing-automation.md
+                    - treeitem "blog-indexing-status.json" [level=2] [ref=e615]:
+                      - generic [ref=e620] [cursor=pointer]:
+                        - img [ref=e623]
+                        - generic [ref=e625]: blog-indexing-status.json
+                    - treeitem "blog-indexing-status.md" [level=2] [ref=e626]:
+                      - generic [ref=e631] [cursor=pointer]:
+                        - img [ref=e634]
+                        - generic [ref=e636]: blog-indexing-status.md
+                    - treeitem "code-review-guidelines.md" [level=2] [ref=e637]:
+                      - generic [ref=e642] [cursor=pointer]:
+                        - img [ref=e645]
+                        - generic [ref=e647]: code-review-guidelines.md
+                    - treeitem "codex-pets.md" [level=2] [ref=e648]:
+                      - generic [ref=e653] [cursor=pointer]:
+                        - img [ref=e656]
+                        - generic [ref=e658]: codex-pets.md
+                    - treeitem "critique-theater.md" [level=2] [ref=e659]:
+                      - generic [ref=e664] [cursor=pointer]:
+                        - img [ref=e667]
+                        - generic [ref=e669]: critique-theater.md
+                    - treeitem "design-system-tracking-spec.md" [level=2] [ref=e670]:
+                      - generic [ref=e675] [cursor=pointer]:
+                        - img [ref=e678]
+                        - generic [ref=e680]: design-system-tracking-spec.md
+                    - treeitem "design-systems.md" [level=2] [ref=e681]:
+                      - generic [ref=e686] [cursor=pointer]:
+                        - img [ref=e689]
+                        - generic [ref=e691]: design-systems.md
+                    - treeitem "external-media-orchestration.md" [level=2] [ref=e692]:
+                      - generic [ref=e697] [cursor=pointer]:
+                        - img [ref=e700]
+                        - generic [ref=e702]: external-media-orchestration.md
+                    - treeitem "install-guide.md" [level=2] [ref=e703]:
+                      - generic [ref=e708] [cursor=pointer]:
+                        - img [ref=e711]
+                        - generic [ref=e713]: install-guide.md
+                    - treeitem "modes.md" [level=2] [ref=e714]:
+                      - generic [ref=e719] [cursor=pointer]:
+                        - img [ref=e722]
+                        - generic [ref=e724]: modes.md
+                    - treeitem "new-agent-runtime-acp.md" [level=2] [ref=e725]:
+                      - generic [ref=e730] [cursor=pointer]:
+                        - img [ref=e733]
+                        - generic [ref=e735]: new-agent-runtime-acp.md
+                    - treeitem "notebooklm.md" [level=2] [ref=e736]:
+                      - generic [ref=e741] [cursor=pointer]:
+                        - img [ref=e744]
+                        - generic [ref=e746]: notebooklm.md
+                    - treeitem "orchestrator-workspaces.md" [level=2] [ref=e747]:
+                      - generic [ref=e752] [cursor=pointer]:
+                        - img [ref=e755]
+                        - generic [ref=e757]: orchestrator-workspaces.md
+                    - treeitem "plugins-spec.md" [level=2] [ref=e758]:
+                      - generic [ref=e763] [cursor=pointer]:
+                        - img [ref=e766]
+                        - generic [ref=e768]: plugins-spec.md
+                    - treeitem "plugins-spec.zh-CN.md" [level=2] [ref=e769]:
+                      - generic [ref=e774] [cursor=pointer]:
+                        - img [ref=e777]
+                        - generic [ref=e779]: plugins-spec.zh-CN.md
+                    - treeitem "publishing-a-plugin.md" [level=2] [ref=e780]:
+                      - generic [ref=e785] [cursor=pointer]:
+                        - img [ref=e788]
+                        - generic [ref=e790]: publishing-a-plugin.md
+                    - treeitem "publishing-a-plugin.zh-CN.md" [level=2] [ref=e791]:
+                      - generic [ref=e796] [cursor=pointer]:
+                        - img [ref=e799]
+                        - generic [ref=e801]: publishing-a-plugin.zh-CN.md
+                    - treeitem "references.md" [level=2] [ref=e802]:
+                      - generic [ref=e807] [cursor=pointer]:
+                        - img [ref=e810]
+                        - generic [ref=e812]: references.md
+                    - treeitem "roadmap.md" [level=2] [ref=e813]:
+                      - generic [ref=e818] [cursor=pointer]:
+                        - img [ref=e821]
+                        - generic [ref=e823]: roadmap.md
+                    - treeitem "self-hosting-a-registry.md" [level=2] [ref=e824]:
+                      - generic [ref=e829] [cursor=pointer]:
+                        - img [ref=e832]
+                        - generic [ref=e834]: self-hosting-a-registry.md
+                    - treeitem "skills-contributing.md" [level=2] [ref=e835]:
+                      - generic [ref=e840] [cursor=pointer]:
+                        - img [ref=e843]
+                        - generic [ref=e845]: skills-contributing.md
+                    - treeitem "skills-protocol.md" [level=2] [ref=e846]:
+                      - generic [ref=e851] [cursor=pointer]:
+                        - img [ref=e854]
+                        - generic [ref=e856]: skills-protocol.md
+                    - treeitem "spec.md" [level=2] [ref=e857]:
+                      - generic [ref=e862] [cursor=pointer]:
+                        - img [ref=e865]
+                        - generic [ref=e867]: spec.md
+                    - treeitem "v0.8.0-announcement.md" [level=2] [ref=e868]:
+                      - generic [ref=e873] [cursor=pointer]:
+                        - img [ref=e876]
+                        - generic [ref=e878]: v0.8.0-announcement.md
+                    - treeitem "v0.8.0-announcement.zh-CN.md" [level=2] [ref=e879]:
+                      - generic [ref=e884] [cursor=pointer]:
+                        - img [ref=e887]
+                        - generic [ref=e889]: v0.8.0-announcement.zh-CN.md
+                    - treeitem "windows-troubleshooting.md" [level=2] [ref=e890]:
+                      - generic [ref=e895] [cursor=pointer]:
+                        - img [ref=e898]
+                        - generic [ref=e900]: windows-troubleshooting.md
+                    - treeitem "wsl-setup.md" [level=2] [ref=e901]:
+                      - generic [ref=e906] [cursor=pointer]:
+                        - img [ref=e909]
+                        - generic [ref=e911]: wsl-setup.md
+                - treeitem "e2e" [level=1] [ref=e912]:
+                  - generic [ref=e913] [cursor=pointer]:
+                    - img [ref=e915]
+                    - generic [ref=e917]:
+                      - img [ref=e921]
+                      - generic [ref=e923]: e2e
+                - treeitem "figma-plugin" [level=1] [ref=e924]:
+                  - generic [ref=e925] [cursor=pointer]:
+                    - img [ref=e927]
+                    - generic [ref=e929]:
+                      - img [ref=e933]
+                      - generic [ref=e935]: figma-plugin
+                - treeitem "mocks" [level=1] [ref=e936]:
+                  - generic [ref=e937] [cursor=pointer]:
+                    - img [ref=e939]
+                    - generic [ref=e941]:
+                      - img [ref=e945]
+                      - generic [ref=e947]: mocks
+                - treeitem "nix" [level=1] [ref=e948]:
+                  - generic [ref=e949] [cursor=pointer]:
+                    - img [ref=e951]
+                    - generic [ref=e953]:
+                      - img [ref=e957]
+                      - generic [ref=e959]: nix
+                - treeitem "packages" [level=1] [ref=e960]:
+                  - generic [ref=e961] [cursor=pointer]:
+                    - img [ref=e963]
+                    - generic [ref=e965]:
+                      - img [ref=e969]
+                      - generic [ref=e971]: packages
+                - treeitem "plugins" [level=1] [ref=e972]:
+                  - generic [ref=e973] [cursor=pointer]:
+                    - img [ref=e975]
+                    - generic [ref=e977]:
+                      - img [ref=e981]
+                      - generic [ref=e983]: plugins
+                - treeitem "prompt-templates" [level=1] [ref=e984]:
+                  - generic [ref=e985] [cursor=pointer]:
+                    - img [ref=e987]
+                    - generic [ref=e989]:
+                      - img [ref=e993]
+                      - generic [ref=e995]: prompt-templates
+                - treeitem "scripts" [level=1] [ref=e996]:
+                  - generic [ref=e997] [cursor=pointer]:
+                    - img [ref=e999]
+                    - generic [ref=e1001]:
+                      - img [ref=e1005]
+                      - generic [ref=e1007]: scripts
+                - treeitem "skills" [level=1] [ref=e1008]:
+                  - generic [ref=e1009] [cursor=pointer]:
+                    - img [ref=e1011]
+                    - generic [ref=e1013]:
+                      - img [ref=e1017]
+                      - generic [ref=e1019]: skills
+                - treeitem "specs" [level=1] [ref=e1020]:
+                  - generic [ref=e1021] [cursor=pointer]:
+                    - img [ref=e1023]
+                    - generic [ref=e1025]:
+                      - img [ref=e1029]
+                      - generic [ref=e1031]: specs
+                - treeitem "story" [level=1] [ref=e1032]:
+                  - generic [ref=e1033] [cursor=pointer]:
+                    - img [ref=e1035]
+                    - generic [ref=e1037]:
+                      - img [ref=e1041]
+                      - generic [ref=e1043]: story
+                - treeitem "templates" [level=1] [ref=e1044]:
+                  - generic [ref=e1045] [cursor=pointer]:
+                    - img [ref=e1047]
+                    - generic [ref=e1049]:
+                      - img [ref=e1053]
+                      - generic [ref=e1055]: templates
+                - treeitem "tools" [level=1] [ref=e1056]:
+                  - generic [ref=e1057] [cursor=pointer]:
+                    - img [ref=e1059]
+                    - generic [ref=e1061]:
+                      - img [ref=e1065]
+                      - generic [ref=e1067]: tools
+                - treeitem ".dockerignore" [level=1] [ref=e1068]:
+                  - generic [ref=e1070] [cursor=pointer]:
+                    - img [ref=e1073]
+                    - generic [ref=e1075]: .dockerignore
+                - treeitem ".gitignore" [level=1] [ref=e1076]:
+                  - generic [ref=e1078] [cursor=pointer]:
+                    - img [ref=e1081]
+                    - generic [ref=e1083]: .gitignore
+                - treeitem ".node-version" [level=1] [ref=e1084]:
+                  - generic [ref=e1086] [cursor=pointer]:
+                    - img [ref=e1089]
+                    - generic [ref=e1091]: .node-version
+                - treeitem "AGENTS.md" [level=1] [ref=e1092]:
+                  - generic [ref=e1094] [cursor=pointer]:
+                    - img [ref=e1097]
+                    - generic [ref=e1099]: AGENTS.md
+                - treeitem "CHANGELOG.md" [level=1] [ref=e1100]:
+                  - generic [ref=e1102] [cursor=pointer]:
+                    - img [ref=e1105]
+                    - generic [ref=e1107]: CHANGELOG.md
+                - treeitem "CLAUDE.md" [level=1] [ref=e1108]:
+                  - generic [ref=e1110] [cursor=pointer]:
+                    - img [ref=e1113]
+                    - generic [ref=e1115]: CLAUDE.md
+                - treeitem "CONTEXT.md" [level=1] [ref=e1116]:
+                  - generic [ref=e1118] [cursor=pointer]:
+                    - img [ref=e1121]
+                    - generic [ref=e1123]: CONTEXT.md
+                - treeitem "CONTRIBUTING.md" [level=1] [ref=e1124]:
+                  - generic [ref=e1126] [cursor=pointer]:
+                    - img [ref=e1129]
+                    - generic [ref=e1131]: CONTRIBUTING.md
+                - treeitem "LICENSE" [level=1] [ref=e1132]:
+                  - generic [ref=e1134] [cursor=pointer]:
+                    - img [ref=e1137]
+                    - generic [ref=e1139]: LICENSE
+                - treeitem "MAINTAINERS.md" [level=1] [ref=e1140]:
+                  - generic [ref=e1142] [cursor=pointer]:
+                    - img [ref=e1145]
+                    - generic [ref=e1147]: MAINTAINERS.md
+                - treeitem "PRIVACY.md" [level=1] [ref=e1148]:
+                  - generic [ref=e1150] [cursor=pointer]:
+                    - img [ref=e1153]
+                    - generic [ref=e1155]: PRIVACY.md
+                - treeitem "QUICKSTART.md" [level=1] [ref=e1156]:
+                  - generic [ref=e1158] [cursor=pointer]:
+                    - img [ref=e1161]
+                    - generic [ref=e1163]: QUICKSTART.md
+                - treeitem "README.md" [level=1] [ref=e1164]:
+                  - generic [ref=e1166] [cursor=pointer]:
+                    - img [ref=e1169]
+                    - generic [ref=e1171]: README.md
+                - treeitem "RELEASE-NOTES-0.10.0.md" [level=1] [ref=e1172]:
+                  - generic [ref=e1174] [cursor=pointer]:
+                    - img [ref=e1177]
+                    - generic [ref=e1179]: RELEASE-NOTES-0.10.0.md
+                - treeitem "TRANSLATIONS.md" [level=1] [ref=e1180]:
+                  - generic [ref=e1182] [cursor=pointer]:
+                    - img [ref=e1185]
+                    - generic [ref=e1187]: TRANSLATIONS.md
+                - treeitem "design-browser-task-handoff.md" [level=1] [ref=e1188]:
+                  - generic [ref=e1190] [cursor=pointer]:
+                    - img [ref=e1193]
+                    - generic [ref=e1195]: design-browser-task-handoff.md
+                - treeitem "flake.lock" [level=1] [ref=e1196]:
+                  - generic [ref=e1198] [cursor=pointer]:
+                    - img [ref=e1201]
+                    - generic [ref=e1203]: flake.lock
+                - treeitem "flake.nix" [level=1] [ref=e1204]:
+                  - generic [ref=e1206] [cursor=pointer]:
+                    - img [ref=e1209]
+                    - generic [ref=e1211]: flake.nix
+                - treeitem "mise.toml" [level=1] [ref=e1212]:
+                  - generic [ref=e1214] [cursor=pointer]:
+                    - img [ref=e1217]
+                    - generic [ref=e1219]: mise.toml
+                - treeitem "package.json" [level=1] [ref=e1220]:
+                  - generic [ref=e1222] [cursor=pointer]:
+                    - img [ref=e1225]
+                    - generic [ref=e1227]: package.json
+                - treeitem "pnpm-lock.yaml" [level=1] [ref=e1228]:
+                  - generic [ref=e1230] [cursor=pointer]:
+                    - img [ref=e1233]
+                    - generic [ref=e1235]: pnpm-lock.yaml
+                - treeitem "pnpm-workspace.yaml" [level=1] [ref=e1236]:
+                  - generic [ref=e1238] [cursor=pointer]:
+                    - img [ref=e1241]
+                    - generic [ref=e1243]: pnpm-workspace.yaml
+                - treeitem "vercel.json" [level=1] [ref=e1244]:
+                  - generic [ref=e1246] [cursor=pointer]:
+                    - img [ref=e1249]
+                    - generic [ref=e1251]: vercel.json
+          - slider "Draggable pane splitter" [ref=e1253]
+        - generic [ref=e1256]:
+          - generic [ref=e1260]:
+            - generic [ref=e1262]:
+              - navigation "Breadcrumbs" [ref=e1263]:
+                - heading "Breadcrumbs" [level=2] [ref=e1264]
+                - list [ref=e1265]:
+                  - listitem [ref=e1266]:
+                    - link "open-design" [ref=e1267] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/tree/main
+                  - listitem [ref=e1268]:
+                    - text: /
+                    - link "docs" [ref=e1269] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/tree/main/docs
+              - generic [ref=e1270]:
+                - text: /
+                - heading "deployment" [level=1] [ref=e1271]
+                - text: /
+              - button "Copy path" [ref=e1272] [cursor=pointer]:
+                - img [ref=e1273]
+            - generic [ref=e1278]:
+              - heading "Directory actions" [level=2] [ref=e1279]
+              - heading "More options" [level=2] [ref=e1280]
+              - button "More options" [ref=e1281] [cursor=pointer]:
+                - img [ref=e1282]
+          - generic [ref=e1284]:
+            - generic [ref=e1286]:
+              - heading "Latest commit" [level=2] [ref=e1287]
+              - generic [ref=e1290]:
+                - heading "History" [level=2] [ref=e1291]
+                - link "History" [ref=e1292] [cursor=pointer]:
+                  - /url: /nexu-io/open-design/commits/main/docs/deployment
+                  - generic [ref=e1293]:
+                    - generic:
+                      - img
+                    - generic [ref=e1294]: History
+            - generic [ref=e1296]:
+              - heading "Folders and files" [level=2] [ref=e1297]
+              - table "Folders and files" [ref=e1298]:
+                - rowgroup [ref=e1299]:
+                  - row "Name Last commit message Last commit date" [ref=e1300]:
+                    - columnheader "Name" [ref=e1301]
+                    - columnheader "Last commit message" [ref=e1302]:
+                      - generic "Last commit message" [ref=e1303]
+                    - columnheader "Last commit date" [ref=e1304]:
+                      - generic "Last commit date" [ref=e1305]
+                - rowgroup [ref=e1306]:
+                  - row "parent directory Parent directory" [ref=e1307]:
+                    - cell "parent directory Parent directory" [ref=e1308]:
+                      - heading "parent directory" [level=3] [ref=e1309]
+                      - link "Parent directory" [ref=e1310] [cursor=pointer]:
+                        - /url: /nexu-io/open-design/tree/main/docs
+                        - generic [ref=e1311]:
+                          - img [ref=e1312]
+                          - text: ..
+                  - row "cloud, (Directory)" [ref=e1314]:
+                    - cell "cloud, (Directory)" [ref=e1315]:
+                      - generic [ref=e1316]:
+                        - img [ref=e1317]
+                        - link "cloud, (Directory)" [ref=e1322] [cursor=pointer]:
+                          - /url: /nexu-io/open-design/tree/main/docs/deployment/cloud
+                          - text: cloud
+                    - cell [ref=e1323]
+                    - cell [ref=e1325]
+                  - row "docker.md, (File)" [ref=e1328]:
+                    - cell "docker.md, (File)" [ref=e1329]:
+                      - generic [ref=e1330]:
+                        - img [ref=e1331]
+                        - link "docker.md, (File)" [ref=e1336] [cursor=pointer]:
+                          - /url: /nexu-io/open-design/blob/main/docs/deployment/docker.md
+                          - text: docker.md
+                    - cell [ref=e1337]
+                    - cell [ref=e1339]
+  - alert [ref=e1345]

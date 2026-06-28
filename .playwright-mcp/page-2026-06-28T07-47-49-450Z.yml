@@ -1,0 +1,427 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - generic [ref=e53]:
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fnexu-io%2Fopen-design%2Fblob%2Fmain%2Fdocs%2Fsetup.md
+              - generic [ref=e56]:
+                - heading "Sign in to GitHub" [level=4] [ref=e57]
+                - generic [ref=e58]:
+                  - text: Username or email address
+                  - textbox "Username or email address" [active] [ref=e59]
+                  - generic [ref=e60]:
+                    - text: Password
+                    - textbox "Password" [ref=e61]
+                    - link "Forgot password?" [ref=e62] [cursor=pointer]:
+                      - /url: /password_reset
+                    - button "Sign in" [ref=e63] [cursor=pointer]
+                - link "or continue with other methods" [ref=e66] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fnexu-io%2Fopen-design%2Fblob%2Fmain%2Fdocs%2Fsetup.md
+                  - generic [ref=e68]: or continue with other methods
+            - link "Sign up" [ref=e69] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=nexu-io%2Fopen-design
+            - button "Appearance settings" [ref=e72] [cursor=pointer]:
+              - img
+  - main [ref=e76]:
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e80]:
+          - img [ref=e81]
+          - link "nexu-io" [ref=e84] [cursor=pointer]:
+            - /url: /nexu-io
+          - generic [ref=e85]: /
+          - strong [ref=e86]:
+            - link "open-design" [ref=e87] [cursor=pointer]:
+              - /url: /nexu-io/open-design
+          - generic [ref=e88]: Public
+        - generic [ref=e89]:
+          - list:
+            - listitem [ref=e90]:
+              - link "You must be signed in to change notification settings" [ref=e91] [cursor=pointer]:
+                - /url: /login?return_to=%2Fnexu-io%2Fopen-design
+                - img [ref=e92]
+                - text: Notifications
+            - listitem [ref=e94]:
+              - link "Fork 8.2k" [ref=e95] [cursor=pointer]:
+                - /url: /login?return_to=%2Fnexu-io%2Fopen-design
+                - img [ref=e96]
+                - text: Fork
+                - generic "8,169" [ref=e98]: 8.2k
+            - listitem [ref=e99]:
+              - link "You must be signed in to star a repository" [ref=e101] [cursor=pointer]:
+                - /url: /login?return_to=%2Fnexu-io%2Fopen-design
+                - img [ref=e102]
+                - text: Star
+                - generic "72121 users starred this repository" [ref=e104]: 72.1k
+      - navigation "Repository" [ref=e105]:
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - link "Code" [ref=e108] [cursor=pointer]:
+              - /url: /nexu-io/open-design
+              - img [ref=e109]
+              - generic [ref=e111]: Code
+          - listitem [ref=e112]:
+            - link "Issues 307" [ref=e113] [cursor=pointer]:
+              - /url: /nexu-io/open-design/issues
+              - img [ref=e114]
+              - generic [ref=e117]: Issues
+              - generic "307" [ref=e118]
+          - listitem [ref=e119]:
+            - link "Pull requests 153" [ref=e120] [cursor=pointer]:
+              - /url: /nexu-io/open-design/pulls
+              - img [ref=e121]
+              - generic [ref=e123]: Pull requests
+              - generic "153" [ref=e124]
+          - listitem [ref=e125]:
+            - link "Discussions" [ref=e126] [cursor=pointer]:
+              - /url: /nexu-io/open-design/discussions
+              - img [ref=e127]
+              - generic [ref=e129]: Discussions
+          - listitem [ref=e130]:
+            - link "Actions" [ref=e131] [cursor=pointer]:
+              - /url: /nexu-io/open-design/actions
+              - img [ref=e132]
+              - generic [ref=e134]: Actions
+          - listitem [ref=e135]:
+            - link "Projects" [ref=e136] [cursor=pointer]:
+              - /url: /nexu-io/open-design/projects
+              - img [ref=e137]
+              - generic [ref=e139]: Projects
+          - listitem [ref=e140]:
+            - link "Security and quality" [ref=e141] [cursor=pointer]:
+              - /url: /nexu-io/open-design/security
+              - img [ref=e142]
+              - generic [ref=e144]: Security and quality
+          - listitem [ref=e145]
+        - button "Additional navigation options" [ref=e149] [cursor=pointer]:
+          - img
+    - generic [ref=e157]:
+      - generic [ref=e159]:
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - heading "Collapse file tree" [level=2] [ref=e165]:
+                - button "Collapse file tree" [expanded] [ref=e166] [cursor=pointer]:
+                  - img [ref=e167]
+              - heading "Files" [level=2] [ref=e170]
+            - generic [ref=e171]:
+              - button "main branch" [ref=e173] [cursor=pointer]:
+                - generic [ref=e174]:
+                  - generic [ref=e176]:
+                    - img [ref=e178]
+                    - generic [ref=e181]: main
+                  - generic:
+                    - img
+              - button "Search this repository (forward slash)" [ref=e183] [cursor=pointer]:
+                - img [ref=e184]
+          - generic [ref=e187]:
+            - img [ref=e189]
+            - combobox "Go to file" [ref=e191]
+          - navigation "File Tree Navigation" [ref=e197]:
+            - tree "Files" [ref=e199]:
+              - treeitem ".claude-plugin" [level=1] [ref=e200]:
+                - generic [ref=e201] [cursor=pointer]:
+                  - img [ref=e203]
+                  - generic [ref=e205]:
+                    - img [ref=e209]
+                    - generic [ref=e211]: .claude-plugin
+              - treeitem ".claude" [level=1] [ref=e212]:
+                - generic [ref=e213] [cursor=pointer]:
+                  - img [ref=e215]
+                  - generic [ref=e217]:
+                    - img [ref=e221]
+                    - generic [ref=e223]: .claude
+              - treeitem ".github" [level=1] [ref=e224]:
+                - generic [ref=e225] [cursor=pointer]:
+                  - img [ref=e227]
+                  - generic [ref=e229]:
+                    - img [ref=e233]
+                    - generic [ref=e235]: .github
+              - treeitem ".vaunt" [level=1] [ref=e236]:
+                - generic [ref=e237] [cursor=pointer]:
+                  - img [ref=e239]
+                  - generic [ref=e241]:
+                    - img [ref=e245]
+                    - generic [ref=e247]: .vaunt
+              - treeitem "apps" [level=1] [ref=e248]:
+                - generic [ref=e249] [cursor=pointer]:
+                  - img [ref=e251]
+                  - generic [ref=e253]:
+                    - img [ref=e257]
+                    - generic [ref=e259]: apps
+              - treeitem "assets" [level=1] [ref=e260]:
+                - generic [ref=e261] [cursor=pointer]:
+                  - img [ref=e263]
+                  - generic [ref=e265]:
+                    - img [ref=e269]
+                    - generic [ref=e271]: assets
+              - treeitem "charts" [level=1] [ref=e272]:
+                - generic [ref=e273] [cursor=pointer]:
+                  - img [ref=e275]
+                  - generic [ref=e277]:
+                    - img [ref=e281]
+                    - generic [ref=e283]: charts
+              - treeitem "clipper" [level=1] [ref=e284]:
+                - generic [ref=e285] [cursor=pointer]:
+                  - img [ref=e287]
+                  - generic [ref=e289]:
+                    - img [ref=e293]
+                    - generic [ref=e295]: clipper
+              - treeitem "craft" [level=1] [ref=e296]:
+                - generic [ref=e297] [cursor=pointer]:
+                  - img [ref=e299]
+                  - generic [ref=e301]:
+                    - img [ref=e305]
+                    - generic [ref=e307]: craft
+              - treeitem "data" [level=1] [ref=e308]:
+                - generic [ref=e309] [cursor=pointer]:
+                  - img [ref=e311]
+                  - generic [ref=e313]:
+                    - img [ref=e317]
+                    - generic [ref=e319]: data
+              - treeitem "deploy" [level=1] [ref=e320]:
+                - generic [ref=e321] [cursor=pointer]:
+                  - img [ref=e323]
+                  - generic [ref=e325]:
+                    - img [ref=e329]
+                    - generic [ref=e331]: deploy
+              - treeitem "design-systems" [level=1] [ref=e332]:
+                - generic [ref=e333] [cursor=pointer]:
+                  - img [ref=e335]
+                  - generic [ref=e337]:
+                    - img [ref=e341]
+                    - generic [ref=e343]: design-systems
+              - treeitem "design-templates" [level=1] [ref=e344]:
+                - generic [ref=e345] [cursor=pointer]:
+                  - img [ref=e347]
+                  - generic [ref=e349]:
+                    - img [ref=e353]
+                    - generic [ref=e355]: design-templates
+              - treeitem "docs" [level=1] [ref=e356]:
+                - generic [ref=e357] [cursor=pointer]:
+                  - img [ref=e359]
+                  - generic [ref=e361]:
+                    - img [ref=e365]
+                    - generic [ref=e367]: docs
+              - treeitem "e2e" [level=1] [ref=e368]:
+                - generic [ref=e369] [cursor=pointer]:
+                  - img [ref=e371]
+                  - generic [ref=e373]:
+                    - img [ref=e377]
+                    - generic [ref=e379]: e2e
+              - treeitem "figma-plugin" [level=1] [ref=e380]:
+                - generic [ref=e381] [cursor=pointer]:
+                  - img [ref=e383]
+                  - generic [ref=e385]:
+                    - img [ref=e389]
+                    - generic [ref=e391]: figma-plugin
+              - treeitem "mocks" [level=1] [ref=e392]:
+                - generic [ref=e393] [cursor=pointer]:
+                  - img [ref=e395]
+                  - generic [ref=e397]:
+                    - img [ref=e401]
+                    - generic [ref=e403]: mocks
+              - treeitem "nix" [level=1] [ref=e404]:
+                - generic [ref=e405] [cursor=pointer]:
+                  - img [ref=e407]
+                  - generic [ref=e409]:
+                    - img [ref=e413]
+                    - generic [ref=e415]: nix
+              - treeitem "packages" [level=1] [ref=e416]:
+                - generic [ref=e417] [cursor=pointer]:
+                  - img [ref=e419]
+                  - generic [ref=e421]:
+                    - img [ref=e425]
+                    - generic [ref=e427]: packages
+              - treeitem "plugins" [level=1] [ref=e428]:
+                - generic [ref=e429] [cursor=pointer]:
+                  - img [ref=e431]
+                  - generic [ref=e433]:
+                    - img [ref=e437]
+                    - generic [ref=e439]: plugins
+              - treeitem "prompt-templates" [level=1] [ref=e440]:
+                - generic [ref=e441] [cursor=pointer]:
+                  - img [ref=e443]
+                  - generic [ref=e445]:
+                    - img [ref=e449]
+                    - generic [ref=e451]: prompt-templates
+              - treeitem "scripts" [level=1] [ref=e452]:
+                - generic [ref=e453] [cursor=pointer]:
+                  - img [ref=e455]
+                  - generic [ref=e457]:
+                    - img [ref=e461]
+                    - generic [ref=e463]: scripts
+              - treeitem "skills" [level=1] [ref=e464]:
+                - generic [ref=e465] [cursor=pointer]:
+                  - img [ref=e467]
+                  - generic [ref=e469]:
+                    - img [ref=e473]
+                    - generic [ref=e475]: skills
+              - treeitem "specs" [level=1] [ref=e476]:
+                - generic [ref=e477] [cursor=pointer]:
+                  - img [ref=e479]
+                  - generic [ref=e481]:
+                    - img [ref=e485]
+                    - generic [ref=e487]: specs
+              - treeitem "story" [level=1] [ref=e488]:
+                - generic [ref=e489] [cursor=pointer]:
+                  - img [ref=e491]
+                  - generic [ref=e493]:
+                    - img [ref=e497]
+                    - generic [ref=e499]: story
+              - treeitem "templates" [level=1] [ref=e500]:
+                - generic [ref=e501] [cursor=pointer]:
+                  - img [ref=e503]
+                  - generic [ref=e505]:
+                    - img [ref=e509]
+                    - generic [ref=e511]: templates
+              - treeitem "tools" [level=1] [ref=e512]:
+                - generic [ref=e513] [cursor=pointer]:
+                  - img [ref=e515]
+                  - generic [ref=e517]:
+                    - img [ref=e521]
+                    - generic [ref=e523]: tools
+              - treeitem ".dockerignore" [level=1] [ref=e524]:
+                - generic [ref=e526] [cursor=pointer]:
+                  - img [ref=e529]
+                  - generic [ref=e531]: .dockerignore
+              - treeitem ".gitignore" [level=1] [ref=e532]:
+                - generic [ref=e534] [cursor=pointer]:
+                  - img [ref=e537]
+                  - generic [ref=e539]: .gitignore
+              - treeitem ".node-version" [level=1] [ref=e540]:
+                - generic [ref=e542] [cursor=pointer]:
+                  - img [ref=e545]
+                  - generic [ref=e547]: .node-version
+              - treeitem "AGENTS.md" [level=1] [ref=e548]:
+                - generic [ref=e550] [cursor=pointer]:
+                  - img [ref=e553]
+                  - generic [ref=e555]: AGENTS.md
+              - treeitem "CHANGELOG.md" [level=1] [ref=e556]:
+                - generic [ref=e558] [cursor=pointer]:
+                  - img [ref=e561]
+                  - generic [ref=e563]: CHANGELOG.md
+              - treeitem "CLAUDE.md" [level=1] [ref=e564]:
+                - generic [ref=e566] [cursor=pointer]:
+                  - img [ref=e569]
+                  - generic [ref=e571]: CLAUDE.md
+              - treeitem "CONTEXT.md" [level=1] [ref=e572]:
+                - generic [ref=e574] [cursor=pointer]:
+                  - img [ref=e577]
+                  - generic [ref=e579]: CONTEXT.md
+              - treeitem "CONTRIBUTING.md" [level=1] [ref=e580]:
+                - generic [ref=e582] [cursor=pointer]:
+                  - img [ref=e585]
+                  - generic [ref=e587]: CONTRIBUTING.md
+              - treeitem "LICENSE" [level=1] [ref=e588]:
+                - generic [ref=e590] [cursor=pointer]:
+                  - img [ref=e593]
+                  - generic [ref=e595]: LICENSE
+              - treeitem "MAINTAINERS.md" [level=1] [ref=e596]:
+                - generic [ref=e598] [cursor=pointer]:
+                  - img [ref=e601]
+                  - generic [ref=e603]: MAINTAINERS.md
+              - treeitem "PRIVACY.md" [level=1] [ref=e604]:
+                - generic [ref=e606] [cursor=pointer]:
+                  - img [ref=e609]
+                  - generic [ref=e611]: PRIVACY.md
+              - treeitem "QUICKSTART.md" [level=1] [ref=e612]:
+                - generic [ref=e614] [cursor=pointer]:
+                  - img [ref=e617]
+                  - generic [ref=e619]: QUICKSTART.md
+              - treeitem "README.md" [level=1] [ref=e620]:
+                - generic [ref=e622] [cursor=pointer]:
+                  - img [ref=e625]
+                  - generic [ref=e627]: README.md
+              - treeitem "RELEASE-NOTES-0.10.0.md" [level=1] [ref=e628]:
+                - generic [ref=e630] [cursor=pointer]:
+                  - img [ref=e633]
+                  - generic [ref=e635]: RELEASE-NOTES-0.10.0.md
+              - treeitem "TRANSLATIONS.md" [level=1] [ref=e636]:
+                - generic [ref=e638] [cursor=pointer]:
+                  - img [ref=e641]
+                  - generic [ref=e643]: TRANSLATIONS.md
+              - treeitem "design-browser-task-handoff.md" [level=1] [ref=e644]:
+                - generic [ref=e646] [cursor=pointer]:
+                  - img [ref=e649]
+                  - generic [ref=e651]: design-browser-task-handoff.md
+              - treeitem "flake.lock" [level=1] [ref=e652]:
+                - generic [ref=e654] [cursor=pointer]:
+                  - img [ref=e657]
+                  - generic [ref=e659]: flake.lock
+              - treeitem "flake.nix" [level=1] [ref=e660]:
+                - generic [ref=e662] [cursor=pointer]:
+                  - img [ref=e665]
+                  - generic [ref=e667]: flake.nix
+              - treeitem "mise.toml" [level=1] [ref=e668]:
+                - generic [ref=e670] [cursor=pointer]:
+                  - img [ref=e673]
+                  - generic [ref=e675]: mise.toml
+              - treeitem "package.json" [level=1] [ref=e676]:
+                - generic [ref=e678] [cursor=pointer]:
+                  - img [ref=e681]
+                  - generic [ref=e683]: package.json
+              - treeitem "pnpm-lock.yaml" [level=1] [ref=e684]:
+                - generic [ref=e686] [cursor=pointer]:
+                  - img [ref=e689]
+                  - generic [ref=e691]: pnpm-lock.yaml
+              - treeitem "pnpm-workspace.yaml" [level=1] [ref=e692]:
+                - generic [ref=e694] [cursor=pointer]:
+                  - img [ref=e697]
+                  - generic [ref=e699]: pnpm-workspace.yaml
+              - treeitem "vercel.json" [level=1] [ref=e700]:
+                - generic [ref=e702] [cursor=pointer]:
+                  - img [ref=e705]
+                  - generic [ref=e707]: vercel.json
+        - slider "Draggable pane splitter" [ref=e709]
+      - generic [ref=e714]:
+        - img [ref=e715]
+        - generic [ref=e717]:
+          - generic [ref=e718]: 404 - page not found
+          - generic [ref=e719]:
+            - text: The
+            - generic [ref=e720]: main
+            - text: branch of
+            - paragraph [ref=e721]: open-design
+            - text: does not contain the path
+            - paragraph [ref=e722]: docs/setup.md.
+        - link "go to Overview" [ref=e723] [cursor=pointer]:
+          - /url: /nexu-io/open-design
+          - generic [ref=e725]: Return to the repository overview

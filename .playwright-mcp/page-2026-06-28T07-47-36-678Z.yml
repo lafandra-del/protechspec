@@ -1,0 +1,1323 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fnexu-io%2Fopen-design%2Fblob%2Fmain%2Fdocs%2Freferences.md
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=nexu-io%2Fopen-design
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "nexu-io" [ref=e70] [cursor=pointer]:
+              - /url: /nexu-io
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "open-design" [ref=e73] [cursor=pointer]:
+                - /url: /nexu-io/open-design
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fnexu-io%2Fopen-design
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 8.2k" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fnexu-io%2Fopen-design
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "8,169" [ref=e84]: 8.2k
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fnexu-io%2Fopen-design
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "72121 users starred this repository" [ref=e90]: 72.1k
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /nexu-io/open-design
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 307" [ref=e99] [cursor=pointer]:
+                - /url: /nexu-io/open-design/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "307" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests 153" [ref=e106] [cursor=pointer]:
+                - /url: /nexu-io/open-design/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+                - generic "153" [ref=e110]
+            - listitem [ref=e111]:
+              - link "Discussions" [ref=e112] [cursor=pointer]:
+                - /url: /nexu-io/open-design/discussions
+                - img [ref=e113]
+                - generic [ref=e115]: Discussions
+            - listitem [ref=e116]:
+              - link "Actions" [ref=e117] [cursor=pointer]:
+                - /url: /nexu-io/open-design/actions
+                - img [ref=e118]
+                - generic [ref=e120]: Actions
+            - listitem [ref=e121]:
+              - link "Projects" [ref=e122] [cursor=pointer]:
+                - /url: /nexu-io/open-design/projects
+                - img [ref=e123]
+                - generic [ref=e125]: Projects
+            - listitem [ref=e126]:
+              - link "Security and quality" [ref=e127] [cursor=pointer]:
+                - /url: /nexu-io/open-design/security
+                - img [ref=e128]
+                - generic [ref=e130]: Security and quality
+            - listitem [ref=e131]
+          - button "Additional navigation options" [ref=e135] [cursor=pointer]:
+            - img
+      - generic [ref=e143]:
+        - generic [ref=e145]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - heading "Collapse file tree" [level=2] [ref=e151]:
+                  - button "Collapse file tree" [expanded] [ref=e152] [cursor=pointer]:
+                    - img [ref=e153]
+                - heading "Files" [level=2] [ref=e156]
+              - generic [ref=e157]:
+                - button "main branch" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e160]:
+                    - generic [ref=e162]:
+                      - img [ref=e164]
+                      - generic [ref=e167]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e169] [cursor=pointer]:
+                  - img [ref=e170]
+            - generic [ref=e173]:
+              - img [ref=e175]
+              - combobox "Go to file" [ref=e177]
+            - navigation "File Tree Navigation" [ref=e183]:
+              - tree "Files" [ref=e185]:
+                - treeitem ".claude-plugin" [level=1] [ref=e186]:
+                  - generic [ref=e187] [cursor=pointer]:
+                    - img [ref=e189]
+                    - generic [ref=e191]:
+                      - img [ref=e195]
+                      - generic [ref=e197]: .claude-plugin
+                - treeitem ".claude" [level=1] [ref=e198]:
+                  - generic [ref=e199] [cursor=pointer]:
+                    - img [ref=e201]
+                    - generic [ref=e203]:
+                      - img [ref=e207]
+                      - generic [ref=e209]: .claude
+                - treeitem ".github" [level=1] [ref=e210]:
+                  - generic [ref=e211] [cursor=pointer]:
+                    - img [ref=e213]
+                    - generic [ref=e215]:
+                      - img [ref=e219]
+                      - generic [ref=e221]: .github
+                - treeitem ".vaunt" [level=1] [ref=e222]:
+                  - generic [ref=e223] [cursor=pointer]:
+                    - img [ref=e225]
+                    - generic [ref=e227]:
+                      - img [ref=e231]
+                      - generic [ref=e233]: .vaunt
+                - treeitem "apps" [level=1] [ref=e234]:
+                  - generic [ref=e235] [cursor=pointer]:
+                    - img [ref=e237]
+                    - generic [ref=e239]:
+                      - img [ref=e243]
+                      - generic [ref=e245]: apps
+                - treeitem "assets" [level=1] [ref=e246]:
+                  - generic [ref=e247] [cursor=pointer]:
+                    - img [ref=e249]
+                    - generic [ref=e251]:
+                      - img [ref=e255]
+                      - generic [ref=e257]: assets
+                - treeitem "charts" [level=1] [ref=e258]:
+                  - generic [ref=e259] [cursor=pointer]:
+                    - img [ref=e261]
+                    - generic [ref=e263]:
+                      - img [ref=e267]
+                      - generic [ref=e269]: charts
+                - treeitem "clipper" [level=1] [ref=e270]:
+                  - generic [ref=e271] [cursor=pointer]:
+                    - img [ref=e273]
+                    - generic [ref=e275]:
+                      - img [ref=e279]
+                      - generic [ref=e281]: clipper
+                - treeitem "craft" [level=1] [ref=e282]:
+                  - generic [ref=e283] [cursor=pointer]:
+                    - img [ref=e285]
+                    - generic [ref=e287]:
+                      - img [ref=e291]
+                      - generic [ref=e293]: craft
+                - treeitem "data" [level=1] [ref=e294]:
+                  - generic [ref=e295] [cursor=pointer]:
+                    - img [ref=e297]
+                    - generic [ref=e299]:
+                      - img [ref=e303]
+                      - generic [ref=e305]: data
+                - treeitem "deploy" [level=1] [ref=e306]:
+                  - generic [ref=e307] [cursor=pointer]:
+                    - img [ref=e309]
+                    - generic [ref=e311]:
+                      - img [ref=e315]
+                      - generic [ref=e317]: deploy
+                - treeitem "design-systems" [level=1] [ref=e318]:
+                  - generic [ref=e319] [cursor=pointer]:
+                    - img [ref=e321]
+                    - generic [ref=e323]:
+                      - img [ref=e327]
+                      - generic [ref=e329]: design-systems
+                - treeitem "design-templates" [level=1] [ref=e330]:
+                  - generic [ref=e331] [cursor=pointer]:
+                    - img [ref=e333]
+                    - generic [ref=e335]:
+                      - img [ref=e339]
+                      - generic [ref=e341]: design-templates
+                - treeitem "docs" [expanded] [level=1] [ref=e342]:
+                  - generic [ref=e343] [cursor=pointer]:
+                    - img [ref=e345]
+                    - generic [ref=e347]:
+                      - img [ref=e351]
+                      - generic [ref=e353]: docs
+                  - group "docs" [ref=e354]:
+                    - treeitem "adr" [level=2] [ref=e355]:
+                      - generic [ref=e356] [cursor=pointer]:
+                        - img [ref=e361]
+                        - generic [ref=e363]:
+                          - img [ref=e367]
+                          - generic [ref=e369]: adr
+                    - treeitem "assets" [level=2] [ref=e370]:
+                      - generic [ref=e371] [cursor=pointer]:
+                        - img [ref=e376]
+                        - generic [ref=e378]:
+                          - img [ref=e382]
+                          - generic [ref=e384]: assets
+                    - treeitem "deployment" [level=2] [ref=e385]:
+                      - generic [ref=e386] [cursor=pointer]:
+                        - img [ref=e391]
+                        - generic [ref=e393]:
+                          - img [ref=e397]
+                          - generic [ref=e399]: deployment
+                    - treeitem "examples" [level=2] [ref=e400]:
+                      - generic [ref=e401] [cursor=pointer]:
+                        - img [ref=e406]
+                        - generic [ref=e408]:
+                          - img [ref=e412]
+                          - generic [ref=e414]: examples
+                    - treeitem "i18n" [level=2] [ref=e415]:
+                      - generic [ref=e416] [cursor=pointer]:
+                        - img [ref=e421]
+                        - generic [ref=e423]:
+                          - img [ref=e427]
+                          - generic [ref=e429]: i18n
+                    - treeitem "plans" [level=2] [ref=e430]:
+                      - generic [ref=e431] [cursor=pointer]:
+                        - img [ref=e436]
+                        - generic [ref=e438]:
+                          - img [ref=e442]
+                          - generic [ref=e444]: plans
+                    - treeitem "rfc-drafts" [level=2] [ref=e445]:
+                      - generic [ref=e446] [cursor=pointer]:
+                        - img [ref=e451]
+                        - generic [ref=e453]:
+                          - img [ref=e457]
+                          - generic [ref=e459]: rfc-drafts
+                    - treeitem "schemas" [level=2] [ref=e460]:
+                      - generic [ref=e461] [cursor=pointer]:
+                        - img [ref=e466]
+                        - generic [ref=e468]:
+                          - img [ref=e472]
+                          - generic [ref=e474]: schemas
+                    - treeitem "screenshots" [level=2] [ref=e475]:
+                      - generic [ref=e476] [cursor=pointer]:
+                        - img [ref=e481]
+                        - generic [ref=e483]:
+                          - img [ref=e487]
+                          - generic [ref=e489]: screenshots
+                    - treeitem "superpowers" [level=2] [ref=e490]:
+                      - generic [ref=e491] [cursor=pointer]:
+                        - img [ref=e496]
+                        - generic [ref=e498]:
+                          - img [ref=e502]
+                          - generic [ref=e504]: superpowers
+                    - treeitem "testing" [level=2] [ref=e505]:
+                      - generic [ref=e506] [cursor=pointer]:
+                        - img [ref=e511]
+                        - generic [ref=e513]:
+                          - img [ref=e517]
+                          - generic [ref=e519]: testing
+                    - treeitem "MOCKS-CONTRACT-CHECK.md" [level=2] [ref=e520]:
+                      - generic [ref=e525] [cursor=pointer]:
+                        - img [ref=e528]
+                        - generic [ref=e530]: MOCKS-CONTRACT-CHECK.md
+                    - treeitem "agent-adapters.md" [level=2] [ref=e531]:
+                      - generic [ref=e536] [cursor=pointer]:
+                        - img [ref=e539]
+                        - generic [ref=e541]: agent-adapters.md
+                    - treeitem "ai-native-observability-trace-analysis.md" [level=2] [ref=e542]:
+                      - generic [ref=e547] [cursor=pointer]:
+                        - img [ref=e550]
+                        - generic [ref=e552]: ai-native-observability-trace-analysis.md
+                    - treeitem "architecture.md" [level=2] [ref=e553]:
+                      - generic [ref=e558] [cursor=pointer]:
+                        - img [ref=e561]
+                        - generic [ref=e563]: architecture.md
+                    - treeitem "atoms.md" [level=2] [ref=e564]:
+                      - generic [ref=e569] [cursor=pointer]:
+                        - img [ref=e572]
+                        - generic [ref=e574]: atoms.md
+                    - treeitem "blog-indexing-automation.md" [level=2] [ref=e575]:
+                      - generic [ref=e580] [cursor=pointer]:
+                        - img [ref=e583]
+                        - generic [ref=e585]: blog-indexing-automation.md
+                    - treeitem "blog-indexing-status.json" [level=2] [ref=e586]:
+                      - generic [ref=e591] [cursor=pointer]:
+                        - img [ref=e594]
+                        - generic [ref=e596]: blog-indexing-status.json
+                    - treeitem "blog-indexing-status.md" [level=2] [ref=e597]:
+                      - generic [ref=e602] [cursor=pointer]:
+                        - img [ref=e605]
+                        - generic [ref=e607]: blog-indexing-status.md
+                    - treeitem "code-review-guidelines.md" [level=2] [ref=e608]:
+                      - generic [ref=e613] [cursor=pointer]:
+                        - img [ref=e616]
+                        - generic [ref=e618]: code-review-guidelines.md
+                    - treeitem "codex-pets.md" [level=2] [ref=e619]:
+                      - generic [ref=e624] [cursor=pointer]:
+                        - img [ref=e627]
+                        - generic [ref=e629]: codex-pets.md
+                    - treeitem "critique-theater.md" [level=2] [ref=e630]:
+                      - generic [ref=e635] [cursor=pointer]:
+                        - img [ref=e638]
+                        - generic [ref=e640]: critique-theater.md
+                    - treeitem "design-system-tracking-spec.md" [level=2] [ref=e641]:
+                      - generic [ref=e646] [cursor=pointer]:
+                        - img [ref=e649]
+                        - generic [ref=e651]: design-system-tracking-spec.md
+                    - treeitem "design-systems.md" [level=2] [ref=e652]:
+                      - generic [ref=e657] [cursor=pointer]:
+                        - img [ref=e660]
+                        - generic [ref=e662]: design-systems.md
+                    - treeitem "external-media-orchestration.md" [level=2] [ref=e663]:
+                      - generic [ref=e668] [cursor=pointer]:
+                        - img [ref=e671]
+                        - generic [ref=e673]: external-media-orchestration.md
+                    - treeitem "install-guide.md" [level=2] [ref=e674]:
+                      - generic [ref=e679] [cursor=pointer]:
+                        - img [ref=e682]
+                        - generic [ref=e684]: install-guide.md
+                    - treeitem "modes.md" [level=2] [ref=e685]:
+                      - generic [ref=e690] [cursor=pointer]:
+                        - img [ref=e693]
+                        - generic [ref=e695]: modes.md
+                    - treeitem "new-agent-runtime-acp.md" [level=2] [ref=e696]:
+                      - generic [ref=e701] [cursor=pointer]:
+                        - img [ref=e704]
+                        - generic [ref=e706]: new-agent-runtime-acp.md
+                    - treeitem "notebooklm.md" [level=2] [ref=e707]:
+                      - generic [ref=e712] [cursor=pointer]:
+                        - img [ref=e715]
+                        - generic [ref=e717]: notebooklm.md
+                    - treeitem "orchestrator-workspaces.md" [level=2] [ref=e718]:
+                      - generic [ref=e723] [cursor=pointer]:
+                        - img [ref=e726]
+                        - generic [ref=e728]: orchestrator-workspaces.md
+                    - treeitem "plugins-spec.md" [level=2] [ref=e729]:
+                      - generic [ref=e734] [cursor=pointer]:
+                        - img [ref=e737]
+                        - generic [ref=e739]: plugins-spec.md
+                    - treeitem "plugins-spec.zh-CN.md" [level=2] [ref=e740]:
+                      - generic [ref=e745] [cursor=pointer]:
+                        - img [ref=e748]
+                        - generic [ref=e750]: plugins-spec.zh-CN.md
+                    - treeitem "publishing-a-plugin.md" [level=2] [ref=e751]:
+                      - generic [ref=e756] [cursor=pointer]:
+                        - img [ref=e759]
+                        - generic [ref=e761]: publishing-a-plugin.md
+                    - treeitem "publishing-a-plugin.zh-CN.md" [level=2] [ref=e762]:
+                      - generic [ref=e767] [cursor=pointer]:
+                        - img [ref=e770]
+                        - generic [ref=e772]: publishing-a-plugin.zh-CN.md
+                    - treeitem "references.md" [level=2] [ref=e773]:
+                      - generic [ref=e778] [cursor=pointer]:
+                        - img [ref=e781]
+                        - generic [ref=e783]: references.md
+                    - treeitem "roadmap.md" [level=2] [ref=e784]:
+                      - generic [ref=e789] [cursor=pointer]:
+                        - img [ref=e792]
+                        - generic [ref=e794]: roadmap.md
+                    - treeitem "self-hosting-a-registry.md" [level=2] [ref=e795]:
+                      - generic [ref=e800] [cursor=pointer]:
+                        - img [ref=e803]
+                        - generic [ref=e805]: self-hosting-a-registry.md
+                    - treeitem "skills-contributing.md" [level=2] [ref=e806]:
+                      - generic [ref=e811] [cursor=pointer]:
+                        - img [ref=e814]
+                        - generic [ref=e816]: skills-contributing.md
+                    - treeitem "skills-protocol.md" [level=2] [ref=e817]:
+                      - generic [ref=e822] [cursor=pointer]:
+                        - img [ref=e825]
+                        - generic [ref=e827]: skills-protocol.md
+                    - treeitem "spec.md" [level=2] [ref=e828]:
+                      - generic [ref=e833] [cursor=pointer]:
+                        - img [ref=e836]
+                        - generic [ref=e838]: spec.md
+                    - treeitem "v0.8.0-announcement.md" [level=2] [ref=e839]:
+                      - generic [ref=e844] [cursor=pointer]:
+                        - img [ref=e847]
+                        - generic [ref=e849]: v0.8.0-announcement.md
+                    - treeitem "v0.8.0-announcement.zh-CN.md" [level=2] [ref=e850]:
+                      - generic [ref=e855] [cursor=pointer]:
+                        - img [ref=e858]
+                        - generic [ref=e860]: v0.8.0-announcement.zh-CN.md
+                    - treeitem "windows-troubleshooting.md" [level=2] [ref=e861]:
+                      - generic [ref=e866] [cursor=pointer]:
+                        - img [ref=e869]
+                        - generic [ref=e871]: windows-troubleshooting.md
+                    - treeitem "wsl-setup.md" [level=2] [ref=e872]:
+                      - generic [ref=e877] [cursor=pointer]:
+                        - img [ref=e880]
+                        - generic [ref=e882]: wsl-setup.md
+                - treeitem "e2e" [level=1] [ref=e883]:
+                  - generic [ref=e884] [cursor=pointer]:
+                    - img [ref=e886]
+                    - generic [ref=e888]:
+                      - img [ref=e892]
+                      - generic [ref=e894]: e2e
+                - treeitem "figma-plugin" [level=1] [ref=e895]:
+                  - generic [ref=e896] [cursor=pointer]:
+                    - img [ref=e898]
+                    - generic [ref=e900]:
+                      - img [ref=e904]
+                      - generic [ref=e906]: figma-plugin
+                - treeitem "mocks" [level=1] [ref=e907]:
+                  - generic [ref=e908] [cursor=pointer]:
+                    - img [ref=e910]
+                    - generic [ref=e912]:
+                      - img [ref=e916]
+                      - generic [ref=e918]: mocks
+                - treeitem "nix" [level=1] [ref=e919]:
+                  - generic [ref=e920] [cursor=pointer]:
+                    - img [ref=e922]
+                    - generic [ref=e924]:
+                      - img [ref=e928]
+                      - generic [ref=e930]: nix
+                - treeitem "packages" [level=1] [ref=e931]:
+                  - generic [ref=e932] [cursor=pointer]:
+                    - img [ref=e934]
+                    - generic [ref=e936]:
+                      - img [ref=e940]
+                      - generic [ref=e942]: packages
+                - treeitem "plugins" [level=1] [ref=e943]:
+                  - generic [ref=e944] [cursor=pointer]:
+                    - img [ref=e946]
+                    - generic [ref=e948]:
+                      - img [ref=e952]
+                      - generic [ref=e954]: plugins
+                - treeitem "prompt-templates" [level=1] [ref=e955]:
+                  - generic [ref=e956] [cursor=pointer]:
+                    - img [ref=e958]
+                    - generic [ref=e960]:
+                      - img [ref=e964]
+                      - generic [ref=e966]: prompt-templates
+                - treeitem "scripts" [level=1] [ref=e967]:
+                  - generic [ref=e968] [cursor=pointer]:
+                    - img [ref=e970]
+                    - generic [ref=e972]:
+                      - img [ref=e976]
+                      - generic [ref=e978]: scripts
+                - treeitem "skills" [level=1] [ref=e979]:
+                  - generic [ref=e980] [cursor=pointer]:
+                    - img [ref=e982]
+                    - generic [ref=e984]:
+                      - img [ref=e988]
+                      - generic [ref=e990]: skills
+                - treeitem "specs" [level=1] [ref=e991]:
+                  - generic [ref=e992] [cursor=pointer]:
+                    - img [ref=e994]
+                    - generic [ref=e996]:
+                      - img [ref=e1000]
+                      - generic [ref=e1002]: specs
+                - treeitem "story" [level=1] [ref=e1003]:
+                  - generic [ref=e1004] [cursor=pointer]:
+                    - img [ref=e1006]
+                    - generic [ref=e1008]:
+                      - img [ref=e1012]
+                      - generic [ref=e1014]: story
+                - treeitem "templates" [level=1] [ref=e1015]:
+                  - generic [ref=e1016] [cursor=pointer]:
+                    - img [ref=e1018]
+                    - generic [ref=e1020]:
+                      - img [ref=e1024]
+                      - generic [ref=e1026]: templates
+                - treeitem "tools" [level=1] [ref=e1027]:
+                  - generic [ref=e1028] [cursor=pointer]:
+                    - img [ref=e1030]
+                    - generic [ref=e1032]:
+                      - img [ref=e1036]
+                      - generic [ref=e1038]: tools
+                - treeitem ".dockerignore" [level=1] [ref=e1039]:
+                  - generic [ref=e1041] [cursor=pointer]:
+                    - img [ref=e1044]
+                    - generic [ref=e1046]: .dockerignore
+                - treeitem ".gitignore" [level=1] [ref=e1047]:
+                  - generic [ref=e1049] [cursor=pointer]:
+                    - img [ref=e1052]
+                    - generic [ref=e1054]: .gitignore
+                - treeitem ".node-version" [level=1] [ref=e1055]:
+                  - generic [ref=e1057] [cursor=pointer]:
+                    - img [ref=e1060]
+                    - generic [ref=e1062]: .node-version
+                - treeitem "AGENTS.md" [level=1] [ref=e1063]:
+                  - generic [ref=e1065] [cursor=pointer]:
+                    - img [ref=e1068]
+                    - generic [ref=e1070]: AGENTS.md
+                - treeitem "CHANGELOG.md" [level=1] [ref=e1071]:
+                  - generic [ref=e1073] [cursor=pointer]:
+                    - img [ref=e1076]
+                    - generic [ref=e1078]: CHANGELOG.md
+                - treeitem "CLAUDE.md" [level=1] [ref=e1079]:
+                  - generic [ref=e1081] [cursor=pointer]:
+                    - img [ref=e1084]
+                    - generic [ref=e1086]: CLAUDE.md
+                - treeitem "CONTEXT.md" [level=1] [ref=e1087]:
+                  - generic [ref=e1089] [cursor=pointer]:
+                    - img [ref=e1092]
+                    - generic [ref=e1094]: CONTEXT.md
+                - treeitem "CONTRIBUTING.md" [level=1] [ref=e1095]:
+                  - generic [ref=e1097] [cursor=pointer]:
+                    - img [ref=e1100]
+                    - generic [ref=e1102]: CONTRIBUTING.md
+                - treeitem "LICENSE" [level=1] [ref=e1103]:
+                  - generic [ref=e1105] [cursor=pointer]:
+                    - img [ref=e1108]
+                    - generic [ref=e1110]: LICENSE
+                - treeitem "MAINTAINERS.md" [level=1] [ref=e1111]:
+                  - generic [ref=e1113] [cursor=pointer]:
+                    - img [ref=e1116]
+                    - generic [ref=e1118]: MAINTAINERS.md
+                - treeitem "PRIVACY.md" [level=1] [ref=e1119]:
+                  - generic [ref=e1121] [cursor=pointer]:
+                    - img [ref=e1124]
+                    - generic [ref=e1126]: PRIVACY.md
+                - treeitem "QUICKSTART.md" [level=1] [ref=e1127]:
+                  - generic [ref=e1129] [cursor=pointer]:
+                    - img [ref=e1132]
+                    - generic [ref=e1134]: QUICKSTART.md
+                - treeitem "README.md" [level=1] [ref=e1135]:
+                  - generic [ref=e1137] [cursor=pointer]:
+                    - img [ref=e1140]
+                    - generic [ref=e1142]: README.md
+                - treeitem "RELEASE-NOTES-0.10.0.md" [level=1] [ref=e1143]:
+                  - generic [ref=e1145] [cursor=pointer]:
+                    - img [ref=e1148]
+                    - generic [ref=e1150]: RELEASE-NOTES-0.10.0.md
+                - treeitem "TRANSLATIONS.md" [level=1] [ref=e1151]:
+                  - generic [ref=e1153] [cursor=pointer]:
+                    - img [ref=e1156]
+                    - generic [ref=e1158]: TRANSLATIONS.md
+                - treeitem "design-browser-task-handoff.md" [level=1] [ref=e1159]:
+                  - generic [ref=e1161] [cursor=pointer]:
+                    - img [ref=e1164]
+                    - generic [ref=e1166]: design-browser-task-handoff.md
+                - treeitem "flake.lock" [level=1] [ref=e1167]:
+                  - generic [ref=e1169] [cursor=pointer]:
+                    - img [ref=e1172]
+                    - generic [ref=e1174]: flake.lock
+                - treeitem "flake.nix" [level=1] [ref=e1175]:
+                  - generic [ref=e1177] [cursor=pointer]:
+                    - img [ref=e1180]
+                    - generic [ref=e1182]: flake.nix
+                - treeitem "mise.toml" [level=1] [ref=e1183]:
+                  - generic [ref=e1185] [cursor=pointer]:
+                    - img [ref=e1188]
+                    - generic [ref=e1190]: mise.toml
+                - treeitem "package.json" [level=1] [ref=e1191]:
+                  - generic [ref=e1193] [cursor=pointer]:
+                    - img [ref=e1196]
+                    - generic [ref=e1198]: package.json
+                - treeitem "pnpm-lock.yaml" [level=1] [ref=e1199]:
+                  - generic [ref=e1201] [cursor=pointer]:
+                    - img [ref=e1204]
+                    - generic [ref=e1206]: pnpm-lock.yaml
+                - treeitem "pnpm-workspace.yaml" [level=1] [ref=e1207]:
+                  - generic [ref=e1209] [cursor=pointer]:
+                    - img [ref=e1212]
+                    - generic [ref=e1214]: pnpm-workspace.yaml
+                - treeitem "vercel.json" [level=1] [ref=e1215]:
+                  - generic [ref=e1217] [cursor=pointer]:
+                    - img [ref=e1220]
+                    - generic [ref=e1222]: vercel.json
+          - slider "Draggable pane splitter" [ref=e1224]
+        - generic [ref=e1227]:
+          - generic [ref=e1231]:
+            - generic [ref=e1233]:
+              - navigation "Breadcrumbs" [ref=e1234]:
+                - heading "Breadcrumbs" [level=2] [ref=e1235]
+                - list [ref=e1236]:
+                  - listitem [ref=e1237]:
+                    - link "open-design" [ref=e1238] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/tree/main
+                  - listitem [ref=e1239]:
+                    - text: /
+                    - link "docs" [ref=e1240] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/tree/main/docs
+              - generic [ref=e1241]:
+                - text: /
+                - heading "references.md" [level=1] [ref=e1242]
+              - button "Copy path" [ref=e1243] [cursor=pointer]:
+                - img [ref=e1244]
+            - button "More file actions" [ref=e1250] [cursor=pointer]:
+              - img [ref=e1251]
+          - generic [ref=e1253]:
+            - generic [ref=e1255]:
+              - heading "Latest commit" [level=2] [ref=e1256]
+              - generic [ref=e1257]:
+                - generic [ref=e1259]:
+                  - link "pftom" [ref=e1260] [cursor=pointer]:
+                    - /url: /pftom
+                    - img "pftom" [ref=e1261]
+                  - link "commits by pftom" [ref=e1262] [cursor=pointer]:
+                    - /url: /nexu-io/open-design/commits?author=pftom
+                    - text: pftom
+                - generic [ref=e1263]:
+                  - generic [ref=e1265]:
+                    - link "[codex] Add automation templates and proposal workflows (" [ref=e1266] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/commit/86ec951fb956253827e3ad9778fb7a3a5d2ee9cf
+                    - link "#2193" [ref=e1267] [cursor=pointer]:
+                      - /url: https://github.com/nexu-io/open-design/pull/2193
+                    - link ")" [ref=e1268] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/commit/86ec951fb956253827e3ad9778fb7a3a5d2ee9cf
+                  - button "Open commit details" [ref=e1269] [cursor=pointer]:
+                    - img [ref=e1270]
+                  - button "failure" [ref=e1272] [cursor=pointer]:
+                    - img [ref=e1273]
+              - generic [ref=e1275]:
+                - generic [ref=e1277]:
+                  - link "Commit 86ec951" [ref=e1278] [cursor=pointer]:
+                    - /url: /nexu-io/open-design/commit/86ec951fb956253827e3ad9778fb7a3a5d2ee9cf
+                    - text: 86ec951
+                  - text: ·
+                  - generic "May 19, 2026, 13:35 GMT+5" [ref=e1279]: May 19, 2026last month
+                - generic [ref=e1280]:
+                  - heading "History" [level=2] [ref=e1281]
+                  - link "History" [ref=e1282] [cursor=pointer]:
+                    - /url: /nexu-io/open-design/commits/main/docs/references.md
+                    - generic [ref=e1283]:
+                      - generic:
+                        - img
+                      - generic [ref=e1284]: History
+            - generic [ref=e1286]:
+              - generic [ref=e1288]:
+                - heading "File metadata and controls" [level=2] [ref=e1289]
+                - list "File view" [ref=e1291]:
+                  - listitem [ref=e1292]:
+                    - button "Preview" [ref=e1293] [cursor=pointer]:
+                      - generic [ref=e1295]: Preview
+                  - listitem [ref=e1296]:
+                    - button "Code" [ref=e1297] [cursor=pointer]:
+                      - generic [ref=e1299]: Code
+                  - listitem [ref=e1300]:
+                    - button "Blame" [ref=e1301] [cursor=pointer]:
+                      - generic [ref=e1303]: Blame
+                - generic [ref=e1304]:
+                  - generic [ref=e1305]:
+                    - generic [ref=e1306]:
+                      - link "Raw" [ref=e1308] [cursor=pointer]:
+                        - /url: https://github.com/nexu-io/open-design/raw/refs/heads/main/docs/references.md
+                        - generic [ref=e1310]: Raw
+                      - button "Copy raw file" [ref=e1312] [cursor=pointer]:
+                        - img [ref=e1313]
+                      - button "Download raw file" [ref=e1317] [cursor=pointer]:
+                        - img [ref=e1318]
+                    - generic [ref=e1321]:
+                      - button "You must be signed in to make or propose changes" [disabled] [ref=e1323]:
+                        - img [ref=e1324]
+                      - button "More edit options" [ref=e1327] [cursor=pointer]:
+                        - img [ref=e1328]
+                  - button "Outline" [ref=e1330] [cursor=pointer]:
+                    - img [ref=e1331]
+              - region "references.md" [ref=e1334]:
+                - article [ref=e1336]:
+                  - generic [ref=e1337]:
+                    - heading "References" [level=1] [ref=e1338]
+                    - 'link "Permalink: References" [ref=e1339] [cursor=pointer]':
+                      - /url: "#references"
+                      - img [ref=e1340]
+                  - paragraph [ref=e1342]:
+                    - strong [ref=e1343]: "Parent:"
+                    - link "spec.md" [ref=e1344] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/spec.md
+                      - code [ref=e1345]: spec.md
+                  - paragraph [ref=e1346]: "Every external project this spec leans on. Three questions per entry: what is it, what do we borrow, and what do we deliberately not take."
+                  - separator [ref=e1347]
+                  - generic [ref=e1348]:
+                    - heading "Primary references" [level=2] [ref=e1349]
+                    - 'link "Permalink: Primary references" [ref=e1350] [cursor=pointer]':
+                      - /url: "#primary-references"
+                      - img [ref=e1351]
+                  - generic [ref=e1353]:
+                    - heading "Anthropic Claude Design" [level=3] [ref=e1354]:
+                      - link "Anthropic Claude Design" [ref=e1355] [cursor=pointer]:
+                        - /url: https://x.com/claudeai/status/2045156267690213649
+                    - 'link "Permalink: Anthropic Claude Design" [ref=e1356] [cursor=pointer]':
+                      - /url: "#anthropic-claude-design"
+                      - img [ref=e1357]
+                  - list [ref=e1359]:
+                    - listitem [ref=e1360]:
+                      - strong [ref=e1361]: "URL:"
+                      - link "claude.ai/design" [ref=e1362] [cursor=pointer]:
+                        - /url: https://x.com/claudeai/status/2045156267690213649
+                      - text: ·
+                      - link "release announcement" [ref=e1363] [cursor=pointer]:
+                        - /url: https://www.infoq.cn/article/TH0QVHpvVGZ7VP3hAEmm
+                      - text: ·
+                      - link "ifanr review" [ref=e1364] [cursor=pointer]:
+                        - /url: https://www.ifanr.com/1662860
+                  - list [ref=e1365]:
+                    - listitem [ref=e1366]:
+                      - strong [ref=e1367]: "What it is:"
+                      - text: Anthropic's closed-source AI design product. Released 2026-04-17. Powered by Opus 4.7. Web-only (claude.ai). Generates prototypes, wireframes, decks, marketing pages, complex prototypes with voice/video/3D/shaders.
+                    - listitem [ref=e1368]:
+                      - strong [ref=e1369]: "Why it matters to us:"
+                      - text: Defines the category. Its viral moment (~60M X impressions week 1) proves the market.
+                    - listitem [ref=e1370]:
+                      - strong [ref=e1371]: "What we borrow:"
+                      - text: The high-level value prop — "natural language → editable visual design." Feature inspiration for modes (prototype, deck, marketing). UI ideas around inline editing and custom sliders.
+                    - listitem [ref=e1372]:
+                      - strong [ref=e1373]: "What we don't:"
+                      - text: Closed source. Anthropic-only models. No self-hosting. Paid tiers (Pro/Max/Team/Enterprise) only. We are not trying to be a drop-in clone; we are an
+                      - strong [ref=e1374]: open substrate
+                      - text: for the same category.
+                  - generic [ref=e1375]:
+                    - heading "Open CoDesign (OpenCoworkAI)" [level=3] [ref=e1376]:
+                      - link "Open CoDesign" [ref=e1377] [cursor=pointer]:
+                        - /url: https://github.com/OpenCoworkAI/open-codesign
+                      - text: (OpenCoworkAI)
+                    - 'link "Permalink: Open CoDesign (OpenCoworkAI)" [ref=e1378] [cursor=pointer]':
+                      - /url: "#open-codesign-opencoworkai"
+                      - img [ref=e1379]
+                  - list [ref=e1381]:
+                    - listitem [ref=e1382]:
+                      - strong [ref=e1383]: "Repo:"
+                      - link "github.com/OpenCoworkAI/open-codesign" [ref=e1384] [cursor=pointer]:
+                        - /url: https://github.com/OpenCoworkAI/open-codesign
+                    - listitem [ref=e1385]:
+                      - strong [ref=e1386]: "Site:"
+                      - link "opencoworkai.github.io/open-codesign" [ref=e1387] [cursor=pointer]:
+                        - /url: https://opencoworkai.github.io/open-codesign/
+                    - listitem [ref=e1388]:
+                      - strong [ref=e1389]: "What it is:"
+                      - text: The main open-source Claude Design alternative. MIT-licensed. Electron desktop app. React 19 + Vite + Tailwind v4.
+                      - link "@mariozechner/pi-ai" [ref=e1390] [cursor=pointer]:
+                        - /url: https://github.com/badlogic/pi-mono/tree/main/packages/ai
+                        - code [ref=e1391]: "@mariozechner/pi-ai"
+                      - text: for multi-provider. SQLite for version history. 12 built-in design skill modules. HTML/JSX sandboxed iframe preview. Exports HTML/PDF/PPTX/ZIP/MD. 15 templates. Comment mode + slider controls + multi-frame preview.
+                  - list [ref=e1392]:
+                    - listitem [ref=e1393]:
+                      - strong [ref=e1394]: "Why it matters:"
+                      - text: Direct competitor; most overlap with what we're building.
+                    - listitem [ref=e1395]:
+                      - strong [ref=e1396]: "What we borrow:"
+                      - list [ref=e1397]:
+                        - listitem [ref=e1398]:
+                          - text: "UI concepts:"
+                          - strong [ref=e1399]: comment mode
+                          - text: (click-to-pin element edits),
+                          - strong [ref=e1400]: tweak sliders
+                          - text: (agent-emitted parameters),
+                          - strong [ref=e1401]: multi-frame preview
+                          - text: (desktop/tablet/phone).
+                        - listitem [ref=e1402]:
+                          - text: Sandboxed iframe preview (
+                          - code [ref=e1403]: <iframe sandbox="allow-scripts">
+                          - text: with vendored React 18 + Babel standalone for JSX).
+                        - listitem [ref=e1404]: Export pipeline shape (HTML/PDF/PPTX/ZIP/MD).
+                    - listitem [ref=e1405]:
+                      - strong [ref=e1406]: "What we don't:"
+                      - list [ref=e1407]:
+                        - listitem [ref=e1408]:
+                          - strong [ref=e1409]: Electron
+                          - text: — we go Next.js web app instead (runs local and deploys to Vercel).
+                        - listitem [ref=e1410]:
+                          - strong [ref=e1411]:
+                            - text: Bundled agent on
+                            - code [ref=e1412]: pi-ai
+                          - text: — we delegate to the user's existing CLI.
+                        - listitem [ref=e1413]:
+                          - strong [ref=e1414]: Proprietary skill format
+                          - text: (TypeScript modules compiled into the app) — we use Claude Code's
+                          - code [ref=e1415]: SKILL.md
+                          - text: so third-party skills drop in.
+                        - listitem [ref=e1416]:
+                          - strong [ref=e1417]: SQLite for artifacts
+                          - text: — plain files +
+                          - code [ref=e1418]: .jsonl
+                          - text: history, so git tracks it naturally.
+                        - listitem [ref=e1419]:
+                          - strong [ref=e1420]: Sole focus on UI panels
+                          - text: — we add Design System mode and
+                          - code [ref=e1421]: DESIGN.md
+                          - text: as first-class.
+                  - generic [ref=e1422]:
+                    - heading "multica (multica-ai)" [level=3] [ref=e1423]:
+                      - link "multica" [ref=e1424] [cursor=pointer]:
+                        - /url: https://github.com/multica-ai/multica
+                      - text: (multica-ai)
+                    - 'link "Permalink: multica (multica-ai)" [ref=e1425] [cursor=pointer]':
+                      - /url: "#multica-multica-ai"
+                      - img [ref=e1426]
+                  - list [ref=e1428]:
+                    - listitem [ref=e1429]:
+                      - strong [ref=e1430]: "Repo:"
+                      - link "github.com/multica-ai/multica" [ref=e1431] [cursor=pointer]:
+                        - /url: https://github.com/multica-ai/multica
+                    - listitem [ref=e1432]:
+                      - strong [ref=e1433]: "Docs:"
+                      - link "multica.ai/docs/skills" [ref=e1434] [cursor=pointer]:
+                        - /url: https://multica.ai/docs/skills
+                  - list [ref=e1435]:
+                    - listitem [ref=e1436]:
+                      - strong [ref=e1437]: "What it is:"
+                      - text: "Open-source \"managed agents platform.\" Frontend: Next.js 16. Backend: Go + Chi + WebSocket. DB: PostgreSQL + pgvector."
+                      - strong [ref=e1438]: "Local daemon auto-detects CLIs on PATH: Claude Code, Codex, OpenClaw, OpenCode, Hermes, Gemini, Pi, Cursor Agent."
+                      - text: Assigns work via a web board view; agents execute; WebSocket streams progress.
+                    - listitem [ref=e1439]:
+                      - strong [ref=e1440]: "Why it matters:"
+                      - text: They already solved the "detect and wrap local code agents" problem.
+                    - listitem [ref=e1441]:
+                      - strong [ref=e1442]: "What we borrow:"
+                      - list [ref=e1443]:
+                        - listitem [ref=e1444]:
+                          - strong [ref=e1445]: PATH-scan + config-dir probe detection
+                          - text: strategy.
+                        - listitem [ref=e1446]:
+                          - strong [ref=e1447]: Local daemon + WebSocket
+                          - text: topology (daemon on user's machine, thin web client).
+                        - listitem [ref=e1448]: Agent catalog (our P0–P2 list maps closely to theirs).
+                        - listitem [ref=e1449]: Workspace/local skill import and agent-scoped skill attachment model.
+                    - listitem [ref=e1450]:
+                      - strong [ref=e1451]: "What we don't:"
+                      - list [ref=e1452]:
+                        - listitem [ref=e1453]: Go backend + PostgreSQL — overkill for our scope; Node daemon + filesystem is enough.
+                        - listitem [ref=e1454]: Team / board / issue-assignment model — not our domain.
+                        - listitem [ref=e1455]: pgvector — we don't embed anything in MVP.
+                  - generic [ref=e1456]:
+                    - heading "OpenHuman (tinyhumansai)" [level=3] [ref=e1457]:
+                      - link "OpenHuman" [ref=e1458] [cursor=pointer]:
+                        - /url: https://github.com/tinyhumansai/openhuman
+                      - text: (tinyhumansai)
+                    - 'link "Permalink: OpenHuman (tinyhumansai)" [ref=e1459] [cursor=pointer]':
+                      - /url: "#openhuman-tinyhumansai"
+                      - img [ref=e1460]
+                  - list [ref=e1462]:
+                    - listitem [ref=e1463]:
+                      - strong [ref=e1464]: "Repo:"
+                      - link "github.com/tinyhumansai/openhuman" [ref=e1465] [cursor=pointer]:
+                        - /url: https://github.com/tinyhumansai/openhuman
+                  - list [ref=e1466]:
+                    - listitem [ref=e1467]:
+                      - strong [ref=e1468]: "What it is:"
+                      - text: Open-source personal AI assistant with many integrations, auto-fetch into a memory tree, local editable knowledge, and a TokenJuice-style compression layer before LLM use.
+                    - listitem [ref=e1469]:
+                      - strong [ref=e1470]: "Why it matters:"
+                      - text: It is the clearest reference for "connect sources once, then the agent wakes up with compressed context already available."
+                    - listitem [ref=e1471]:
+                      - strong [ref=e1472]: "What we borrow:"
+                      - list [ref=e1473]:
+                        - listitem [ref=e1474]: Connector-driven ingestion as a first-class loop, not a prompt the user rewrites each time.
+                        - listitem [ref=e1475]: Editable local memory tree rather than opaque vector-only recall.
+                        - listitem [ref=e1476]: Token compression as an optional stage before agent context injection.
+                    - listitem [ref=e1477]:
+                      - strong [ref=e1478]: "What we don't:"
+                      - list [ref=e1479]:
+                        - listitem [ref=e1480]: General personal-assistant scope, messaging/voice/meeting participation, and bundled subscription/model routing.
+                  - generic [ref=e1481]:
+                    - heading "Hermes Agent (Nous Research)" [level=3] [ref=e1482]:
+                      - link "Hermes Agent" [ref=e1483] [cursor=pointer]:
+                        - /url: https://github.com/nousresearch/hermes-agent
+                      - text: (Nous Research)
+                    - 'link "Permalink: Hermes Agent (Nous Research)" [ref=e1484] [cursor=pointer]':
+                      - /url: "#hermes-agent-nous-research"
+                      - img [ref=e1485]
+                  - list [ref=e1487]:
+                    - listitem [ref=e1488]:
+                      - strong [ref=e1489]: "Repo:"
+                      - link "github.com/nousresearch/hermes-agent" [ref=e1490] [cursor=pointer]:
+                        - /url: https://github.com/nousresearch/hermes-agent
+                    - listitem [ref=e1491]:
+                      - strong [ref=e1492]: "Docs:"
+                      - link "hermes-agent.nousresearch.com/docs/skills" [ref=e1493] [cursor=pointer]:
+                        - /url: https://hermes-agent.nousresearch.com/docs/skills
+                  - list [ref=e1494]:
+                    - listitem [ref=e1495]:
+                      - strong [ref=e1496]: "What it is:"
+                      - text: Self-improving agent with persistent memory, skills created from experience, skill improvement during use, scheduled automations, and a large skill hub.
+                    - listitem [ref=e1497]:
+                      - strong [ref=e1498]: "Why it matters:"
+                      - text: It turns "agent learns from work" into a product loop instead of a side effect.
+                    - listitem [ref=e1499]:
+                      - strong [ref=e1500]: "What we borrow:"
+                      - list [ref=e1501]:
+                        - listitem [ref=e1502]: "Closed learning loop: experience -> memory or skill proposal -> future run."
+                        - listitem [ref=e1503]: Scheduled automations that can deliver across surfaces.
+                        - listitem [ref=e1504]: Explicit compression and usage inspection controls.
+                    - listitem [ref=e1505]:
+                      - strong [ref=e1506]: "What we don't:"
+                      - list [ref=e1507]:
+                        - listitem [ref=e1508]: Owning the user's entire agent runtime, messaging gateway, or model/provider layer.
+                  - generic [ref=e1509]:
+                    - heading "GenericAgent (lsdefine)" [level=3] [ref=e1510]:
+                      - link "GenericAgent" [ref=e1511] [cursor=pointer]:
+                        - /url: https://github.com/lsdefine/GenericAgent
+                      - text: (lsdefine)
+                    - 'link "Permalink: GenericAgent (lsdefine)" [ref=e1512] [cursor=pointer]':
+                      - /url: "#genericagent-lsdefine"
+                      - img [ref=e1513]
+                  - list [ref=e1515]:
+                    - listitem [ref=e1516]:
+                      - strong [ref=e1517]: "Repo:"
+                      - link "github.com/lsdefine/GenericAgent" [ref=e1518] [cursor=pointer]:
+                        - /url: https://github.com/lsdefine/GenericAgent
+                  - list [ref=e1519]:
+                    - listitem [ref=e1520]:
+                      - strong [ref=e1521]: "What it is:"
+                      - text: Minimal self-evolving autonomous agent framework that crystallizes solved tasks into a personal skill tree for direct reuse.
+                    - listitem [ref=e1522]:
+                      - strong [ref=e1523]: "Why it matters:"
+                      - text: "It names the core loop OD needs for design work: solve once, verify, save the execution path, and recall it with less context next time."
+                    - listitem [ref=e1524]:
+                      - strong [ref=e1525]: "What we borrow:"
+                      - list [ref=e1526]:
+                        - listitem [ref=e1527]: Skill crystallization from successful tasks.
+                        - listitem [ref=e1528]: Layered memory and direct recall to reduce prompt size.
+                        - listitem [ref=e1529]: A bias toward small composable primitives instead of a heavy agent framework.
+                    - listitem [ref=e1530]:
+                      - strong [ref=e1531]: "What we don't:"
+                      - list [ref=e1532]:
+                        - listitem [ref=e1533]: Broad uncontrolled desktop authority. OD keeps daemon, connector, filesystem, and review gates explicit.
+                  - generic [ref=e1534]:
+                    - heading "cc-switch (farion1231)" [level=3] [ref=e1535]:
+                      - link "cc-switch" [ref=e1536] [cursor=pointer]:
+                        - /url: https://github.com/farion1231/cc-switch
+                      - text: (farion1231)
+                    - 'link "Permalink: cc-switch (farion1231)" [ref=e1537] [cursor=pointer]':
+                      - /url: "#cc-switch-farion1231"
+                      - img [ref=e1538]
+                  - list [ref=e1540]:
+                    - listitem [ref=e1541]:
+                      - strong [ref=e1542]: "Repo:"
+                      - link "github.com/farion1231/cc-switch" [ref=e1543] [cursor=pointer]:
+                        - /url: https://github.com/farion1231/cc-switch
+                  - list [ref=e1544]:
+                    - listitem [ref=e1545]:
+                      - strong [ref=e1546]: "What it is:"
+                      - text: Tauri desktop app for managing five CLI tools (Claude Code, Codex, Gemini CLI, OpenCode, OpenClaw). Provider management, MCP server config, skills install, session browsing. SQLite at
+                      - code [ref=e1547]: ~/.cc-switch/cc-switch.db
+                      - text: .
+                      - strong [ref=e1548]:
+                        - text: Skills dir at
+                        - code [ref=e1549]: ~/.cc-switch/skills/
+                        - text: with symlinks into each agent's config dir.
+                      - text: 50+ provider presets.
+                    - listitem [ref=e1550]:
+                      - strong [ref=e1551]: "Why it matters:"
+                      - text: Shows exactly how to live beside multiple code-agent CLIs without stepping on their config.
+                    - listitem [ref=e1552]:
+                      - strong [ref=e1553]: "What we borrow:"
+                      - list [ref=e1554]:
+                        - listitem [ref=e1555]:
+                          - strong [ref=e1556]: Symlink-based skill distribution.
+                          - text: Canonical skill location + symlinks to each agent's skills dir.
+                        - listitem [ref=e1557]:
+                          - text: Knowledge of per-agent config dir locations (
+                          - code [ref=e1558]: ~/.claude/
+                          - text: ","
+                          - code [ref=e1559]: ~/.codex/
+                          - text: ", …)."
+                        - listitem [ref=e1560]: "\"Provider presets\" idea — a curated list we can ship so users don't have to hand-enter endpoint URLs for OpenAI-compatible relays."
+                    - listitem [ref=e1561]:
+                      - strong [ref=e1562]: "What we don't:"
+                      - list [ref=e1563]:
+                        - listitem [ref=e1564]: Tauri / desktop app — not our shape.
+                        - listitem [ref=e1565]: Provider-switching as core feature — we defer that to the underlying agent. If a user wants to switch providers inside Claude Code, they use Claude Code's config, not ours.
+                        - listitem [ref=e1566]: Tray icon / system integration — out of scope.
+                  - generic [ref=e1567]:
+                    - heading "awesome-claude-design (VoltAgent)" [level=3] [ref=e1568]:
+                      - link "awesome-claude-design" [ref=e1569] [cursor=pointer]:
+                        - /url: https://github.com/VoltAgent/awesome-claude-design
+                      - text: (VoltAgent)
+                    - 'link "Permalink: awesome-claude-design (VoltAgent)" [ref=e1570] [cursor=pointer]':
+                      - /url: "#awesome-claude-design-voltagent"
+                      - img [ref=e1571]
+                  - list [ref=e1573]:
+                    - listitem [ref=e1574]:
+                      - strong [ref=e1575]: "Repo:"
+                      - link "github.com/VoltAgent/awesome-claude-design" [ref=e1576] [cursor=pointer]:
+                        - /url: https://github.com/VoltAgent/awesome-claude-design
+                  - list [ref=e1577]:
+                    - listitem [ref=e1578]:
+                      - strong [ref=e1579]: "Ecosystem:"
+                      - text: 68 DESIGN.md files for named brands. Referenced schema has
+                      - strong [ref=e1580]: 9 standardized sections
+                      - text: ": Visual Theme & Atmosphere, Color Palette & Roles, Typography Rules, Component Stylings, Layout Principles, Depth & Elevation, Do's and Don'ts, Responsive Behavior, Agent Prompt Guide."
+                    - listitem [ref=e1581]:
+                      - strong [ref=e1582]: "Related URLs:"
+                      - text: claude.ai/design, getdesign.md, Discord community
+                    - listitem [ref=e1583]:
+                      - strong [ref=e1584]: "Why it matters:"
+                      - text: Defines the de-facto portable design-system format for AI agents.
+                    - listitem [ref=e1585]:
+                      - strong [ref=e1586]: "What we borrow:"
+                      - list [ref=e1587]:
+                        - listitem [ref=e1588]:
+                          - strong [ref=e1589]:
+                            - text: The entire
+                            - code [ref=e1590]: DESIGN.md
+                            - text: format, unchanged.
+                          - text: We adopt their 9-section schema as OD's canonical design-system format.
+                        - listitem [ref=e1591]: "Ecosystem compatibility: any of their 68 DESIGN.md files works as an OD active design system out of the box."
+                    - listitem [ref=e1592]:
+                      - strong [ref=e1593]: "What we don't:"
+                      - list [ref=e1594]:
+                        - listitem [ref=e1595]: Their curated list itself — we don't fork their 68 files; we reference upstream.
+                        - listitem [ref=e1596]: Their Discord / community layer — not our product.
+                  - generic [ref=e1597]:
+                    - heading "guizang-ppt-skill (op7418)" [level=3] [ref=e1598]:
+                      - link "guizang-ppt-skill" [ref=e1599] [cursor=pointer]:
+                        - /url: https://github.com/op7418/guizang-ppt-skill
+                      - text: (op7418)
+                    - 'link "Permalink: guizang-ppt-skill (op7418)" [ref=e1600] [cursor=pointer]':
+                      - /url: "#guizang-ppt-skill-op7418"
+                      - img [ref=e1601]
+                  - list [ref=e1603]:
+                    - listitem [ref=e1604]:
+                      - strong [ref=e1605]: "Repo:"
+                      - link "github.com/op7418/guizang-ppt-skill" [ref=e1606] [cursor=pointer]:
+                        - /url: https://github.com/op7418/guizang-ppt-skill
+                  - list [ref=e1607]:
+                    - listitem [ref=e1608]:
+                      - strong [ref=e1609]: "What it is:"
+                      - text: "A Claude Code skill producing magazine-style, horizontal-swipe web decks. Structure:"
+                      - code [ref=e1610]: SKILL.md
+                      - text: +
+                      - code [ref=e1611]: assets/template.html
+                      - text: +
+                      - code [ref=e1612]: "references/{components,layouts,themes,checklist}.md"
+                      - text: . 6-step workflow. Single-file HTML output with embedded CSS/WebGL. Keyboard/scroll/touch navigation.
+                    - listitem [ref=e1613]:
+                      - strong [ref=e1614]: "Why it matters:"
+                      - text: Reference implementation of a high-quality Claude skill, and our default deck skill.
+                    - listitem [ref=e1615]:
+                      - strong [ref=e1616]: "What we borrow:"
+                      - list [ref=e1617]:
+                        - listitem [ref=e1618]:
+                          - strong [ref=e1619]: The whole skill, unmodified.
+                          - text: It's our default v1
+                          - code [ref=e1620]: deck-skill
+                          - text: . A user runs
+                          - code [ref=e1621]: od skill add https://github.com/op7418/guizang-ppt-skill
+                          - text: and it works.
+                        - listitem [ref=e1622]:
+                          - text: Skill directory convention (
+                          - code [ref=e1623]: assets/
+                          - text: +
+                          - code [ref=e1624]: references/
+                          - text: +
+                          - code [ref=e1625]: SKILL.md
+                          - text: ) as the pattern we document for skill authors.
+                        - listitem [ref=e1626]: The "6-step workflow + quality-checklist rubric" pattern for authoring new skills.
+                    - listitem [ref=e1627]:
+                      - strong [ref=e1628]: "What we don't:"
+                      - text: Nothing — this is pure reuse. We add an
+                      - code [ref=e1629]: "od:"
+                      - text: block to its front-matter only if we want to expose theme sliders; the skill works without it.
+                  - separator [ref=e1630]
+                  - generic [ref=e1631]:
+                    - heading "Secondary references (format / protocol / UI ideas)" [level=2] [ref=e1632]
+                    - 'link "Permalink: Secondary references (format / protocol / UI ideas)" [ref=e1633] [cursor=pointer]':
+                      - /url: "#secondary-references-format--protocol--ui-ideas"
+                      - img [ref=e1634]
+                  - table [ref=e1637]:
+                    - rowgroup [ref=e1638]:
+                      - row "Project Relevance" [ref=e1639]:
+                        - columnheader "Project" [ref=e1640]
+                        - columnheader "Relevance" [ref=e1641]
+                    - rowgroup [ref=e1642]:
+                      - row "Claude Code skills docs Source of the SKILL.md format we adopt" [ref=e1643]:
+                        - cell "Claude Code skills docs" [ref=e1644]:
+                          - link "Claude Code skills docs" [ref=e1645] [cursor=pointer]:
+                            - /url: https://docs.anthropic.com/
+                        - cell "Source of the SKILL.md format we adopt" [ref=e1646]:
+                          - text: Source of the
+                          - code [ref=e1647]: SKILL.md
+                          - text: format we adopt
+                      - row "Cursor .cursorrules Informs how the Cursor Agent adapter injects skill context" [ref=e1648]:
+                        - cell "Cursor .cursorrules" [ref=e1649]:
+                          - link "Cursor .cursorrules" [ref=e1650] [cursor=pointer]:
+                            - /url: https://docs.cursor.com/
+                        - cell "Informs how the Cursor Agent adapter injects skill context" [ref=e1651]
+                      - row "Reveal.js / Marp Reference for deck HTML navigation patterns" [ref=e1652]:
+                        - cell "Reveal.js / Marp" [ref=e1653]:
+                          - link "Reveal.js" [ref=e1654] [cursor=pointer]:
+                            - /url: https://revealjs.com/
+                          - text: /
+                          - link "Marp" [ref=e1655] [cursor=pointer]:
+                            - /url: https://marp.app/
+                        - cell "Reference for deck HTML navigation patterns" [ref=e1656]
+                      - row "Shadcn/ui Likely component library for the web UI shell" [ref=e1657]:
+                        - cell "Shadcn/ui" [ref=e1658]:
+                          - link "Shadcn/ui" [ref=e1659] [cursor=pointer]:
+                            - /url: https://ui.shadcn.com/
+                        - cell "Likely component library for the web UI shell" [ref=e1660]
+                      - row "Vercel AI SDK Streaming primitives for the API-fallback adapter" [ref=e1661]:
+                        - cell "Vercel AI SDK" [ref=e1662]:
+                          - link "Vercel AI SDK" [ref=e1663] [cursor=pointer]:
+                            - /url: https://sdk.vercel.ai/
+                        - cell "Streaming primitives for the API-fallback adapter" [ref=e1664]
+                      - row "Puppeteer PDF export engine" [ref=e1665]:
+                        - cell "Puppeteer" [ref=e1666]:
+                          - link "Puppeteer" [ref=e1667] [cursor=pointer]:
+                            - /url: https://pptr.dev/
+                        - cell "PDF export engine" [ref=e1668]
+                      - row "pptxgenjs PPTX export engine" [ref=e1669]:
+                        - cell "pptxgenjs" [ref=e1670]:
+                          - link "pptxgenjs" [ref=e1671] [cursor=pointer]:
+                            - /url: https://gitbrent.github.io/PptxGenJS/
+                        - cell "PPTX export engine" [ref=e1672]
+                      - row "chokidar Filesystem watching for skill / artifact hot-reload" [ref=e1673]:
+                        - cell "chokidar" [ref=e1674]:
+                          - link "chokidar" [ref=e1675] [cursor=pointer]:
+                            - /url: https://github.com/paulmillr/chokidar
+                        - cell "Filesystem watching for skill / artifact hot-reload" [ref=e1676]
+                  - separator [ref=e1677]
+                  - generic [ref=e1678]:
+                    - heading "Compatibility & differentiation matrix" [level=2] [ref=e1679]
+                    - 'link "Permalink: Compatibility & differentiation matrix" [ref=e1680] [cursor=pointer]':
+                      - /url: "#compatibility--differentiation-matrix"
+                      - img [ref=e1681]
+                  - table [ref=e1684]:
+                    - rowgroup [ref=e1685]:
+                      - row "Dimension Claude Design Open CoDesign multica cc-switch OD" [ref=e1686]:
+                        - columnheader "Dimension" [ref=e1687]
+                        - columnheader "Claude Design" [ref=e1688]:
+                          - link "Claude Design" [ref=e1689] [cursor=pointer]:
+                            - /url: https://x.com/claudeai/status/2045156267690213649
+                        - columnheader "Open CoDesign" [ref=e1690]:
+                          - link "Open CoDesign" [ref=e1691] [cursor=pointer]:
+                            - /url: https://github.com/OpenCoworkAI/open-codesign
+                        - columnheader "multica" [ref=e1692]:
+                          - link "multica" [ref=e1693] [cursor=pointer]:
+                            - /url: https://github.com/multica-ai/multica
+                        - columnheader "cc-switch" [ref=e1694]:
+                          - link "cc-switch" [ref=e1695] [cursor=pointer]:
+                            - /url: https://github.com/farion1231/cc-switch
+                        - columnheader "OD" [ref=e1696]:
+                          - strong [ref=e1697]: OD
+                    - rowgroup [ref=e1698]:
+                      - row "Open source ❌ ✅ ✅ ✅ ✅" [ref=e1699]:
+                        - cell "Open source" [ref=e1700]
+                        - cell "❌" [ref=e1701]
+                        - cell "✅" [ref=e1702]
+                        - cell "✅" [ref=e1703]
+                        - cell "✅" [ref=e1704]
+                        - cell "✅" [ref=e1705]
+                      - row "Primary form factor Web (hosted) Electron Web + Go daemon Tauri Next.js web + Node daemon" [ref=e1706]:
+                        - cell "Primary form factor" [ref=e1707]
+                        - cell "Web (hosted)" [ref=e1708]
+                        - cell "Electron" [ref=e1709]
+                        - cell "Web + Go daemon" [ref=e1710]
+                        - cell "Tauri" [ref=e1711]
+                        - cell "Next.js web + Node daemon" [ref=e1712]:
+                          - strong [ref=e1713]: Next.js web + Node daemon
+                      - row "Vercel-deployable ❌ ❌ ❌ ❌ ✅" [ref=e1714]:
+                        - cell "Vercel-deployable" [ref=e1715]
+                        - cell "❌" [ref=e1716]
+                        - cell "❌" [ref=e1717]
+                        - cell "❌" [ref=e1718]
+                        - cell "❌" [ref=e1719]
+                        - cell "✅" [ref=e1720]:
+                          - strong [ref=e1721]: ✅
+                      - row "Runs local-only ❌ ✅ ✅ ✅ ✅" [ref=e1722]:
+                        - cell "Runs local-only" [ref=e1723]
+                        - cell "❌" [ref=e1724]
+                        - cell "✅" [ref=e1725]
+                        - cell "✅" [ref=e1726]
+                        - cell "✅" [ref=e1727]
+                        - cell "✅" [ref=e1728]:
+                          - strong [ref=e1729]: ✅
+                      - row "Generates design artifacts ✅ ✅ ❌ (general coding) ❌ ✅" [ref=e1730]:
+                        - cell "Generates design artifacts" [ref=e1731]
+                        - cell "✅" [ref=e1732]
+                        - cell "✅" [ref=e1733]
+                        - cell "❌ (general coding)" [ref=e1734]
+                        - cell "❌" [ref=e1735]
+                        - cell "✅" [ref=e1736]:
+                          - strong [ref=e1737]: ✅
+                      - row "Uses existing code agent — (owns it) ❌ ✅ ✅ ✅" [ref=e1738]:
+                        - cell "Uses existing code agent" [ref=e1739]
+                        - cell "— (owns it)" [ref=e1740]
+                        - cell "❌" [ref=e1741]
+                        - cell "✅" [ref=e1742]
+                        - cell "✅" [ref=e1743]
+                        - cell "✅" [ref=e1744]:
+                          - strong [ref=e1745]: ✅
+                      - row "Supports Claude Code skills (SKILL.md) — ❌ ✅ ✅ ✅" [ref=e1746]:
+                        - cell "Supports Claude Code skills (SKILL.md)" [ref=e1747]:
+                          - text: Supports Claude Code skills (
+                          - code [ref=e1748]: SKILL.md
+                          - text: )
+                        - cell "—" [ref=e1749]
+                        - cell "❌" [ref=e1750]
+                        - cell "✅" [ref=e1751]
+                        - cell "✅" [ref=e1752]
+                        - cell "✅" [ref=e1753]:
+                          - strong [ref=e1754]: ✅
+                      - row "DESIGN.md as first-class ❌ ❌ — — ✅" [ref=e1755]:
+                        - cell "DESIGN.md as first-class" [ref=e1756]:
+                          - code [ref=e1757]: DESIGN.md
+                          - text: as first-class
+                        - cell "❌" [ref=e1758]
+                        - cell "❌" [ref=e1759]
+                        - cell "—" [ref=e1760]
+                        - cell "—" [ref=e1761]
+                        - cell "✅" [ref=e1762]:
+                          - strong [ref=e1763]: ✅
+                      - row "Deck mode / PPTX export ✅ ✅ ❌ ❌ ✅ (via skill)" [ref=e1764]:
+                        - cell "Deck mode / PPTX export" [ref=e1765]
+                        - cell "✅" [ref=e1766]
+                        - cell "✅" [ref=e1767]
+                        - cell "❌" [ref=e1768]
+                        - cell "❌" [ref=e1769]
+                        - cell "✅ (via skill)" [ref=e1770]:
+                          - strong [ref=e1771]: ✅ (via skill)
+                      - row "Template gallery ✅ ✅ (15) ❌ ❌ ✅" [ref=e1772]:
+                        - cell "Template gallery" [ref=e1773]
+                        - cell "✅" [ref=e1774]
+                        - cell "✅ (15)" [ref=e1775]
+                        - cell "❌" [ref=e1776]
+                        - cell "❌" [ref=e1777]
+                        - cell "✅" [ref=e1778]:
+                          - strong [ref=e1779]: ✅
+                      - row "Design-system authoring mode ❌ ❌ ❌ ❌ ✅" [ref=e1780]:
+                        - cell "Design-system authoring mode" [ref=e1781]
+                        - cell "❌" [ref=e1782]
+                        - cell "❌" [ref=e1783]
+                        - cell "❌" [ref=e1784]
+                        - cell "❌" [ref=e1785]
+                        - cell "✅" [ref=e1786]:
+                          - strong [ref=e1787]: ✅
+                  - paragraph [ref=e1788]:
+                    - text: "The two empty-column crossings where OD lights up and others don't:"
+                    - strong [ref=e1789]: Vercel-deployable + design-system authoring
+                    - text: ", and"
+                    - strong [ref=e1790]: uses existing code agent + first-class DESIGN.md
+                    - text: . That's the niche.
+                  - separator [ref=e1791]
+                  - generic [ref=e1792]:
+                    - heading "What we explicitly don't borrow (and why)" [level=2] [ref=e1793]
+                    - 'link "Permalink: What we explicitly don''t borrow (and why)" [ref=e1794] [cursor=pointer]':
+                      - /url: "#what-we-explicitly-dont-borrow-and-why"
+                      - img [ref=e1795]
+                  - list [ref=e1797]:
+                    - listitem [ref=e1798]:
+                      - strong [ref=e1799]: Desktop packaging
+                      - text: (Electron / Tauri). Every minute spent on code-signing is a minute not spent on skills. If a user wants a tray icon,
+                      - link "cc-switch" [ref=e1800] [cursor=pointer]:
+                        - /url: https://github.com/farion1231/cc-switch
+                        - code [ref=e1801]: cc-switch
+                      - text: already does that — install both.
+                    - listitem [ref=e1802]:
+                      - strong [ref=e1803]: SQLite for artifacts
+                      - text: (from
+                      - link "Open CoDesign" [ref=e1804] [cursor=pointer]:
+                        - /url: https://github.com/OpenCoworkAI/open-codesign
+                      - text: and
+                      - link "cc-switch" [ref=e1805] [cursor=pointer]:
+                        - /url: https://github.com/farion1231/cc-switch
+                      - text: ). Plain files + JSONL history are reviewable in git, trivially portable, and match the "skills are files" ethos.
+                    - listitem [ref=e1806]:
+                      - strong [ref=e1807]: Bundled model router
+                      - text: (
+                      - link "pi-ai" [ref=e1808] [cursor=pointer]:
+                        - /url: https://github.com/badlogic/pi-mono/tree/main/packages/ai
+                        - code [ref=e1809]: pi-ai
+                      - text: from
+                      - link "Open CoDesign" [ref=e1810] [cursor=pointer]:
+                        - /url: https://github.com/OpenCoworkAI/open-codesign
+                      - text: ). The user's code agent already routes. Two routers is worse than one.
+                    - listitem [ref=e1811]:
+                      - strong [ref=e1812]: PostgreSQL + pgvector
+                      - text: (from
+                      - link "multica" [ref=e1813] [cursor=pointer]:
+                        - /url: https://github.com/multica-ai/multica
+                      - text: ). We don't embed anything in MVP. When we do, SQLite +
+                      - code [ref=e1814]: sqlite-vec
+                      - text: is enough for single-user scale.
+                    - listitem [ref=e1815]:
+                      - strong [ref=e1816]: Board / issue model
+                      - text: (from
+                      - link "multica" [ref=e1817] [cursor=pointer]:
+                        - /url: https://github.com/multica-ai/multica
+                      - text: ). Off-brand for a design tool.
+                  - paragraph [ref=e1818]: These "don'ts" are what keep the MVP achievable in 6–8 weeks.
+                  - separator [ref=e1819]
+                  - generic [ref=e1820]:
+                    - heading "Living references" [level=2] [ref=e1821]
+                    - 'link "Permalink: Living references" [ref=e1822] [cursor=pointer]':
+                      - /url: "#living-references"
+                      - img [ref=e1823]
+                  - paragraph [ref=e1825]:
+                    - text: This file is maintained. When we add an adapter or borrow a pattern from a new upstream, add it here with the same three-question format. When upstream licensing or direction changes materially, flag it here and cross-link from
+                    - link "spec.md" [ref=e1826] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/spec.md
+                      - code [ref=e1827]: spec.md
+                    - text: .
+  - alert [ref=e1831]

@@ -1,0 +1,2718 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fnexu-io%2Fopen-design%2Fblob%2Fmain%2FREADME.md
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=nexu-io%2Fopen-design
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "nexu-io" [ref=e70] [cursor=pointer]:
+              - /url: /nexu-io
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "open-design" [ref=e73] [cursor=pointer]:
+                - /url: /nexu-io/open-design
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fnexu-io%2Fopen-design
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 8.2k" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fnexu-io%2Fopen-design
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "8,169" [ref=e84]: 8.2k
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fnexu-io%2Fopen-design
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "72121 users starred this repository" [ref=e90]: 72.1k
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /nexu-io/open-design
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 307" [ref=e99] [cursor=pointer]:
+                - /url: /nexu-io/open-design/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "307" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests 153" [ref=e106] [cursor=pointer]:
+                - /url: /nexu-io/open-design/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+                - generic "153" [ref=e110]
+            - listitem [ref=e111]:
+              - link "Discussions" [ref=e112] [cursor=pointer]:
+                - /url: /nexu-io/open-design/discussions
+                - img [ref=e113]
+                - generic [ref=e115]: Discussions
+            - listitem [ref=e116]:
+              - link "Actions" [ref=e117] [cursor=pointer]:
+                - /url: /nexu-io/open-design/actions
+                - img [ref=e118]
+                - generic [ref=e120]: Actions
+            - listitem [ref=e121]:
+              - link "Projects" [ref=e122] [cursor=pointer]:
+                - /url: /nexu-io/open-design/projects
+                - img [ref=e123]
+                - generic [ref=e125]: Projects
+            - listitem [ref=e126]:
+              - link "Security and quality" [ref=e127] [cursor=pointer]:
+                - /url: /nexu-io/open-design/security
+                - img [ref=e128]
+                - generic [ref=e130]: Security and quality
+            - listitem [ref=e131]
+          - button "Additional navigation options" [ref=e135] [cursor=pointer]:
+            - img
+      - generic [ref=e143]:
+        - generic [ref=e145]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - heading "Collapse file tree" [level=2] [ref=e151]:
+                  - button "Collapse file tree" [expanded] [ref=e152] [cursor=pointer]:
+                    - img [ref=e153]
+                - heading "Files" [level=2] [ref=e156]
+              - generic [ref=e157]:
+                - button "main branch" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e160]:
+                    - generic [ref=e162]:
+                      - img [ref=e164]
+                      - generic [ref=e167]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e169] [cursor=pointer]:
+                  - img [ref=e170]
+            - generic [ref=e173]:
+              - img [ref=e175]
+              - combobox "Go to file" [ref=e177]
+            - navigation "File Tree Navigation" [ref=e183]:
+              - tree "Files" [ref=e185]:
+                - treeitem ".claude-plugin" [level=1] [ref=e186]:
+                  - generic [ref=e187] [cursor=pointer]:
+                    - img [ref=e189]
+                    - generic [ref=e191]:
+                      - img [ref=e195]
+                      - generic [ref=e197]: .claude-plugin
+                - treeitem ".claude" [level=1] [ref=e198]:
+                  - generic [ref=e199] [cursor=pointer]:
+                    - img [ref=e201]
+                    - generic [ref=e203]:
+                      - img [ref=e207]
+                      - generic [ref=e209]: .claude
+                - treeitem ".github" [level=1] [ref=e210]:
+                  - generic [ref=e211] [cursor=pointer]:
+                    - img [ref=e213]
+                    - generic [ref=e215]:
+                      - img [ref=e219]
+                      - generic [ref=e221]: .github
+                - treeitem ".vaunt" [level=1] [ref=e222]:
+                  - generic [ref=e223] [cursor=pointer]:
+                    - img [ref=e225]
+                    - generic [ref=e227]:
+                      - img [ref=e231]
+                      - generic [ref=e233]: .vaunt
+                - treeitem "apps" [level=1] [ref=e234]:
+                  - generic [ref=e235] [cursor=pointer]:
+                    - img [ref=e237]
+                    - generic [ref=e239]:
+                      - img [ref=e243]
+                      - generic [ref=e245]: apps
+                - treeitem "assets" [level=1] [ref=e246]:
+                  - generic [ref=e247] [cursor=pointer]:
+                    - img [ref=e249]
+                    - generic [ref=e251]:
+                      - img [ref=e255]
+                      - generic [ref=e257]: assets
+                - treeitem "charts" [level=1] [ref=e258]:
+                  - generic [ref=e259] [cursor=pointer]:
+                    - img [ref=e261]
+                    - generic [ref=e263]:
+                      - img [ref=e267]
+                      - generic [ref=e269]: charts
+                - treeitem "clipper" [level=1] [ref=e270]:
+                  - generic [ref=e271] [cursor=pointer]:
+                    - img [ref=e273]
+                    - generic [ref=e275]:
+                      - img [ref=e279]
+                      - generic [ref=e281]: clipper
+                - treeitem "craft" [level=1] [ref=e282]:
+                  - generic [ref=e283] [cursor=pointer]:
+                    - img [ref=e285]
+                    - generic [ref=e287]:
+                      - img [ref=e291]
+                      - generic [ref=e293]: craft
+                - treeitem "data" [level=1] [ref=e294]:
+                  - generic [ref=e295] [cursor=pointer]:
+                    - img [ref=e297]
+                    - generic [ref=e299]:
+                      - img [ref=e303]
+                      - generic [ref=e305]: data
+                - treeitem "deploy" [level=1] [ref=e306]:
+                  - generic [ref=e307] [cursor=pointer]:
+                    - img [ref=e309]
+                    - generic [ref=e311]:
+                      - img [ref=e315]
+                      - generic [ref=e317]: deploy
+                - treeitem "design-systems" [level=1] [ref=e318]:
+                  - generic [ref=e319] [cursor=pointer]:
+                    - img [ref=e321]
+                    - generic [ref=e323]:
+                      - img [ref=e327]
+                      - generic [ref=e329]: design-systems
+                - treeitem "design-templates" [level=1] [ref=e330]:
+                  - generic [ref=e331] [cursor=pointer]:
+                    - img [ref=e333]
+                    - generic [ref=e335]:
+                      - img [ref=e339]
+                      - generic [ref=e341]: design-templates
+                - treeitem "docs" [level=1] [ref=e342]:
+                  - generic [ref=e343] [cursor=pointer]:
+                    - img [ref=e345]
+                    - generic [ref=e347]:
+                      - img [ref=e351]
+                      - generic [ref=e353]: docs
+                - treeitem "e2e" [level=1] [ref=e354]:
+                  - generic [ref=e355] [cursor=pointer]:
+                    - img [ref=e357]
+                    - generic [ref=e359]:
+                      - img [ref=e363]
+                      - generic [ref=e365]: e2e
+                - treeitem "figma-plugin" [level=1] [ref=e366]:
+                  - generic [ref=e367] [cursor=pointer]:
+                    - img [ref=e369]
+                    - generic [ref=e371]:
+                      - img [ref=e375]
+                      - generic [ref=e377]: figma-plugin
+                - treeitem "mocks" [level=1] [ref=e378]:
+                  - generic [ref=e379] [cursor=pointer]:
+                    - img [ref=e381]
+                    - generic [ref=e383]:
+                      - img [ref=e387]
+                      - generic [ref=e389]: mocks
+                - treeitem "nix" [level=1] [ref=e390]:
+                  - generic [ref=e391] [cursor=pointer]:
+                    - img [ref=e393]
+                    - generic [ref=e395]:
+                      - img [ref=e399]
+                      - generic [ref=e401]: nix
+                - treeitem "packages" [level=1] [ref=e402]:
+                  - generic [ref=e403] [cursor=pointer]:
+                    - img [ref=e405]
+                    - generic [ref=e407]:
+                      - img [ref=e411]
+                      - generic [ref=e413]: packages
+                - treeitem "plugins" [level=1] [ref=e414]:
+                  - generic [ref=e415] [cursor=pointer]:
+                    - img [ref=e417]
+                    - generic [ref=e419]:
+                      - img [ref=e423]
+                      - generic [ref=e425]: plugins
+                - treeitem "prompt-templates" [level=1] [ref=e426]:
+                  - generic [ref=e427] [cursor=pointer]:
+                    - img [ref=e429]
+                    - generic [ref=e431]:
+                      - img [ref=e435]
+                      - generic [ref=e437]: prompt-templates
+                - treeitem "scripts" [level=1] [ref=e438]:
+                  - generic [ref=e439] [cursor=pointer]:
+                    - img [ref=e441]
+                    - generic [ref=e443]:
+                      - img [ref=e447]
+                      - generic [ref=e449]: scripts
+                - treeitem "skills" [level=1] [ref=e450]:
+                  - generic [ref=e451] [cursor=pointer]:
+                    - img [ref=e453]
+                    - generic [ref=e455]:
+                      - img [ref=e459]
+                      - generic [ref=e461]: skills
+                - treeitem "specs" [level=1] [ref=e462]:
+                  - generic [ref=e463] [cursor=pointer]:
+                    - img [ref=e465]
+                    - generic [ref=e467]:
+                      - img [ref=e471]
+                      - generic [ref=e473]: specs
+                - treeitem "story" [level=1] [ref=e474]:
+                  - generic [ref=e475] [cursor=pointer]:
+                    - img [ref=e477]
+                    - generic [ref=e479]:
+                      - img [ref=e483]
+                      - generic [ref=e485]: story
+                - treeitem "templates" [level=1] [ref=e486]:
+                  - generic [ref=e487] [cursor=pointer]:
+                    - img [ref=e489]
+                    - generic [ref=e491]:
+                      - img [ref=e495]
+                      - generic [ref=e497]: templates
+                - treeitem "tools" [level=1] [ref=e498]:
+                  - generic [ref=e499] [cursor=pointer]:
+                    - img [ref=e501]
+                    - generic [ref=e503]:
+                      - img [ref=e507]
+                      - generic [ref=e509]: tools
+                - treeitem ".dockerignore" [level=1] [ref=e510]:
+                  - generic [ref=e512] [cursor=pointer]:
+                    - img [ref=e515]
+                    - generic [ref=e517]: .dockerignore
+                - treeitem ".gitignore" [level=1] [ref=e518]:
+                  - generic [ref=e520] [cursor=pointer]:
+                    - img [ref=e523]
+                    - generic [ref=e525]: .gitignore
+                - treeitem ".node-version" [level=1] [ref=e526]:
+                  - generic [ref=e528] [cursor=pointer]:
+                    - img [ref=e531]
+                    - generic [ref=e533]: .node-version
+                - treeitem "AGENTS.md" [level=1] [ref=e534]:
+                  - generic [ref=e536] [cursor=pointer]:
+                    - img [ref=e539]
+                    - generic [ref=e541]: AGENTS.md
+                - treeitem "CHANGELOG.md" [level=1] [ref=e542]:
+                  - generic [ref=e544] [cursor=pointer]:
+                    - img [ref=e547]
+                    - generic [ref=e549]: CHANGELOG.md
+                - treeitem "CLAUDE.md" [level=1] [ref=e550]:
+                  - generic [ref=e552] [cursor=pointer]:
+                    - img [ref=e555]
+                    - generic [ref=e557]: CLAUDE.md
+                - treeitem "CONTEXT.md" [level=1] [ref=e558]:
+                  - generic [ref=e560] [cursor=pointer]:
+                    - img [ref=e563]
+                    - generic [ref=e565]: CONTEXT.md
+                - treeitem "CONTRIBUTING.md" [level=1] [ref=e566]:
+                  - generic [ref=e568] [cursor=pointer]:
+                    - img [ref=e571]
+                    - generic [ref=e573]: CONTRIBUTING.md
+                - treeitem "LICENSE" [level=1] [ref=e574]:
+                  - generic [ref=e576] [cursor=pointer]:
+                    - img [ref=e579]
+                    - generic [ref=e581]: LICENSE
+                - treeitem "MAINTAINERS.md" [level=1] [ref=e582]:
+                  - generic [ref=e584] [cursor=pointer]:
+                    - img [ref=e587]
+                    - generic [ref=e589]: MAINTAINERS.md
+                - treeitem "PRIVACY.md" [level=1] [ref=e590]:
+                  - generic [ref=e592] [cursor=pointer]:
+                    - img [ref=e595]
+                    - generic [ref=e597]: PRIVACY.md
+                - treeitem "QUICKSTART.md" [level=1] [ref=e598]:
+                  - generic [ref=e600] [cursor=pointer]:
+                    - img [ref=e603]
+                    - generic [ref=e605]: QUICKSTART.md
+                - treeitem "README.md" [level=1] [ref=e606]:
+                  - generic [ref=e608] [cursor=pointer]:
+                    - img [ref=e611]
+                    - generic [ref=e613]: README.md
+                - treeitem "RELEASE-NOTES-0.10.0.md" [level=1] [ref=e614]:
+                  - generic [ref=e616] [cursor=pointer]:
+                    - img [ref=e619]
+                    - generic [ref=e621]: RELEASE-NOTES-0.10.0.md
+                - treeitem "TRANSLATIONS.md" [level=1] [ref=e622]:
+                  - generic [ref=e624] [cursor=pointer]:
+                    - img [ref=e627]
+                    - generic [ref=e629]: TRANSLATIONS.md
+                - treeitem "design-browser-task-handoff.md" [level=1] [ref=e630]:
+                  - generic [ref=e632] [cursor=pointer]:
+                    - img [ref=e635]
+                    - generic [ref=e637]: design-browser-task-handoff.md
+                - treeitem "flake.lock" [level=1] [ref=e638]:
+                  - generic [ref=e640] [cursor=pointer]:
+                    - img [ref=e643]
+                    - generic [ref=e645]: flake.lock
+                - treeitem "flake.nix" [level=1] [ref=e646]:
+                  - generic [ref=e648] [cursor=pointer]:
+                    - img [ref=e651]
+                    - generic [ref=e653]: flake.nix
+                - treeitem "mise.toml" [level=1] [ref=e654]:
+                  - generic [ref=e656] [cursor=pointer]:
+                    - img [ref=e659]
+                    - generic [ref=e661]: mise.toml
+                - treeitem "package.json" [level=1] [ref=e662]:
+                  - generic [ref=e664] [cursor=pointer]:
+                    - img [ref=e667]
+                    - generic [ref=e669]: package.json
+                - treeitem "pnpm-lock.yaml" [level=1] [ref=e670]:
+                  - generic [ref=e672] [cursor=pointer]:
+                    - img [ref=e675]
+                    - generic [ref=e677]: pnpm-lock.yaml
+                - treeitem "pnpm-workspace.yaml" [level=1] [ref=e678]:
+                  - generic [ref=e680] [cursor=pointer]:
+                    - img [ref=e683]
+                    - generic [ref=e685]: pnpm-workspace.yaml
+                - treeitem "vercel.json" [level=1] [ref=e686]:
+                  - generic [ref=e688] [cursor=pointer]:
+                    - img [ref=e691]
+                    - generic [ref=e693]: vercel.json
+          - slider "Draggable pane splitter" [ref=e695]
+        - generic [ref=e698]:
+          - generic [ref=e702]:
+            - generic [ref=e704]:
+              - navigation "Breadcrumbs" [ref=e705]:
+                - heading "Breadcrumbs" [level=2] [ref=e706]
+                - list [ref=e707]:
+                  - listitem [ref=e708]:
+                    - link "open-design" [ref=e709] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/tree/main
+              - generic [ref=e710]:
+                - text: /
+                - heading "README.md" [level=1] [ref=e711]
+              - button "Copy path" [ref=e712] [cursor=pointer]:
+                - img [ref=e713]
+            - button "More file actions" [ref=e719] [cursor=pointer]:
+              - img [ref=e720]
+          - generic [ref=e722]:
+            - generic [ref=e724]:
+              - heading "Latest commit" [level=2] [ref=e725]
+              - generic [ref=e726]:
+                - generic [ref=e728]:
+                  - link "open-design-bot[bot]" [ref=e729] [cursor=pointer]:
+                    - /url: /apps/open-design-bot
+                    - img "open-design-bot[bot]" [ref=e730]
+                  - link "commits by open-design-bot[bot]" [ref=e731] [cursor=pointer]:
+                    - /url: /nexu-io/open-design/commits?author=open-design-bot%5Bbot%5D
+                    - text: open-design-bot[bot]
+                - generic [ref=e732]:
+                  - generic [ref=e734]:
+                    - 'link "docs(readme): refresh contributors wall (" [ref=e735] [cursor=pointer]':
+                      - /url: /nexu-io/open-design/commit/59214704f609129d1bf76d63154f41e70cf701a2
+                    - link "#4719" [ref=e736] [cursor=pointer]:
+                      - /url: https://github.com/nexu-io/open-design/pull/4719
+                    - link ")" [ref=e737] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/commit/59214704f609129d1bf76d63154f41e70cf701a2
+                  - button "Open commit details" [ref=e738] [cursor=pointer]:
+                    - img [ref=e739]
+                  - button "success" [ref=e741] [cursor=pointer]:
+                    - img [ref=e742]
+              - generic [ref=e744]:
+                - generic [ref=e746]:
+                  - link "Commit 5921470" [ref=e747] [cursor=pointer]:
+                    - /url: /nexu-io/open-design/commit/59214704f609129d1bf76d63154f41e70cf701a2
+                    - text: "5921470"
+                  - text: ·
+                  - generic "Jun 26, 2026, 18:55 GMT+5" [ref=e748]: Jun 26, 20262 days ago
+                - generic [ref=e749]:
+                  - heading "History" [level=2] [ref=e750]
+                  - link "History" [ref=e751] [cursor=pointer]:
+                    - /url: /nexu-io/open-design/commits/main/README.md
+                    - generic [ref=e752]:
+                      - generic:
+                        - img
+                      - generic [ref=e753]: History
+            - generic [ref=e755]:
+              - generic [ref=e757]:
+                - heading "File metadata and controls" [level=2] [ref=e758]
+                - list "File view" [ref=e760]:
+                  - listitem [ref=e761]:
+                    - button "Preview" [ref=e762] [cursor=pointer]:
+                      - generic [ref=e764]: Preview
+                  - listitem [ref=e765]:
+                    - button "Code" [ref=e766] [cursor=pointer]:
+                      - generic [ref=e768]: Code
+                  - listitem [ref=e769]:
+                    - button "Blame" [ref=e770] [cursor=pointer]:
+                      - generic [ref=e772]: Blame
+                - generic [ref=e773]:
+                  - generic [ref=e774]:
+                    - generic [ref=e775]:
+                      - link "Raw" [ref=e777] [cursor=pointer]:
+                        - /url: https://github.com/nexu-io/open-design/raw/refs/heads/main/README.md
+                        - generic [ref=e779]: Raw
+                      - button "Copy raw file" [ref=e781] [cursor=pointer]:
+                        - img [ref=e782]
+                      - button "Download raw file" [ref=e786] [cursor=pointer]:
+                        - img [ref=e787]
+                    - generic [ref=e790]:
+                      - button "You must be signed in to make or propose changes" [disabled] [ref=e792]:
+                        - img [ref=e793]
+                      - button "More edit options" [ref=e796] [cursor=pointer]:
+                        - img [ref=e797]
+                  - button "Outline" [ref=e799] [cursor=pointer]:
+                    - img [ref=e800]
+              - region "README.md" [ref=e803]:
+                - article [ref=e805]:
+                  - generic [ref=e806]:
+                    - 'heading "Open Design: The open-source Claude Design alternative" [level=1] [ref=e807]'
+                    - 'link "Permalink: Open Design: The open-source Claude Design alternative" [ref=e808] [cursor=pointer]':
+                      - /url: "#open-design-the-open-source-claude-design-alternative"
+                      - img [ref=e809]
+                  - blockquote [ref=e811]:
+                    - paragraph [ref=e812]:
+                      - text: 🔥
+                      - strong [ref=e813]: "Open Design 0.10.0 is here: the all-in-one Agentic design workspace."
+                      - text: The whole craft now lives in one window — go from a vague idea to discovering references, gathering material, editing interactively, queuing comments, polishing motion, and handing off to an editor or a Code Agent — without leaving the app. With parallel sessions, it stops feeling like one assistant and starts feeling like a local design team working for you.
+                      - link "Download 0.10.0" [ref=e814] [cursor=pointer]:
+                        - /url: https://github.com/nexu-io/open-design/releases
+                      - text: ·
+                      - link "Join the discussion" [ref=e815] [cursor=pointer]:
+                        - /url: https://github.com/nexu-io/open-design/discussions/4153
+                    - paragraph [ref=e816]:
+                      - text: ⚡
+                      - strong [ref=e817]: Open Design AMR (Agentic Model Router) — the official model service.
+                      - text: "One recharge to use GPT, Claude, Gemini, and DeepSeek inside Open Design: 20+ flagship models, zero config, billed by real token usage."
+                      - link "Try AMR" [ref=e818] [cursor=pointer]:
+                        - /url: https://open-design.ai/amr/?utm_source=github&utm_medium=referral&utm_content=readme_try_amr
+                    - paragraph [ref=e819]:
+                      - text: 🏅
+                      - strong [ref=e820]: The Open Design Fellow program is now open.
+                      - text: If you also believe design should be open — become an Open Design Fellow, shape the product alongside the core team, and help more people take part in defining the future of design. Details →
+                      - link "MAINTAINERS.md" [ref=e821] [cursor=pointer]:
+                        - /url: /nexu-io/open-design/blob/main/MAINTAINERS.md
+                        - code [ref=e822]: MAINTAINERS.md
+                      - text: and
+                      - link "Discord" [ref=e823] [cursor=pointer]:
+                        - /url: https://discord.gg/9ptkbbqRu
+                      - text: .
+                  - paragraph [ref=e824]:
+                    - link "Open Design — The open-source Claude Design alternative · 150 Design Systems · 261 Plugins · 21 Coding Agents · 14 Media Providers" [ref=e825] [cursor=pointer]:
+                      - /url: https://camo.githubusercontent.com/03e623b9a0a74798e7adb26dc51a3b9110e55fd881d0e7d51c2dc38ae3db287a/68747470733a2f2f7265706f2d6173736574732e6f70656e2d64657369676e2e61692f7265736f75726365732f696d616765732f6865726f2e706e67
+                      - img "Open Design — The open-source Claude Design alternative · 150 Design Systems · 261 Plugins · 21 Coding Agents · 14 Media Providers" [ref=e826]
+                  - paragraph [ref=e827]:
+                    - link "Website" [ref=e828] [cursor=pointer]:
+                      - /url: https://open-design.ai/?utm_source=github&utm_medium=referral&utm_content=readme_website
+                    - text: ·
+                    - link "Download" [ref=e829] [cursor=pointer]:
+                      - /url: https://open-design.ai/?utm_source=github&utm_medium=referral&utm_content=readme_download
+                    - text: ·
+                    - link "Model Router" [ref=e830] [cursor=pointer]:
+                      - /url: https://open-design.ai/amr/?utm_source=github&utm_medium=referral&utm_content=readme_model_router
+                    - text: ·
+                    - link "Discord" [ref=e831] [cursor=pointer]:
+                      - /url: https://discord.gg/9ptkbbqRu
+                    - text: ·
+                    - link "Follow @OpenDesignHQ" [ref=e832] [cursor=pointer]:
+                      - /url: https://x.com/OpenDesignHQ
+                  - paragraph [ref=e833]:
+                    - link "release" [ref=e834] [cursor=pointer]:
+                      - /url: https://github.com/nexu-io/open-design/releases
+                      - img "release" [ref=e835]
+                    - link "license" [ref=e836] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/LICENSE
+                      - img "license" [ref=e837]
+                    - link "discord" [ref=e838] [cursor=pointer]:
+                      - /url: https://discord.gg/9ptkbbqRu
+                      - img "discord" [ref=e839]
+                    - link "quickstart" [ref=e840] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/QUICKSTART.md
+                      - img "quickstart" [ref=e841]
+                  - paragraph [ref=e842]:
+                    - text: English ·
+                    - link "Español" [ref=e843] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/README.es.md
+                    - text: ·
+                    - link "Português" [ref=e844] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/README.pt-BR.md
+                    - text: ·
+                    - link "Deutsch" [ref=e845] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/README.de.md
+                    - text: ·
+                    - link "Français" [ref=e846] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/README.fr.md
+                    - text: ·
+                    - link "简体中文" [ref=e847] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/README.zh-CN.md
+                    - text: ·
+                    - link "繁體中文" [ref=e848] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/README.zh-TW.md
+                    - text: ·
+                    - link "한국어" [ref=e849] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/README.ko.md
+                    - text: ·
+                    - link "日本語" [ref=e850] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/README.ja-JP.md
+                    - text: ·
+                    - link "العربية" [ref=e851] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/README.ar.md
+                    - text: ·
+                    - link "Русский" [ref=e852] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/README.ru.md
+                    - text: ·
+                    - link "Українська" [ref=e853] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/README.uk.md
+                    - text: ·
+                    - link "Türkçe" [ref=e854] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/README.tr.md
+                  - separator [ref=e855]
+                  - generic [ref=e856]:
+                    - heading "What is Open Design" [level=2] [ref=e857]
+                    - 'link "Permalink: What is Open Design" [ref=e858] [cursor=pointer]':
+                      - /url: "#what-is-open-design"
+                      - img [ref=e859]
+                  - paragraph [ref=e861]:
+                    - text: 🎨
+                    - strong [ref=e862]:
+                      - text: The local-first, open-source
+                      - link "Claude Design" [ref=e863] [cursor=pointer]:
+                        - /url: https://x.com/claudeai/status/2045156267690213649
+                      - text: alternative.
+                    - text: 🖥️
+                    - strong [ref=e864]: Native desktop app for macOS and Windows.
+                    - text: ⚡
+                    - strong [ref=e865]: 100+ skills
+                    - text: · ✨
+                    - strong [ref=e866]:
+                      - text: 150 brand-grade
+                      - code [ref=e867]: DESIGN.md
+                      - text: systems
+                    - text: · 📦
+                    - strong [ref=e868]: 261 ready-to-use plugins.
+                    - text: 🖼️ Generates
+                    - strong [ref=e869]: web · desktop · mobile prototypes
+                    - text: ","
+                    - strong [ref=e870]: live dashboards / artifacts
+                    - text: ","
+                    - strong [ref=e871]: decks
+                    - text: ","
+                    - strong [ref=e872]: images
+                    - text: ","
+                    - strong [ref=e873]: video
+                    - text: ", plus"
+                    - strong [ref=e874]: HyperFrames
+                    - text: motion graphics. 🔒 Sandboxed iframe preview · HTML / PDF / PPTX / MP4 export. 🤖
+                    - strong [ref=e875]: Runs on Claude Code · OpenClaw · Codex · Cursor · OpenCode · Qwen · Copilot · Amp · Hermes · Kimi · Antigravity and 22 local CLIs
+                    - text: ", or any OpenAI-compatible endpoint via BYOK."
+                  - paragraph [ref=e876]:
+                    - text: Open Design is what you get when the
+                    - strong [ref=e877]: agent-native
+                    - text: loop Anthropic shipped with Claude Design — discover the brief, lock the direction, stream the artifact, critique, deliver — stops being closed and becomes a
+                    - strong [ref=e878]: filesystem of skills, design systems, and plugins
+                    - text: that the coding agents already on your laptop can read, write, and remix. Your CLI becomes the design engine, your laptop becomes the studio, and your team's
+                    - code [ref=e879]: DESIGN.md
+                    - text: becomes the brand contract.
+                  - paragraph [ref=e880]:
+                    - text: It's also the
+                    - strong [ref=e881]: Figma alternative for the agent era
+                    - text: — instead of pushing pixels on a canvas, it delivers single-page artifacts in real CSS, real fonts, real components, exported straight to HTML / PDF / PPTX / MP4 — already shaped by your design system, already runnable inside the agent you use every day.
+                  - separator [ref=e882]
+                  - generic [ref=e883]:
+                    - heading "Product tour" [level=2] [ref=e884]
+                    - 'link "Permalink: Product tour" [ref=e885] [cursor=pointer]':
+                      - /url: "#product-tour"
+                      - img [ref=e886]
+                  - paragraph [ref=e888]:
+                    - text: A quick look at what Open Design is and what it does. Start from
+                    - strong [ref=e889]: Home
+                    - text: ", orchestrate repeat workflows with"
+                    - strong [ref=e890]: Automation
+                    - text: ", distill a brand contract in"
+                    - strong [ref=e891]: Design System
+                    - text: ", and extend with"
+                    - strong [ref=e892]: Plugins
+                    - text: and
+                    - strong [ref=e893]: integrations
+                    - text: ; inside any project's
+                    - strong [ref=e894]: Studio
+                    - text: ", the same design system streams out prototypes, live artifacts, HyperFrames, decks, and images."
+                  - generic [ref=e895]:
+                    - heading "Core pages" [level=3] [ref=e896]
+                    - 'link "Permalink: Core pages" [ref=e897] [cursor=pointer]':
+                      - /url: "#core-pages"
+                      - img [ref=e898]
+                  - table [ref=e901]:
+                    - rowgroup [ref=e902]:
+                      - row "Home page Home — the overview entry point. Pick a skill and a design system, type the brief, and kick off everything from one place." [ref=e903]:
+                        - cell "Home page Home — the overview entry point. Pick a skill and a design system, type the brief, and kick off everything from one place." [ref=e904]:
+                          - link "Home page" [ref=e905] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/df9488e882b012f422ce712abe5c418ef191b99f508e4aef64f2ab0b260e0fb0/68747470733a2f2f7265706f2d6173736574732e6f70656e2d64657369676e2e61692f7265736f75726365732f696d616765732f70726f647563742f686f6d652e706e67
+                            - img "Home page" [ref=e906]
+                          - subscript [ref=e907]: Home — the overview entry point. Pick a skill and a design system, type the brief, and kick off everything from one place.
+                  - table [ref=e909]:
+                    - rowgroup [ref=e910]:
+                      - row "Automation page Automation — orchestrate repetitive design workflows into reusable, schedulable automations. Design System page Design System — distill your team's DESIGN.md into a brand contract that shapes every output." [ref=e911]:
+                        - cell "Automation page Automation — orchestrate repetitive design workflows into reusable, schedulable automations." [ref=e912]:
+                          - link "Automation page" [ref=e913] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/40cfc870f0bc994e882ebbbb49e319b185af3f2a5887e5e1c9e82a9fca8d5082/68747470733a2f2f7265706f2d6173736574732e6f70656e2d64657369676e2e61692f7265736f75726365732f696d616765732f70726f647563742f6175746f6d6174696f6e2e706e67
+                            - img "Automation page" [ref=e914]
+                          - subscript [ref=e915]: Automation — orchestrate repetitive design workflows into reusable, schedulable automations.
+                        - cell "Design System page Design System — distill your team's DESIGN.md into a brand contract that shapes every output." [ref=e916]:
+                          - link "Design System page" [ref=e917] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/067387f94221c8148b75072f8cc94b9f92656c0c895fc5fba6f888400a650c24/68747470733a2f2f7265706f2d6173736574732e6f70656e2d64657369676e2e61692f7265736f75726365732f696d616765732f70726f647563742f64657369676e2d73797374656d2e706e67
+                            - img "Design System page" [ref=e918]
+                          - subscript [ref=e919]:
+                            - text: Design System — distill your team's
+                            - code [ref=e920]: DESIGN.md
+                            - text: into a brand contract that shapes every output.
+                      - row "Plugin page Plugin — browse, install, and distribute workflow plugins to extend generation on demand. Integrations page Integrations — connect external systems and MCP tools, and use Open Design from any IDE, script, or automation." [ref=e921]:
+                        - cell "Plugin page Plugin — browse, install, and distribute workflow plugins to extend generation on demand." [ref=e922]:
+                          - link "Plugin page" [ref=e923] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/9aa4a1a137470e05ce509977317d63ec0b87ca4e812f17b189730ac2ba7a313e/68747470733a2f2f7265706f2d6173736574732e6f70656e2d64657369676e2e61692f7265736f75726365732f696d616765732f70726f647563742f706c7567696e2e706e67
+                            - img "Plugin page" [ref=e924]
+                          - subscript [ref=e925]: Plugin — browse, install, and distribute workflow plugins to extend generation on demand.
+                        - cell "Integrations page Integrations — connect external systems and MCP tools, and use Open Design from any IDE, script, or automation." [ref=e926]:
+                          - link "Integrations page" [ref=e927] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/98b533fad41e0f891e7825e971377718dfb4f0944280f6af7ffbb31cd1ed61fc/68747470733a2f2f7265706f2d6173736574732e6f70656e2d64657369676e2e61692f7265736f75726365732f696d616765732f70726f647563742f696e746567726174696f6e732e706e67
+                            - img "Integrations page" [ref=e928]
+                          - subscript [ref=e929]: Integrations — connect external systems and MCP tools, and use Open Design from any IDE, script, or automation.
+                  - generic [ref=e930]:
+                    - heading "Studio — many artifact types in one project" [level=3] [ref=e931]
+                    - 'link "Permalink: Studio — many artifact types in one project" [ref=e932] [cursor=pointer]':
+                      - /url: "#studio--many-artifact-types-in-one-project"
+                      - img [ref=e933]
+                  - paragraph [ref=e935]: "Inside a project's Studio, the same design system streams out multiple artifact types:"
+                  - table [ref=e937]:
+                    - rowgroup [ref=e938]:
+                      - row "Prototype Prototype — single-page HTML artifacts that read your design system and render in a sandboxed iframe, previewable instantly and downloadable as source. HyperFrame HyperFrame — programmatic motion and animated graphics, rendered to a real MP4 (e.g. 1920×1080 · 30fps)." [ref=e939]:
+                        - cell "Prototype Prototype — single-page HTML artifacts that read your design system and render in a sandboxed iframe, previewable instantly and downloadable as source." [ref=e940]:
+                          - link "Prototype" [ref=e941] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/bf1079c78f50a2df4de7e9e877adebd3ff54380ebacdf3fb25c28aa317dc4cad/68747470733a2f2f7265706f2d6173736574732e6f70656e2d64657369676e2e61692f7265736f75726365732f696d616765732f70726f647563742f73747564696f2d70726f746f747970652e706e67
+                            - img "Prototype" [ref=e942]
+                          - subscript [ref=e943]: Prototype — single-page HTML artifacts that read your design system and render in a sandboxed iframe, previewable instantly and downloadable as source.
+                        - cell "HyperFrame HyperFrame — programmatic motion and animated graphics, rendered to a real MP4 (e.g. 1920×1080 · 30fps)." [ref=e944]:
+                          - link "HyperFrame" [ref=e945] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/67ad8f124579cc4ad5c17fe5d6ec43e0a03081c75712a97049724eb5a3e60d1b/68747470733a2f2f7265706f2d6173736574732e6f70656e2d64657369676e2e61692f7265736f75726365732f696d616765732f70726f647563742f73747564696f2d68797065726672616d652e706e67
+                            - img "HyperFrame" [ref=e946]
+                          - subscript [ref=e947]: HyperFrame — programmatic motion and animated graphics, rendered to a real MP4 (e.g. 1920×1080 · 30fps).
+                      - row "Deck Deck — pitch decks you can page through, navigate by keyboard, and export to PPTX / PDF. Image Image — brand-grade images and visual assets, with high-resolution generation and download." [ref=e948]:
+                        - cell "Deck Deck — pitch decks you can page through, navigate by keyboard, and export to PPTX / PDF." [ref=e949]:
+                          - link "Deck" [ref=e950] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/79db650ac6ebf80df081958704044461d2e1e6c11934f3ea89087dfcf8bcb706/68747470733a2f2f7265706f2d6173736574732e6f70656e2d64657369676e2e61692f7265736f75726365732f696d616765732f70726f647563742f73747564696f2d7070742e706e67
+                            - img "Deck" [ref=e951]
+                          - subscript [ref=e952]: Deck — pitch decks you can page through, navigate by keyboard, and export to PPTX / PDF.
+                        - cell "Image Image — brand-grade images and visual assets, with high-resolution generation and download." [ref=e953]:
+                          - link "Image" [ref=e954] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/1b5c222fefebb9e23d9cde3eeea3f6f0494bae5fb18c38229700ceda666ffb3b/68747470733a2f2f7265706f2d6173736574732e6f70656e2d64657369676e2e61692f7265736f75726365732f696d616765732f70726f647563742f73747564696f2d696d6167652e706e67
+                            - img "Image" [ref=e955]
+                          - subscript [ref=e956]: Image — brand-grade images and visual assets, with high-resolution generation and download.
+                  - separator [ref=e957]
+                  - generic [ref=e958]:
+                    - heading "Platform Compatibility" [level=2] [ref=e959]
+                    - 'link "Permalink: Platform Compatibility" [ref=e960] [cursor=pointer]':
+                      - /url: "#platform-compatibility"
+                      - img [ref=e961]
+                  - blockquote [ref=e963]:
+                    - paragraph [ref=e964]:
+                      - text: Open Design ships as
+                      - strong [ref=e965]: skills, a CLI, and an MCP server
+                      - text: that mainstream coding agents consume natively. Once OD is installed, a single
+                      - code [ref=e966]: od mcp install <agent>
+                      - text: wires the MCP server into that agent's config, and you call the same tools from inside any agent.
+                  - table [ref=e968]:
+                    - rowgroup [ref=e969]:
+                      - row "Coding agent / platform Status One-line MCP server install" [ref=e970]:
+                        - columnheader "Coding agent / platform" [ref=e971]
+                        - columnheader "Status" [ref=e972]
+                        - columnheader "One-line MCP server install" [ref=e973]
+                    - rowgroup [ref=e974]:
+                      - row "Claude Code ✅ Supported od mcp install claude" [ref=e975]:
+                        - cell "Claude Code" [ref=e976]:
+                          - link "Claude Code" [ref=e977] [cursor=pointer]:
+                            - /url: https://docs.anthropic.com/en/docs/claude-code
+                        - cell "✅ Supported" [ref=e978]
+                        - cell "od mcp install claude" [ref=e979]:
+                          - code [ref=e980]: od mcp install claude
+                      - row "Codex CLI ✅ Supported od mcp install codex" [ref=e981]:
+                        - cell "Codex CLI" [ref=e982]:
+                          - link "Codex CLI" [ref=e983] [cursor=pointer]:
+                            - /url: https://github.com/openai/codex
+                        - cell "✅ Supported" [ref=e984]
+                        - cell "od mcp install codex" [ref=e985]:
+                          - code [ref=e986]: od mcp install codex
+                      - row "Cursor ✅ Supported od mcp install cursor" [ref=e987]:
+                        - cell "Cursor" [ref=e988]:
+                          - link "Cursor" [ref=e989] [cursor=pointer]:
+                            - /url: https://www.cursor.com/cli
+                        - cell "✅ Supported" [ref=e990]
+                        - cell "od mcp install cursor" [ref=e991]:
+                          - code [ref=e992]: od mcp install cursor
+                      - row "VS Code + GitHub Copilot ✅ Supported od mcp install copilot" [ref=e993]:
+                        - cell "VS Code + GitHub Copilot" [ref=e994]:
+                          - link "VS Code + GitHub Copilot" [ref=e995] [cursor=pointer]:
+                            - /url: https://github.com/features/copilot
+                        - cell "✅ Supported" [ref=e996]
+                        - cell "od mcp install copilot" [ref=e997]:
+                          - code [ref=e998]: od mcp install copilot
+                      - row "GitHub Copilot CLI ✅ Supported od mcp install copilot" [ref=e999]:
+                        - cell "GitHub Copilot CLI" [ref=e1000]:
+                          - link "GitHub Copilot CLI" [ref=e1001] [cursor=pointer]:
+                            - /url: https://github.com/features/copilot/cli
+                        - cell "✅ Supported" [ref=e1002]
+                        - cell "od mcp install copilot" [ref=e1003]:
+                          - code [ref=e1004]: od mcp install copilot
+                      - row "Gemini CLI ✅ Supported od mcp install gemini" [ref=e1005]:
+                        - cell "Gemini CLI" [ref=e1006]:
+                          - link "Gemini CLI" [ref=e1007] [cursor=pointer]:
+                            - /url: https://github.com/google-gemini/gemini-cli
+                        - cell "✅ Supported" [ref=e1008]
+                        - cell "od mcp install gemini" [ref=e1009]:
+                          - code [ref=e1010]: od mcp install gemini
+                      - row "OpenCode ✅ Supported od mcp install opencode" [ref=e1011]:
+                        - cell "OpenCode" [ref=e1012]:
+                          - link "OpenCode" [ref=e1013] [cursor=pointer]:
+                            - /url: https://opencode.ai/
+                        - cell "✅ Supported" [ref=e1014]
+                        - cell "od mcp install opencode" [ref=e1015]:
+                          - code [ref=e1016]: od mcp install opencode
+                      - row "OpenClaw ✅ Supported od mcp install openclaw" [ref=e1017]:
+                        - cell "OpenClaw" [ref=e1018]:
+                          - link "OpenClaw" [ref=e1019] [cursor=pointer]:
+                            - /url: https://github.com/openclaw/openclaw
+                        - cell "✅ Supported" [ref=e1020]
+                        - cell "od mcp install openclaw" [ref=e1021]:
+                          - code [ref=e1022]: od mcp install openclaw
+                      - row "Antigravity ✅ Supported od mcp install antigravity" [ref=e1023]:
+                        - cell "Antigravity" [ref=e1024]:
+                          - link "Antigravity" [ref=e1025] [cursor=pointer]:
+                            - /url: https://antigravity.google
+                        - cell "✅ Supported" [ref=e1026]
+                        - cell "od mcp install antigravity" [ref=e1027]:
+                          - code [ref=e1028]: od mcp install antigravity
+                      - row "Cline ✅ Supported od mcp install cline" [ref=e1029]:
+                        - cell "Cline" [ref=e1030]:
+                          - link "Cline" [ref=e1031] [cursor=pointer]:
+                            - /url: https://github.com/cline/cline
+                        - cell "✅ Supported" [ref=e1032]
+                        - cell "od mcp install cline" [ref=e1033]:
+                          - code [ref=e1034]: od mcp install cline
+                      - row "Trae ✅ Supported od mcp install trae" [ref=e1035]:
+                        - cell "Trae" [ref=e1036]:
+                          - link "Trae" [ref=e1037] [cursor=pointer]:
+                            - /url: https://www.trae.ai/
+                        - cell "✅ Supported" [ref=e1038]
+                        - cell "od mcp install trae" [ref=e1039]:
+                          - code [ref=e1040]: od mcp install trae
+                      - row "Kimi CLI ✅ Supported od mcp install kimi" [ref=e1041]:
+                        - cell "Kimi CLI" [ref=e1042]:
+                          - link "Kimi CLI" [ref=e1043] [cursor=pointer]:
+                            - /url: https://github.com/MoonshotAI/kimi-cli
+                        - cell "✅ Supported" [ref=e1044]
+                        - cell "od mcp install kimi" [ref=e1045]:
+                          - code [ref=e1046]: od mcp install kimi
+                      - row "Pi Agent ✅ Supported od mcp install pi" [ref=e1047]:
+                        - cell "Pi Agent" [ref=e1048]:
+                          - link "Pi Agent" [ref=e1049] [cursor=pointer]:
+                            - /url: https://github.com/badlogic/pi-mono
+                        - cell "✅ Supported" [ref=e1050]
+                        - cell "od mcp install pi" [ref=e1051]:
+                          - code [ref=e1052]: od mcp install pi
+                      - row "Mistral Vibe CLI ✅ Supported od mcp install vibe" [ref=e1053]:
+                        - cell "Mistral Vibe CLI" [ref=e1054]:
+                          - link "Mistral Vibe CLI" [ref=e1055] [cursor=pointer]:
+                            - /url: https://github.com/mistralai/mistral-vibe
+                        - cell "✅ Supported" [ref=e1056]
+                        - cell "od mcp install vibe" [ref=e1057]:
+                          - code [ref=e1058]: od mcp install vibe
+                      - row "Hermes Agent ✅ Supported od mcp install hermes" [ref=e1059]:
+                        - cell "Hermes Agent" [ref=e1060]:
+                          - link "Hermes Agent" [ref=e1061] [cursor=pointer]:
+                            - /url: https://github.com/nousresearch/hermes-agent
+                        - cell "✅ Supported" [ref=e1062]
+                        - cell "od mcp install hermes" [ref=e1063]:
+                          - code [ref=e1064]: od mcp install hermes
+                  - paragraph [ref=e1065]:
+                    - code [ref=e1066]: od mcp install <agent> --print
+                    - text: for a dry-run preview ·
+                    - code [ref=e1067]: "--uninstall"
+                    - text: to remove · full list with
+                    - code [ref=e1068]: od mcp install --help
+                    - text: .
+                  - paragraph [ref=e1069]:
+                    - link "The 21 coding-agent CLIs Open Design supports — Claude Code · Codex · OpenCode · Hermes · Antigravity · Gemini · Grok Build · Kimi · Cursor Agent · Qwen · Qoder · GitHub Copilot · Pi · Kiro · Kilo · Mistral Vibe · DeepSeek · Reasonix · Aider · Devin · Trae" [ref=e1070] [cursor=pointer]:
+                      - /url: https://camo.githubusercontent.com/67e5284a287c972b89b8e205f8f3a1c7ea5b104bc9ff178f5549e4010de5366d/68747470733a2f2f7265706f2d6173736574732e6f70656e2d64657369676e2e61692f7265736f75726365732f696d616765732f636f64696e672d6167656e74732e706e67
+                      - img "The 21 coding-agent CLIs Open Design supports — Claude Code · Codex · OpenCode · Hermes · Antigravity · Gemini · Grok Build · Kimi · Cursor Agent · Qwen · Qoder · GitHub Copilot · Pi · Kiro · Kilo · Mistral Vibe · DeepSeek · Reasonix · Aider · Devin · Trae" [ref=e1071]
+                  - paragraph [ref=e1072]:
+                    - strong [ref=e1073]: No CLI installed?
+                    - text: The BYOK proxy at
+                    - code [ref=e1074]: "POST /api/proxy/{anthropic,openai,azure,google,ollama,senseaudio}/stream"
+                    - text: gives you the same loop (no process spawn) — paste
+                    - code [ref=e1075]: baseUrl
+                    - text: +
+                    - code [ref=e1076]: apiKey
+                    - text: +
+                    - code [ref=e1077]: model
+                    - text: ", with support for OpenAI, Anthropic, Azure OpenAI, Google Gemini, Ollama, LM Studio, vLLM, or any OpenAI-compatible endpoint. Per-target SSRF protection blocks internal IPs / link-local / CGNAT at the daemon edge."
+                  - paragraph [ref=e1078]:
+                    - text: The adapter contract and stream parsers live in
+                    - link "apps/daemon/src/agents.ts" [ref=e1079] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/apps/daemon/src/agents.ts
+                      - code [ref=e1080]: apps/daemon/src/agents.ts
+                    - text: . Adding a new CLI is one entry — see
+                    - link "docs/agent-adapters.md" [ref=e1081] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/agent-adapters.md
+                      - code [ref=e1082]: docs/agent-adapters.md
+                    - text: .
+                  - separator [ref=e1083]
+                  - generic [ref=e1084]:
+                    - heading "Demo" [level=2] [ref=e1085]
+                    - 'link "Permalink: Demo" [ref=e1086] [cursor=pointer]':
+                      - /url: "#demo"
+                      - img [ref=e1087]
+                  - paragraph [ref=e1089]: Four core product categories, all rendered by a coding agent running on your laptop. Click a thumbnail to see the real example.
+                  - generic [ref=e1090]:
+                    - heading "1 · Prototypes — web · desktop · mobile" [level=3] [ref=e1091]
+                    - 'link "Permalink: 1 · Prototypes — web · desktop · mobile" [ref=e1092] [cursor=pointer]':
+                      - /url: "#1--prototypes--web--desktop--mobile"
+                      - img [ref=e1093]
+                  - paragraph [ref=e1095]:
+                    - text: The default output surface. Single-page HTML artifacts that read your
+                    - code [ref=e1096]: DESIGN.md
+                    - text: and render in a sandboxed iframe.
+                  - table [ref=e1098]:
+                    - rowgroup [ref=e1099]:
+                      - row "Entry view Entry view — pick a skill, pick a design system, type the brief. One surface for prototypes, dashboards, decks, mobile apps, magazine pages. Mobile onboarding Mobile prototype — pixel-accurate iPhone 15 Pro chrome, multi-screen flows. The agent never redraws the phone frame; shared device frames live in assets/frames/." [ref=e1100]:
+                        - cell "Entry view Entry view — pick a skill, pick a design system, type the brief. One surface for prototypes, dashboards, decks, mobile apps, magazine pages." [ref=e1101]:
+                          - link "Entry view" [ref=e1102] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/docs/screenshots/01-entry-view.png
+                            - img "Entry view" [ref=e1103]
+                          - subscript [ref=e1104]: Entry view — pick a skill, pick a design system, type the brief. One surface for prototypes, dashboards, decks, mobile apps, magazine pages.
+                        - cell "Mobile onboarding Mobile prototype — pixel-accurate iPhone 15 Pro chrome, multi-screen flows. The agent never redraws the phone frame; shared device frames live in assets/frames/." [ref=e1105]:
+                          - link "Mobile onboarding" [ref=e1106] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/docs/screenshots/skills/mobile-onboarding.png
+                            - img "Mobile onboarding" [ref=e1107]
+                          - subscript [ref=e1108]:
+                            - text: Mobile prototype — pixel-accurate iPhone 15 Pro chrome, multi-screen flows. The agent never redraws the phone frame; shared device frames live in
+                            - code [ref=e1109]: assets/frames/
+                            - text: .
+                      - row "Web prototype dating-web Web prototype — an editorial dashboard with scrollbars, KPIs, and charts. Rendered straight from design-templates/dating-web/. Gamified app Mobile app prototype — a three-screen gamified flow with XP ribbons and quest detail. Hand off straight to Cursor / Codex / Claude Code to turn into React/Next/Vue." [ref=e1110]:
+                        - cell "Web prototype dating-web Web prototype — an editorial dashboard with scrollbars, KPIs, and charts. Rendered straight from design-templates/dating-web/." [ref=e1111]:
+                          - link "Web prototype dating-web" [ref=e1112] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/docs/screenshots/skills/dating-web.png
+                            - img "Web prototype dating-web" [ref=e1113]
+                          - subscript [ref=e1114]:
+                            - text: Web prototype — an editorial dashboard with scrollbars, KPIs, and charts. Rendered straight from
+                            - code [ref=e1115]: design-templates/dating-web/
+                            - text: .
+                        - cell "Gamified app Mobile app prototype — a three-screen gamified flow with XP ribbons and quest detail. Hand off straight to Cursor / Codex / Claude Code to turn into React/Next/Vue." [ref=e1116]:
+                          - link "Gamified app" [ref=e1117] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/docs/screenshots/skills/gamified-app.png
+                            - img "Gamified app" [ref=e1118]
+                          - subscript [ref=e1119]: Mobile app prototype — a three-screen gamified flow with XP ribbons and quest detail. Hand off straight to Cursor / Codex / Claude Code to turn into React/Next/Vue.
+                  - generic [ref=e1120]:
+                    - heading "2 · Live artifacts & dashboards" [level=3] [ref=e1121]
+                    - 'link "Permalink: 2 · Live artifacts & dashboards" [ref=e1122] [cursor=pointer]':
+                      - /url: "#2--live-artifacts--dashboards"
+                      - img [ref=e1123]
+                  - paragraph [ref=e1125]: Live dashboards, decision rooms, KPI walls — single-page artifacts that pull data through a tweaks panel and stay editable in place.
+                  - table [ref=e1127]:
+                    - rowgroup [ref=e1128]:
+                      - row "Live dashboard Live dashboard — an editable KPI wall whose tweaks panel surfaces the parameters worth nudging. The agent emits a manifest, and the iframe re-renders without a reload. Decision room Decision room — a multi-source briefing artifact for product / research / ops meetings." [ref=e1129]:
+                        - cell "Live dashboard Live dashboard — an editable KPI wall whose tweaks panel surfaces the parameters worth nudging. The agent emits a manifest, and the iframe re-renders without a reload." [ref=e1130]:
+                          - link "Live dashboard" [ref=e1131] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/docs/screenshots/skills/live-dashboard.png
+                            - img "Live dashboard" [ref=e1132]
+                          - subscript [ref=e1133]: Live dashboard — an editable KPI wall whose tweaks panel surfaces the parameters worth nudging. The agent emits a manifest, and the iframe re-renders without a reload.
+                        - cell "Decision room Decision room — a multi-source briefing artifact for product / research / ops meetings." [ref=e1134]:
+                          - link "Decision room" [ref=e1135] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/docs/screenshots/skills/research-decision-room.png
+                            - img "Decision room" [ref=e1136]
+                          - subscript [ref=e1137]: Decision room — a multi-source briefing artifact for product / research / ops meetings.
+                      - row "GitHub dashboard GitHub-style dashboard — repo metrics presented as a live artifact. Flow live dashboard Flow live-dashboard template — a domain-specific KPI template, branded through the active DESIGN.md." [ref=e1138]:
+                        - cell "GitHub dashboard GitHub-style dashboard — repo metrics presented as a live artifact." [ref=e1139]:
+                          - link "GitHub dashboard" [ref=e1140] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/docs/screenshots/skills/github-dashboard.png
+                            - img "GitHub dashboard" [ref=e1141]
+                          - subscript [ref=e1142]: GitHub-style dashboard — repo metrics presented as a live artifact.
+                        - cell "Flow live dashboard Flow live-dashboard template — a domain-specific KPI template, branded through the active DESIGN.md." [ref=e1143]:
+                          - link "Flow live dashboard" [ref=e1144] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/docs/screenshots/skills/flowai-live-dashboard-template.png
+                            - img "Flow live dashboard" [ref=e1145]
+                          - subscript [ref=e1146]:
+                            - text: Flow live-dashboard template — a domain-specific KPI template, branded through the active
+                            - code [ref=e1147]: DESIGN.md
+                            - text: .
+                  - generic [ref=e1148]:
+                    - heading "3 · Decks — magazine decks, weekly updates, pitches" [level=3] [ref=e1149]
+                    - 'link "Permalink: 3 · Decks — magazine decks, weekly updates, pitches" [ref=e1150] [cursor=pointer]':
+                      - /url: "#3--decks--magazine-decks-weekly-updates-pitches"
+                      - img [ref=e1151]
+                  - table [ref=e1154]:
+                    - rowgroup [ref=e1155]:
+                      - row "Magazine deck (guizang-ppt) Deck mode (guizang-ppt) — magazine layouts, WebGL hero, P0/P1/P2 checklists. Bundled verbatim from op7418/guizang-ppt-skill with its original license preserved. Swiss deck Swiss International-style deck — grid-anchored, monochrome accents. One of 15 deck templates and 36 themes under design-templates/html-ppt-*/." [ref=e1156]:
+                        - cell "Magazine deck (guizang-ppt) Deck mode (guizang-ppt) — magazine layouts, WebGL hero, P0/P1/P2 checklists. Bundled verbatim from op7418/guizang-ppt-skill with its original license preserved." [ref=e1157]:
+                          - link "Magazine deck (guizang-ppt)" [ref=e1158] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/docs/screenshots/07-magazine-deck.png
+                            - img "Magazine deck (guizang-ppt)" [ref=e1159]
+                          - subscript [ref=e1160]:
+                            - text: Deck mode (guizang-ppt) — magazine layouts, WebGL hero, P0/P1/P2 checklists. Bundled verbatim from
+                            - link "op7418/guizang-ppt-skill" [ref=e1161] [cursor=pointer]:
+                              - /url: https://github.com/op7418/guizang-ppt-skill
+                              - code [ref=e1162]: op7418/guizang-ppt-skill
+                            - text: with its original license preserved.
+                        - cell "Swiss deck Swiss International-style deck — grid-anchored, monochrome accents. One of 15 deck templates and 36 themes under design-templates/html-ppt-*/." [ref=e1163]:
+                          - link "Swiss deck" [ref=e1164] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/docs/screenshots/skills/deck-swiss-international.png
+                            - img "Swiss deck" [ref=e1165]
+                          - subscript [ref=e1166]:
+                            - text: Swiss International-style deck — grid-anchored, monochrome accents. One of 15 deck templates and 36 themes under
+                            - code [ref=e1167]: design-templates/html-ppt-*/
+                            - text: .
+                  - paragraph [ref=e1168]:
+                    - text: Every deck exports to
+                    - strong [ref=e1169]: HTML
+                    - text: (single file, inlined assets),
+                    - strong [ref=e1170]: PDF
+                    - text: (browser print, deck-aware),
+                    - strong [ref=e1171]: PPTX
+                    - text: (agent-driven skill),
+                    - strong [ref=e1172]: ZIP
+                    - text: (archive), or
+                    - strong [ref=e1173]: Markdown
+                    - text: .
+                  - generic [ref=e1174]:
+                    - heading "4 · Images — gpt-image-2, ImageRouter, custom API" [level=3] [ref=e1175]:
+                      - text: 4 · Images —
+                      - code [ref=e1176]: gpt-image-2
+                      - text: ", ImageRouter, custom API"
+                    - 'link "Permalink: 4 · Images — gpt-image-2, ImageRouter, custom API" [ref=e1177] [cursor=pointer]':
+                      - /url: "#4--images--gpt-image-2-imagerouter-custom-api"
+                      - img [ref=e1178]
+                  - table [ref=e1181]:
+                    - rowgroup [ref=e1182]:
+                      - row "Illustrated city food map Illustrated city food map Hand-drawn editorial travel poster Cinematic elevator scene Cinematic elevator scene Single-frame editorial still Cyberpunk anime portrait Cyberpunk portrait Profile avatar — neon face text 3D stone staircase evolution 3D stone staircase Hewn-stone infographic Glamorous portrait Glamorous portrait Editorial studio shot" [ref=e1183]:
+                        - cell "Illustrated city food map Illustrated city food map Hand-drawn editorial travel poster" [ref=e1184]:
+                          - link "Illustrated city food map" [ref=e1185] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/6fa657a2d3ff5fe5a1b4b5cdb76991e7da052682209188e4a5b7dcb88bef8507/68747470733a2f2f636d732d6173736574732e796f756d696e642e636f6d2f6d656469612f313737363636323637333031345f6e66307461775f4847524d4e447962734141474738382e6a7067
+                            - img "Illustrated city food map" [ref=e1186]
+                          - subscript [ref=e1187]:
+                            - text: Illustrated city food map
+                            - text: Hand-drawn editorial travel poster
+                        - cell "Cinematic elevator scene Cinematic elevator scene Single-frame editorial still" [ref=e1188]:
+                          - link "Cinematic elevator scene" [ref=e1189] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/b6f878fd0c45ebc3abbc2835309136eab2e0d500c36c69bdb86ccbce8dbf899e/68747470733a2f2f636d732d6173736574732e796f756d696e642e636f6d2f6d656469612f313737373435333134393032365f6764326b35305f4848435376796d626f4141567363632e6a7067
+                            - img "Cinematic elevator scene" [ref=e1190]
+                          - subscript [ref=e1191]:
+                            - text: Cinematic elevator scene
+                            - text: Single-frame editorial still
+                        - cell "Cyberpunk anime portrait Cyberpunk portrait Profile avatar — neon face text" [ref=e1192]:
+                          - link "Cyberpunk anime portrait" [ref=e1193] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/f0a2c32e49e2f38c4d2ee066b15027add5a7c45f8eda96dc1ba90c1082b76b20/68747470733a2f2f636d732d6173736574732e796f756d696e642e636f6d2f6d656469612f313737373435333136343939335f6d74356236395f4848446f57666561554145413656742e6a7067
+                            - img "Cyberpunk anime portrait" [ref=e1194]
+                          - subscript [ref=e1195]:
+                            - text: Cyberpunk portrait
+                            - text: Profile avatar — neon face text
+                        - cell "3D stone staircase evolution 3D stone staircase Hewn-stone infographic" [ref=e1196]:
+                          - link "3D stone staircase evolution" [ref=e1197] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/de40e76a0d0a5f6f4b819a326d66ab0d4f70d7cd86e3a2fa321de1e41cd1d0c2/68747470733a2f2f636d732d6173736574732e796f756d696e642e636f6d2f6d656469612f313737363636313936383430345f386135666c6d5f484751635f4b4f614d4141327674302e6a7067
+                            - img "3D stone staircase evolution" [ref=e1198]
+                          - subscript [ref=e1199]:
+                            - text: 3D stone staircase
+                            - text: Hewn-stone infographic
+                        - cell "Glamorous portrait Glamorous portrait Editorial studio shot" [ref=e1200]:
+                          - link "Glamorous portrait" [ref=e1201] [cursor=pointer]:
+                            - /url: https://camo.githubusercontent.com/0c8920ba286e3bf2402267a01a13923e6e84a2cebae1d46fdb2c875efa2b8ba1/68747470733a2f2f636d732d6173736574732e796f756d696e642e636f6d2f6d656469612f313737373435333138343235375f76623968766c5f48473974416b4f613441417552726e2e6a7067
+                            - img "Glamorous portrait" [ref=e1202]
+                          - subscript [ref=e1203]:
+                            - text: Glamorous portrait
+                            - text: Editorial studio shot
+                  - paragraph [ref=e1204]:
+                    - strong [ref=e1205]: 93 ready-to-replicate prompts
+                    - text: live in
+                    - link "prompt-templates/" [ref=e1206] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/prompt-templates
+                      - code [ref=e1207]: prompt-templates/
+                    - text: — preview thumbnails, full prompt body, target model, aspect ratio, and source attribution. One click drops a brief into the composer.
+                  - generic [ref=e1208]:
+                    - heading "5 · Video & HyperFrames — agent-native motion graphics" [level=3] [ref=e1209]
+                    - 'link "Permalink: 5 · Video & HyperFrames — agent-native motion graphics" [ref=e1210] [cursor=pointer]':
+                      - /url: "#5--video--hyperframes--agent-native-motion-graphics"
+                      - img [ref=e1211]
+                  - paragraph [ref=e1213]:
+                    - strong [ref=e1214]:
+                      - link "HyperFrames" [ref=e1215] [cursor=pointer]:
+                        - /url: https://github.com/heygen-com/hyperframes
+                    - text: is HeyGen's open-source, agent-native video framework, integrated as a first-class citizen in Open Design. The agent writes HTML + CSS + GSAP, and HyperFrames renders it to a deterministic MP4 via headless Chrome + FFmpeg. Pair it with
+                    - strong [ref=e1216]: Seedance 2.0
+                    - text: for cinematic t2v / i2v,
+                    - strong [ref=e1217]: Veo 3 / Sora 2 / Kling 2
+                    - text: for routed model variants, and
+                    - strong [ref=e1218]: Suno v5 / Lyria 2
+                    - text: for the audio layer.
+                  - table [ref=e1220]:
+                    - rowgroup [ref=e1221]:
+                      - row "SaaS promo 30s SaaS product promo · 16:9 · UI 3D reveals TikTok karaoke TikTok karaoke talking-head · 9:16 · TTS + word-synced captions Brand sizzle reel 30s brand sizzle reel · 16:9 · audio-reactive kinetic type Bar chart race Bar chart race · 16:9 · NYT-style data infographic" [ref=e1222]:
+                        - cell "SaaS promo 30s SaaS product promo · 16:9 · UI 3D reveals" [ref=e1223]:
+                          - link "SaaS promo" [ref=e1224] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/prompt-templates/video/hyperframes-saas-product-promo-30s.json
+                            - img "SaaS promo" [ref=e1225]
+                          - subscript [ref=e1226]: 30s SaaS product promo · 16:9 · UI 3D reveals
+                        - cell "TikTok karaoke TikTok karaoke talking-head · 9:16 · TTS + word-synced captions" [ref=e1227]:
+                          - link "TikTok karaoke" [ref=e1228] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/prompt-templates/video/hyperframes-tiktok-karaoke-talking-head.json
+                            - img "TikTok karaoke" [ref=e1229]
+                          - subscript [ref=e1230]: TikTok karaoke talking-head · 9:16 · TTS + word-synced captions
+                        - cell "Brand sizzle reel 30s brand sizzle reel · 16:9 · audio-reactive kinetic type" [ref=e1231]:
+                          - link "Brand sizzle reel" [ref=e1232] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/prompt-templates/video/hyperframes-brand-sizzle-reel.json
+                            - img "Brand sizzle reel" [ref=e1233]
+                          - subscript [ref=e1234]: 30s brand sizzle reel · 16:9 · audio-reactive kinetic type
+                        - cell "Bar chart race Bar chart race · 16:9 · NYT-style data infographic" [ref=e1235]:
+                          - link "Bar chart race" [ref=e1236] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/prompt-templates/video/hyperframes-data-bar-chart-race.json
+                            - img "Bar chart race" [ref=e1237]
+                          - subscript [ref=e1238]: Bar chart race · 16:9 · NYT-style data infographic
+                      - row "Flight map Flight map · 16:9 · Apple-style route reveal Logo outro 4s cinematic logo outro · 16:9 · piece-by-piece assembly + bloom Money counter $0 → $10K money counter · 9:16 · Apple-style hype Website to video Website-to-video · 16:9 · captures the site at 3 viewports" [ref=e1239]:
+                        - cell "Flight map Flight map · 16:9 · Apple-style route reveal" [ref=e1240]:
+                          - link "Flight map" [ref=e1241] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/prompt-templates/video/hyperframes-flight-map-route.json
+                            - img "Flight map" [ref=e1242]
+                          - subscript [ref=e1243]: Flight map · 16:9 · Apple-style route reveal
+                        - cell "Logo outro 4s cinematic logo outro · 16:9 · piece-by-piece assembly + bloom" [ref=e1244]:
+                          - link "Logo outro" [ref=e1245] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/prompt-templates/video/hyperframes-logo-outro-cinematic.json
+                            - img "Logo outro" [ref=e1246]
+                          - subscript [ref=e1247]: 4s cinematic logo outro · 16:9 · piece-by-piece assembly + bloom
+                        - cell "Money counter $0 → $10K money counter · 9:16 · Apple-style hype" [ref=e1248]:
+                          - link "Money counter" [ref=e1249] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/prompt-templates/video/hyperframes-money-counter-hype.json
+                            - img "Money counter" [ref=e1250]
+                          - subscript [ref=e1251]: $0 → $10K money counter · 9:16 · Apple-style hype
+                        - cell "Website to video Website-to-video · 16:9 · captures the site at 3 viewports" [ref=e1252]:
+                          - link "Website to video" [ref=e1253] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/prompt-templates/video/hyperframes-website-to-video-promo.json
+                            - img "Website to video" [ref=e1254]
+                          - subscript [ref=e1255]: Website-to-video · 16:9 · captures the site at 3 viewports
+                  - paragraph [ref=e1256]:
+                    - text: 11 HyperFrames templates + 39 Seedance prompts ship with the repo. Catalog thumbnails © HeyGen; the framework is Apache-2.0. The OD-specific render workflow (composition cache, sandbox-exec workaround, MP4-as-chip) is detailed in
+                    - link "design-templates/hyperframes/" [ref=e1257] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/design-templates/hyperframes
+                      - code [ref=e1258]: design-templates/hyperframes/
+                    - text: .
+                  - separator [ref=e1259]
+                  - generic [ref=e1260]:
+                    - heading "Why Open Design" [level=2] [ref=e1261]
+                    - 'link "Permalink: Why Open Design" [ref=e1262] [cursor=pointer]':
+                      - /url: "#why-open-design"
+                      - img [ref=e1263]
+                  - blockquote [ref=e1265]:
+                    - paragraph [ref=e1266]:
+                      - strong [ref=e1267]:
+                        - text: In April 2026, Anthropic released
+                        - link "Claude Design" [ref=e1268] [cursor=pointer]:
+                          - /url: https://x.com/claudeai/status/2045156267690213649
+                        - text: — the first time an LLM stopped writing prose and started delivering design artifacts directly.
+                      - text: It went viral. But it stayed closed-source, paid-only, cloud-only, locked to Anthropic's model, Anthropic's skills, Anthropic's surface. No checkout, no self-host, no Vercel deploy, no swap-in-your-own-agent.
+                  - paragraph [ref=e1269]: "Open Design (OD) is the open-source alternative. Same loop, same artifact-first mental model, none of the lock-in:"
+                  - list [ref=e1270]:
+                    - listitem [ref=e1271]:
+                      - text: 🤖
+                      - strong [ref=e1272]: Agent-native, model-agnostic.
+                      - text: We don't ship an agent. The
+                      - code [ref=e1273]: claude
+                      - text: /
+                      - code [ref=e1274]: codex
+                      - text: /
+                      - code [ref=e1275]: cursor-agent
+                      - text: /
+                      - code [ref=e1276]: copilot
+                      - text: /
+                      - code [ref=e1277]: hermes
+                      - text: /
+                      - code [ref=e1278]: kimi
+                      - text: already on your
+                      - code [ref=e1279]: PATH
+                      - text: are the design engine. Swap with one click.
+                    - listitem [ref=e1280]:
+                      - text: 🧠
+                      - strong [ref=e1281]: Brand-grade by default.
+                      - text: Every render reads the active
+                      - code [ref=e1282]: DESIGN.md
+                      - text: — a 9-section schema covering palette, type, spacing, motion, voice, anti-patterns. 150 systems ship with the repo (Linear, Stripe, Vercel, Airbnb, Apple, Tesla, Notion, Anthropic, Cursor, Supabase, Figma…). Drop a folder in, the picker finds it.
+                    - listitem [ref=e1283]:
+                      - text: 🖥️
+                      - strong [ref=e1284]: Local-first, BYOK at every layer.
+                      - text: Native desktop apps for macOS (Apple Silicon + Intel) and Windows (x64). Linux AppImage on the optional release lane. No telemetry, no cloud round-trip. Before describing daemon data paths, contributors and operators MUST read
+                      - code [ref=e1285]: AGENTS.md
+                      - text: →
+                      - strong [ref=e1286]: Daemon data directory contract
+                      - text: . This README MUST NOT restate it.
+                    - listitem [ref=e1287]:
+                      - text: 🌍
+                      - strong [ref=e1288]: Composable on three planes.
+                      - strong [ref=e1289]: Plugins
+                      - text: carry runnable workflows ·
+                      - strong [ref=e1290]: skills
+                      - text: carry the agent's design taste ·
+                      - strong [ref=e1291]: design systems
+                      - text: carry the brand. All three are plain files anyone can author, version, and publish.
+                    - listitem [ref=e1292]:
+                      - text: 🔁
+                      - strong [ref=e1293]: Refresh an existing codebase.
+                      - text: Hand a
+                      - code [ref=e1294]: git
+                      - text: repo +
+                      - code [ref=e1295]: DESIGN.md
+                      - text: to the agent and it refactors your real components to the brand spec. Dedicated plugins migrate Figma / Pencil workflows into React / Next.js / Vue code.
+                    - listitem [ref=e1296]:
+                      - text: 🔒
+                      - strong [ref=e1297]: Privacy by conviction.
+                      - text: Everything runs where your data lives — your laptop, your team's server, your Vercel project. When the network is needed, the BYOK proxy is SSRF-guarded.
+                  - generic [ref=e1298]:
+                    - heading "Comparison" [level=3] [ref=e1299]
+                    - 'link "Permalink: Comparison" [ref=e1300] [cursor=pointer]':
+                      - /url: "#comparison"
+                      - img [ref=e1301]
+                  - table [ref=e1304]:
+                    - rowgroup [ref=e1305]:
+                      - row "Claude Design Figma Lovable / v0 / Bolt Open Design" [ref=e1306]:
+                        - columnheader [ref=e1307]
+                        - columnheader "Claude Design" [ref=e1308]:
+                          - link "Claude Design" [ref=e1309] [cursor=pointer]:
+                            - /url: https://x.com/claudeai/status/2045156267690213649
+                        - columnheader "Figma" [ref=e1310]
+                        - columnheader "Lovable / v0 / Bolt" [ref=e1311]
+                        - columnheader "Open Design" [ref=e1312]:
+                          - strong [ref=e1313]: Open Design
+                    - rowgroup [ref=e1314]:
+                      - row "Open source ❌ ❌ ❌ ✅ Apache-2.0" [ref=e1315]:
+                        - cell "Open source" [ref=e1316]
+                        - cell "❌" [ref=e1317]
+                        - cell "❌" [ref=e1318]
+                        - cell "❌" [ref=e1319]
+                        - cell "✅ Apache-2.0" [ref=e1320]:
+                          - strong [ref=e1321]: ✅ Apache-2.0
+                      - row "Self-host / desktop ❌ ❌ ❌ ✅ macOS + Windows + Vercel" [ref=e1322]:
+                        - cell "Self-host / desktop" [ref=e1323]
+                        - cell "❌" [ref=e1324]
+                        - cell "❌" [ref=e1325]
+                        - cell "❌" [ref=e1326]
+                        - cell "✅ macOS + Windows + Vercel" [ref=e1327]:
+                          - strong [ref=e1328]: ✅ macOS + Windows + Vercel
+                      - row "Agent-native (runs in your CLI) Anthropic only ❌ Cloud agent only ✅ 22 CLIs + BYOK" [ref=e1329]:
+                        - cell "Agent-native (runs in your CLI)" [ref=e1330]
+                        - cell "Anthropic only" [ref=e1331]
+                        - cell "❌" [ref=e1332]
+                        - cell "Cloud agent only" [ref=e1333]
+                        - cell "✅ 22 CLIs + BYOK" [ref=e1334]:
+                          - strong [ref=e1335]: ✅ 22 CLIs + BYOK
+                      - row "Brand-grade DESIGN.md Proprietary Theme JSON Limited tokens ✅ 150 systems shipped" [ref=e1336]:
+                        - cell "Brand-grade DESIGN.md" [ref=e1337]:
+                          - text: Brand-grade
+                          - code [ref=e1338]: DESIGN.md
+                        - cell "Proprietary" [ref=e1339]
+                        - cell "Theme JSON" [ref=e1340]
+                        - cell "Limited tokens" [ref=e1341]
+                        - cell "✅ 150 systems shipped" [ref=e1342]:
+                          - strong [ref=e1343]: ✅ 150 systems shipped
+                      - row "Skills / plugins / templates Closed Plugin store Closed ✅ 100+ skills · 261 plugins" [ref=e1344]:
+                        - cell "Skills / plugins / templates" [ref=e1345]
+                        - cell "Closed" [ref=e1346]
+                        - cell "Plugin store" [ref=e1347]
+                        - cell "Closed" [ref=e1348]
+                        - cell "✅ 100+ skills · 261 plugins" [ref=e1349]:
+                          - strong [ref=e1350]: ✅ 100+ skills · 261 plugins
+                      - row "HyperFrames (HTML→MP4) ❌ ❌ ❌ ✅ First-class" [ref=e1351]:
+                        - cell "HyperFrames (HTML→MP4)" [ref=e1352]
+                        - cell "❌" [ref=e1353]
+                        - cell "❌" [ref=e1354]
+                        - cell "❌" [ref=e1355]
+                        - cell "✅ First-class" [ref=e1356]:
+                          - strong [ref=e1357]: ✅ First-class
+                      - row "Refresh an existing repo to brand ❌ ❌ ❌ ✅ via agent + DESIGN.md" [ref=e1358]:
+                        - cell "Refresh an existing repo to brand" [ref=e1359]
+                        - cell "❌" [ref=e1360]
+                        - cell "❌" [ref=e1361]
+                        - cell "❌" [ref=e1362]
+                        - cell "✅ via agent + DESIGN.md" [ref=e1363]:
+                          - strong [ref=e1364]:
+                            - text: ✅ via agent +
+                            - code [ref=e1365]: DESIGN.md
+                      - row "Minimum billing Pro / Max / Team Pro / Org Pro / Team BYOK · any compatible endpoint" [ref=e1366]:
+                        - cell "Minimum billing" [ref=e1367]
+                        - cell "Pro / Max / Team" [ref=e1368]
+                        - cell "Pro / Org" [ref=e1369]
+                        - cell "Pro / Team" [ref=e1370]
+                        - cell "BYOK · any compatible endpoint" [ref=e1371]:
+                          - strong [ref=e1372]: BYOK · any compatible endpoint
+                  - separator [ref=e1373]
+                  - generic [ref=e1374]:
+                    - heading "Quick start" [level=2] [ref=e1375]
+                    - 'link "Permalink: Quick start" [ref=e1376] [cursor=pointer]':
+                      - /url: "#quick-start"
+                      - img [ref=e1377]
+                  - generic [ref=e1379]:
+                    - heading "🖥️ Download the desktop app (recommended — zero config)" [level=3] [ref=e1380]
+                    - 'link "Permalink: 🖥️ Download the desktop app (recommended — zero config)" [ref=e1381] [cursor=pointer]':
+                      - /url: "#️-download-the-desktop-app-recommended--zero-config"
+                      - img [ref=e1382]
+                  - paragraph [ref=e1384]: The fastest way to use Open Design. No Node, no pnpm, no clone.
+                  - list [ref=e1385]:
+                    - listitem [ref=e1386]:
+                      - strong [ref=e1387]: macOS
+                      - text: (Apple Silicon · Intel x64) →
+                      - link "open-design.ai" [ref=e1388] [cursor=pointer]:
+                        - /url: https://open-design.ai/?utm_source=github&utm_medium=referral&utm_content=readme_download_macos
+                        - strong [ref=e1389]: open-design.ai
+                      - text: or
+                      - link "GitHub Releases" [ref=e1390] [cursor=pointer]:
+                        - /url: https://github.com/nexu-io/open-design/releases
+                    - listitem [ref=e1391]:
+                      - strong [ref=e1392]: Windows
+                      - text: (x64) →
+                      - link "open-design.ai" [ref=e1393] [cursor=pointer]:
+                        - /url: https://open-design.ai/?utm_source=github&utm_medium=referral&utm_content=readme_download_windows
+                        - strong [ref=e1394]: open-design.ai
+                      - text: or
+                      - link "GitHub Releases" [ref=e1395] [cursor=pointer]:
+                        - /url: https://github.com/nexu-io/open-design/releases
+                    - listitem [ref=e1396]:
+                      - strong [ref=e1397]: Linux
+                      - text: (AppImage, optional lane) →
+                      - link "GitHub Releases" [ref=e1398] [cursor=pointer]:
+                        - /url: https://github.com/nexu-io/open-design/releases
+                  - paragraph [ref=e1399]:
+                    - text: "After install: the app auto-detects every coding-agent CLI on your"
+                    - code [ref=e1400]: PATH
+                    - text: ", loads 100+ skills and 150 design systems, and lets you type a brief in the entry view."
+                  - generic [ref=e1401]:
+                    - heading "🤖 Install into your coding agent (no UI)" [level=3] [ref=e1402]
+                    - 'link "Permalink: 🤖 Install into your coding agent (no UI)" [ref=e1403] [cursor=pointer]':
+                      - /url: "#-install-into-your-coding-agent-no-ui"
+                      - img [ref=e1404]
+                  - paragraph [ref=e1406]: You can use Open Design without ever opening the GUI — call it as a skill, plugin, or MCP server inside Claude Code, Codex, Cursor, Copilot, OpenClaw, Antigravity, Hermes, Kimi, and more.
+                  - generic [ref=e1407]:
+                    - generic [ref=e1408]:
+                      - generic [ref=e1409]: "# One-line install into the agent you're using:"
+                      - text: od mcp install <agent>
+                      - generic [ref=e1410]: "# <agent> = claude | codex | cursor | copilot | openclaw | antigravity | gemini"
+                      - generic [ref=e1411]: "# | pi | vibe | hermes | cline | kimi | trae | opencode"
+                    - button "Copy code to clipboard" [ref=e1413] [cursor=pointer]:
+                      - img [ref=e1414]
+                  - blockquote [ref=e1417]:
+                    - paragraph [ref=e1418]:
+                      - strong [ref=e1419]: "WSL2 users:"
+                      - text: If your coding-agent CLIs run inside WSL2, follow the
+                      - link "WSL2 setup guide" [ref=e1420] [cursor=pointer]:
+                        - /url: /nexu-io/open-design/blob/main/docs/wsl-setup.md
+                        - code [ref=e1421]: WSL2 setup guide
+                      - text: first. Linux's
+                      - code [ref=e1422]: /usr/bin/od
+                      - text: can shadow Open Design's
+                      - code [ref=e1423]: od
+                      - text: command.
+                  - paragraph [ref=e1424]: "Then, inside the agent:"
+                  - generic [ref=e1425]:
+                    - code [ref=e1427]: "> Use open-design to generate a landing page with the Linear design system"
+                    - button "Copy code to clipboard" [ref=e1429] [cursor=pointer]:
+                      - img [ref=e1430]
+                  - paragraph [ref=e1433]:
+                    - text: The agent reads
+                    - code [ref=e1434]: skills/
+                    - text: ", picks the right"
+                    - code [ref=e1435]: SKILL.md
+                    - text: ", binds the"
+                    - code [ref=e1436]: DESIGN.md
+                    - text: you named, and emits an
+                    - code [ref=e1437]: <artifact>
+                    - text: previewable at
+                    - code [ref=e1438]: http://localhost:7456
+                    - text: .
+                  - generic [ref=e1439]:
+                    - heading "🐳 Run with Docker" [level=3] [ref=e1440]
+                    - 'link "Permalink: 🐳 Run with Docker" [ref=e1441] [cursor=pointer]':
+                      - /url: "#-run-with-docker"
+                      - img [ref=e1442]
+                  - generic [ref=e1444]:
+                    - generic [ref=e1445]:
+                      - text: git clone https://github.com/nexu-io/open-design.git cd open-design/deploy cp .env.example .env echo
+                      - generic [ref=e1446]:
+                        - text: "\"OD_API_TOKEN="
+                        - generic [ref=e1447]: $(openssl rand -hex 32)
+                        - text: "\""
+                      - text: ">> .env docker compose up -d"
+                      - generic [ref=e1448]: "# open http://localhost:7456"
+                    - button "Copy code to clipboard" [ref=e1450] [cursor=pointer]:
+                      - img [ref=e1451]
+                  - blockquote [ref=e1454]:
+                    - paragraph [ref=e1455]:
+                      - strong [ref=e1456]: "macOS users:"
+                      - text: If the web UI shows
+                      - code [ref=e1457]: "Authorization: Bearer <OD_API_TOKEN> required"
+                      - text: ", Docker Desktop bridge networking is the cause. See"
+                      - link "Docker Desktop on macOS" [ref=e1458] [cursor=pointer]:
+                        - /url: /nexu-io/open-design/blob/main/deploy/README.md#docker-desktop-on-macos
+                      - text: for the fix.
+                  - generic [ref=e1459]:
+                    - heading "🚀 Deploy on Sealos" [level=3] [ref=e1460]
+                    - 'link "Permalink: 🚀 Deploy on Sealos" [ref=e1461] [cursor=pointer]':
+                      - /url: "#-deploy-on-sealos"
+                      - img [ref=e1462]
+                  - paragraph [ref=e1464]:
+                    - link "Deploy on Sealos" [ref=e1465] [cursor=pointer]:
+                      - /url: https://sealos.io/products/app-store/open-design/
+                      - img "Deploy on Sealos" [ref=e1466]
+                  - paragraph [ref=e1467]:
+                    - text: The Sealos App Store template runs the published Open Design Docker image with persistent workspace storage and Basic Auth on the public proxy. For custom public or shared Docker deployments, follow the reverse-proxy and
+                    - code [ref=e1468]: OPEN_DESIGN_ALLOWED_ORIGINS
+                    - text: guidance in
+                    - link "deploy/README.md" [ref=e1469] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/deploy/README.md#local-compose
+                      - code [ref=e1470]: deploy/README.md
+                    - text: .
+                  - generic [ref=e1471]:
+                    - heading "🧑‍💻 Run from source" [level=3] [ref=e1472]
+                    - 'link "Permalink: 🧑‍💻 Run from source" [ref=e1473] [cursor=pointer]':
+                      - /url: "#‍-run-from-source"
+                      - img [ref=e1474]
+                  - generic [ref=e1476]:
+                    - generic [ref=e1477]: git clone https://github.com/nexu-io/open-design.git cd open-design corepack enable && pnpm install pnpm tools-dev run web
+                    - button "Copy code to clipboard" [ref=e1479] [cursor=pointer]:
+                      - img [ref=e1480]
+                  - paragraph [ref=e1483]:
+                    - text: Node
+                    - code [ref=e1484]: ~24
+                    - text: ", pnpm"
+                    - code [ref=e1485]: 10.33.x
+                    - text: . WSL2 users, see
+                    - link "docs/wsl-setup.md" [ref=e1486] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/wsl-setup.md
+                      - code [ref=e1487]: docs/wsl-setup.md
+                    - text: ; native Windows users, see
+                    - link "docs/windows-troubleshooting.md" [ref=e1488] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/windows-troubleshooting.md
+                      - code [ref=e1489]: docs/windows-troubleshooting.md
+                    - text: . Full quickstart, env vars, Nix flake, and packaged build flow →
+                    - link "QUICKSTART.md" [ref=e1490] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/QUICKSTART.md
+                      - code [ref=e1491]: QUICKSTART.md
+                    - text: .
+                  - generic [ref=e1492]:
+                    - heading "A full workflow — from brief to artifact" [level=3] [ref=e1493]
+                    - 'link "Permalink: A full workflow — from brief to artifact" [ref=e1494] [cursor=pointer]':
+                      - /url: "#a-full-workflow--from-brief-to-artifact"
+                      - img [ref=e1495]
+                  - paragraph [ref=e1497]:
+                    - code [ref=e1498]: brief → plugin → direction → design system → artifact → handoff → memory
+                  - list [ref=e1499]:
+                    - listitem [ref=e1500]:
+                      - strong [ref=e1501]: A PM submits a brief.
+                      - text: The plugin picker offers landing page · pitch deck · dashboard · social post · PM spec · OKR scorecard…
+                    - listitem [ref=e1502]:
+                      - strong [ref=e1503]: A designer (or the agent) locks the direction.
+                      - text: No brand? Pick from 5 curated directions. Have a brand? Drop a screenshot / URL → the agent connects GitHub, imports Figma, and codifies a reusable
+                      - code [ref=e1504]: DESIGN.md
+                      - text: .
+                    - listitem [ref=e1505]:
+                      - strong [ref=e1506]:
+                        - text: The agent emits the first
+                        - code [ref=e1507]: <artifact>
+                        - text: .
+                      - text: Plugin + skill +
+                      - code [ref=e1508]: DESIGN.md
+                      - text: are bound. It streams into a sandboxed iframe, editable in place — not "regenerate from scratch."
+                    - listitem [ref=e1509]:
+                      - strong [ref=e1510]: Hand off to engineering.
+                      - text: The artifact is real HTML/CSS — drop it into Cursor, Codex, or Claude Code to keep building as code. Or export PPTX / PDF / MP4 straight to marketing.
+                    - listitem [ref=e1511]:
+                      - strong [ref=e1512]: Open Design gets smarter as you use it.
+                      - text: Your screenshots, fonts, palettes, and confirmed artifacts accumulate as defaults for the next session. Less rework, less drift.
+                  - separator [ref=e1513]
+                  - generic [ref=e1514]:
+                    - heading "Use Open Design from your coding agent" [level=2] [ref=e1515]
+                    - 'link "Permalink: Use Open Design from your coding agent" [ref=e1516] [cursor=pointer]':
+                      - /url: "#use-open-design-from-your-coding-agent"
+                      - img [ref=e1517]
+                  - paragraph [ref=e1519]:
+                    - text: Open Design ships a
+                    - strong [ref=e1520]: stdio MCP server
+                    - text: and per-agent
+                    - strong [ref=e1521]: install scripts
+                    - text: . Any MCP-compatible agent in another repo can read files from your local Open Design projects directly — tokens CSS, JSX components, entry HTML — as a structured API queryable by name. The agent always sees the live file, not a stale export.
+                  - generic [ref=e1522]:
+                    - generic [ref=e1523]:
+                      - generic [ref=e1524]: "# One-line install (16+ CLIs supported):"
+                      - text: od mcp install <agent>
+                      - generic [ref=e1525]: "# Then the agent can:"
+                      - text: od search-files
+                      - generic [ref=e1526]: "\"primary button\""
+                      - generic [ref=e1527]: "# search files across projects"
+                      - text: od get-file design-systems/linear-app/DESIGN.md od get-artifact <slug>
+                      - generic [ref=e1528]: "# latest rendered artifact"
+                      - text: od plugin run web-prototype --brief
+                      - generic [ref=e1529]: "\"...\""
+                      - text: od skill list --scenario marketing
+                    - button "Copy code to clipboard" [ref=e1531] [cursor=pointer]:
+                      - img [ref=e1532]
+                  - paragraph [ref=e1535]:
+                    - strong [ref=e1536]: Why MCP?
+                    - text: Exporting and re-attaching a zip every iteration breaks flow. MCP exposes the design source directly — the agent always sees the live file.
+                  - paragraph [ref=e1537]:
+                    - strong [ref=e1538]: For an agent starting from scratch,
+                    - text: the installer places
+                    - code [ref=e1539]: ~/.config/<agent>/open-design.json
+                    - text: (or the platform equivalent) plus a copy-paste MCP snippet. Cursor gets a one-click deeplink; Claude Code gets a
+                    - code [ref=e1540]: claude mcp add-json
+                    - text: one-liner; every other agent gets JSON in the schema its config expects. Full per-agent flow →
+                    - strong [ref=e1541]: Settings → MCP server
+                    - text: in the desktop app, or
+                    - link "docs/agent-adapters.md" [ref=e1542] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/agent-adapters.md
+                      - code [ref=e1543]: docs/agent-adapters.md
+                    - text: .
+                  - paragraph [ref=e1544]:
+                    - strong [ref=e1545]: Security model.
+                    - text: Read-only by default, the daemon binds to
+                    - code [ref=e1546]: 127.0.0.1
+                    - text: ", and SSRF is blocked at the proxy edge. LAN exposure requires an explicit"
+                    - code [ref=e1547]: OD_BIND_HOST
+                    - text: plus
+                    - code [ref=e1548]: OD_ALLOWED_ORIGINS
+                    - text: . Connector credentials and live-artifact preview routes stay loopback-only regardless.
+                  - separator [ref=e1549]
+                  - generic [ref=e1550]:
+                    - heading "Skills" [level=2] [ref=e1551]
+                    - 'link "Permalink: Skills" [ref=e1552] [cursor=pointer]':
+                      - /url: "#skills"
+                      - img [ref=e1553]
+                  - paragraph [ref=e1555]:
+                    - strong [ref=e1556]: 100+ skills ship in the box
+                    - text: — each is a folder under
+                    - link "skills/" [ref=e1557] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/skills
+                      - code [ref=e1558]: skills/
+                    - text: following the Claude Code
+                    - link "SKILL.md" [ref=e1559] [cursor=pointer]:
+                      - /url: https://docs.anthropic.com/en/docs/claude-code/skills
+                      - code [ref=e1560]: SKILL.md
+                    - text: convention, extended with an
+                    - code [ref=e1561]: "od:"
+                    - text: frontmatter (
+                    - code [ref=e1562]: mode
+                    - text: ","
+                    - code [ref=e1563]: platform
+                    - text: ","
+                    - code [ref=e1564]: scenario
+                    - text: ","
+                    - code [ref=e1565]: preview.type
+                    - text: ","
+                    - code [ref=e1566]: design_system.requires
+                    - text: ","
+                    - code [ref=e1567]: default_for
+                    - text: ","
+                    - code [ref=e1568]: fidelity
+                    - text: ","
+                    - code [ref=e1569]: example_prompt
+                    - text: ). Drop a folder in, restart the daemon, it appears in the picker.
+                  - paragraph [ref=e1570]:
+                    - text: Two
+                    - strong [ref=e1571]: modes
+                    - text: "anchor the catalog:"
+                    - code [ref=e1572]: prototype
+                    - text: (web/mobile/desktop single-page artifacts) and
+                    - code [ref=e1573]: deck
+                    - text: (horizontal-swipe presentations). Also
+                    - code [ref=e1574]: image
+                    - text: ","
+                    - code [ref=e1575]: video
+                    - text: ","
+                    - code [ref=e1576]: audio
+                    - text: ","
+                    - code [ref=e1577]: template
+                    - text: ","
+                    - code [ref=e1578]: design-system
+                    - text: ", and"
+                    - code [ref=e1579]: utility
+                    - text: modes. The
+                    - strong [ref=e1580]:
+                      - code [ref=e1581]: scenario
+                    - text: "field groups them by audience:"
+                    - code [ref=e1582]: design
+                    - text: ·
+                    - code [ref=e1583]: marketing
+                    - text: ·
+                    - code [ref=e1584]: operation
+                    - text: ·
+                    - code [ref=e1585]: engineering
+                    - text: ·
+                    - code [ref=e1586]: product
+                    - text: ·
+                    - code [ref=e1587]: finance
+                    - text: ·
+                    - code [ref=e1588]: hr
+                    - text: ·
+                    - code [ref=e1589]: sale
+                    - text: ·
+                    - code [ref=e1590]: personal
+                    - text: .
+                  - table [ref=e1592]:
+                    - rowgroup [ref=e1593]:
+                      - row "Skill Mode Scenario What it produces" [ref=e1594]:
+                        - columnheader "Skill" [ref=e1595]
+                        - columnheader "Mode" [ref=e1596]
+                        - columnheader "Scenario" [ref=e1597]
+                        - columnheader "What it produces" [ref=e1598]
+                    - rowgroup [ref=e1599]:
+                      - row "web-prototype prototype design Default landing page / hero" [ref=e1600]:
+                        - cell "web-prototype" [ref=e1601]:
+                          - link "web-prototype" [ref=e1602] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/web-prototype
+                            - code [ref=e1603]: web-prototype
+                        - cell "prototype" [ref=e1604]
+                        - cell "design" [ref=e1605]
+                        - cell "Default landing page / hero" [ref=e1606]
+                      - row "saas-landing prototype marketing Hero / features / pricing / CTA" [ref=e1607]:
+                        - cell "saas-landing" [ref=e1608]:
+                          - link "saas-landing" [ref=e1609] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/saas-landing
+                            - code [ref=e1610]: saas-landing
+                        - cell "prototype" [ref=e1611]
+                        - cell "marketing" [ref=e1612]
+                        - cell "Hero / features / pricing / CTA" [ref=e1613]
+                      - row "dashboard prototype operation Admin / analytics (with sidebar)" [ref=e1614]:
+                        - cell "dashboard" [ref=e1615]:
+                          - link "dashboard" [ref=e1616] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/dashboard
+                            - code [ref=e1617]: dashboard
+                        - cell "prototype" [ref=e1618]
+                        - cell "operation" [ref=e1619]
+                        - cell "Admin / analytics (with sidebar)" [ref=e1620]
+                      - row "mobile-app prototype design iPhone 15 Pro / Pixel framed app" [ref=e1621]:
+                        - cell "mobile-app" [ref=e1622]:
+                          - link "mobile-app" [ref=e1623] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/mobile-app
+                            - code [ref=e1624]: mobile-app
+                        - cell "prototype" [ref=e1625]
+                        - cell "design" [ref=e1626]
+                        - cell "iPhone 15 Pro / Pixel framed app" [ref=e1627]
+                      - row "mobile-onboarding prototype design Splash · value-prop · sign-in flow" [ref=e1628]:
+                        - cell "mobile-onboarding" [ref=e1629]:
+                          - link "mobile-onboarding" [ref=e1630] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/mobile-onboarding
+                            - code [ref=e1631]: mobile-onboarding
+                        - cell "prototype" [ref=e1632]
+                        - cell "design" [ref=e1633]
+                        - cell "Splash · value-prop · sign-in flow" [ref=e1634]
+                      - row "social-carousel prototype marketing 3-card 1080×1080 carousel" [ref=e1635]:
+                        - cell "social-carousel" [ref=e1636]:
+                          - link "social-carousel" [ref=e1637] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/social-carousel
+                            - code [ref=e1638]: social-carousel
+                        - cell "prototype" [ref=e1639]
+                        - cell "marketing" [ref=e1640]
+                        - cell "3-card 1080×1080 carousel" [ref=e1641]
+                      - row "email-marketing prototype marketing Table-fallback-safe brand email" [ref=e1642]:
+                        - cell "email-marketing" [ref=e1643]:
+                          - link "email-marketing" [ref=e1644] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/email-marketing
+                            - code [ref=e1645]: email-marketing
+                        - cell "prototype" [ref=e1646]
+                        - cell "marketing" [ref=e1647]
+                        - cell "Table-fallback-safe brand email" [ref=e1648]
+                      - row "magazine-poster prototype marketing Single-page magazine layout" [ref=e1649]:
+                        - cell "magazine-poster" [ref=e1650]:
+                          - link "magazine-poster" [ref=e1651] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/magazine-poster
+                            - code [ref=e1652]: magazine-poster
+                        - cell "prototype" [ref=e1653]
+                        - cell "marketing" [ref=e1654]
+                        - cell "Single-page magazine layout" [ref=e1655]
+                      - row "motion-frames prototype marketing Looping CSS motion hero" [ref=e1656]:
+                        - cell "motion-frames" [ref=e1657]:
+                          - link "motion-frames" [ref=e1658] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/motion-frames
+                            - code [ref=e1659]: motion-frames
+                        - cell "prototype" [ref=e1660]
+                        - cell "marketing" [ref=e1661]
+                        - cell "Looping CSS motion hero" [ref=e1662]
+                      - row "sprite-animation prototype marketing 8-bit pixel animated explainer" [ref=e1663]:
+                        - cell "sprite-animation" [ref=e1664]:
+                          - link "sprite-animation" [ref=e1665] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/sprite-animation
+                            - code [ref=e1666]: sprite-animation
+                        - cell "prototype" [ref=e1667]
+                        - cell "marketing" [ref=e1668]
+                        - cell "8-bit pixel animated explainer" [ref=e1669]
+                      - row "pm-spec prototype product PM spec doc (with TOC + decision log)" [ref=e1670]:
+                        - cell "pm-spec" [ref=e1671]:
+                          - link "pm-spec" [ref=e1672] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/pm-spec
+                            - code [ref=e1673]: pm-spec
+                        - cell "prototype" [ref=e1674]
+                        - cell "product" [ref=e1675]
+                        - cell "PM spec doc (with TOC + decision log)" [ref=e1676]
+                      - row "team-okrs prototype product OKR scorecard" [ref=e1677]:
+                        - cell "team-okrs" [ref=e1678]:
+                          - link "team-okrs" [ref=e1679] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/team-okrs
+                            - code [ref=e1680]: team-okrs
+                        - cell "prototype" [ref=e1681]
+                        - cell "product" [ref=e1682]
+                        - cell "OKR scorecard" [ref=e1683]
+                      - row "eng-runbook prototype engineering Incident runbook" [ref=e1684]:
+                        - cell "eng-runbook" [ref=e1685]:
+                          - link "eng-runbook" [ref=e1686] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/eng-runbook
+                            - code [ref=e1687]: eng-runbook
+                        - cell "prototype" [ref=e1688]
+                        - cell "engineering" [ref=e1689]
+                        - cell "Incident runbook" [ref=e1690]
+                      - row "finance-report prototype finance Exec finance summary" [ref=e1691]:
+                        - cell "finance-report" [ref=e1692]:
+                          - link "finance-report" [ref=e1693] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/finance-report
+                            - code [ref=e1694]: finance-report
+                        - cell "prototype" [ref=e1695]
+                        - cell "finance" [ref=e1696]
+                        - cell "Exec finance summary" [ref=e1697]
+                      - row "hr-onboarding prototype hr Role onboarding plan" [ref=e1698]:
+                        - cell "hr-onboarding" [ref=e1699]:
+                          - link "hr-onboarding" [ref=e1700] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/hr-onboarding
+                            - code [ref=e1701]: hr-onboarding
+                        - cell "prototype" [ref=e1702]
+                        - cell "hr" [ref=e1703]
+                        - cell "Role onboarding plan" [ref=e1704]
+                      - row "guizang-ppt deck marketing Magazine-style web PPT (deck default)" [ref=e1705]:
+                        - cell "guizang-ppt" [ref=e1706]:
+                          - link "guizang-ppt" [ref=e1707] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/guizang-ppt
+                            - code [ref=e1708]: guizang-ppt
+                        - cell "deck" [ref=e1709]
+                        - cell "marketing" [ref=e1710]
+                        - cell "Magazine-style web PPT (deck default)" [ref=e1711]
+                      - row "html-ppt-* deck marketing 15 deck templates × 36 themes (master template in design-templates/html-ppt/)" [ref=e1712]:
+                        - cell "html-ppt-*" [ref=e1713]:
+                          - link "html-ppt-*" [ref=e1714] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates
+                            - code [ref=e1715]: html-ppt-*
+                        - cell "deck" [ref=e1716]
+                        - cell "marketing" [ref=e1717]
+                        - cell "15 deck templates × 36 themes (master template in design-templates/html-ppt/)" [ref=e1718]:
+                          - text: 15 deck templates × 36 themes (master template in
+                          - link "design-templates/html-ppt/" [ref=e1719] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/html-ppt
+                            - code [ref=e1720]: design-templates/html-ppt/
+                          - text: )
+                      - row "hyperframes video marketing HTML → MP4 motion graphics (HeyGen OSS framework)" [ref=e1721]:
+                        - cell "hyperframes" [ref=e1722]:
+                          - link "hyperframes" [ref=e1723] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/hyperframes
+                            - code [ref=e1724]: hyperframes
+                        - cell "video" [ref=e1725]
+                        - cell "marketing" [ref=e1726]
+                        - cell "HTML → MP4 motion graphics (HeyGen OSS framework)" [ref=e1727]
+                      - row "critique utility design Five-dimensional self-critique scoresheet" [ref=e1728]:
+                        - cell "critique" [ref=e1729]:
+                          - link "critique" [ref=e1730] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/critique
+                            - code [ref=e1731]: critique
+                        - cell "utility" [ref=e1732]
+                        - cell "design" [ref=e1733]
+                        - cell "Five-dimensional self-critique scoresheet" [ref=e1734]
+                      - row "tweaks utility design AI-emitted tweaks-panel manifest" [ref=e1735]:
+                        - cell "tweaks" [ref=e1736]:
+                          - link "tweaks" [ref=e1737] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/tweaks
+                            - code [ref=e1738]: tweaks
+                        - cell "utility" [ref=e1739]
+                        - cell "design" [ref=e1740]
+                        - cell "AI-emitted tweaks-panel manifest" [ref=e1741]
+                  - paragraph [ref=e1742]:
+                    - text: Full skill protocol →
+                    - link "docs/skills-protocol.md" [ref=e1743] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/skills-protocol.md
+                      - code [ref=e1744]: docs/skills-protocol.md
+                    - text: ". Skill registry endpoint:"
+                    - code [ref=e1745]: GET /api/skills
+                    - text: .
+                  - separator [ref=e1746]
+                  - generic [ref=e1747]:
+                    - heading "Design Systems" [level=2] [ref=e1748]
+                    - 'link "Permalink: Design Systems" [ref=e1749] [cursor=pointer]':
+                      - /url: "#design-systems"
+                      - img [ref=e1750]
+                  - paragraph [ref=e1752]:
+                    - strong [ref=e1753]:
+                      - text: 150 brand-grade
+                      - code [ref=e1754]: DESIGN.md
+                      - text: systems
+                    - text: ship with the repo — each a single Markdown file with a 9-section schema (color, typography, spacing, layout, components, motion, voice, brand, anti-patterns), from
+                    - link "VoltAgent/awesome-design-md" [ref=e1755] [cursor=pointer]:
+                      - /url: https://github.com/VoltAgent/awesome-design-md
+                      - code [ref=e1756]: VoltAgent/awesome-design-md
+                    - text: . Switch a system → the next render uses the new tokens. No theme JSON.
+                  - group [ref=e1757]:
+                    - generic "Full catalog (click to expand)" [ref=e1758] [cursor=pointer]
+                  - paragraph [ref=e1759]:
+                    - text: Re-import the library via
+                    - link "scripts/sync-design-systems.ts" [ref=e1760] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/scripts/sync-design-systems.ts
+                      - code [ref=e1761]: scripts/sync-design-systems.ts
+                    - text: . Add your own brand → drop a
+                    - code [ref=e1762]: DESIGN.md
+                    - text: into
+                    - code [ref=e1763]: design-systems/<brand>/
+                    - text: . Full guide →
+                    - link "design-systems/README.md" [ref=e1764] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/design-systems/README.md
+                      - code [ref=e1765]: design-systems/README.md
+                    - text: .
+                  - separator [ref=e1766]
+                  - generic [ref=e1767]:
+                    - heading "Plugins" [level=2] [ref=e1768]
+                    - 'link "Permalink: Plugins" [ref=e1769] [cursor=pointer]':
+                      - /url: "#plugins"
+                      - img [ref=e1770]
+                  - paragraph [ref=e1772]:
+                    - strong [ref=e1773]: 261 official plugins
+                    - text: live in
+                    - link "plugins/_official/" [ref=e1774] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/plugins/_official
+                      - code [ref=e1775]: plugins/_official/
+                    - text: . Each plugin is a
+                    - strong [ref=e1776]: portable agent-skill folder
+                    - text: — a
+                    - code [ref=e1777]: SKILL.md
+                    - text: (readable by any agent that supports Agent Skills), plus an optional
+                    - code [ref=e1778]: open-design.json
+                    - text: "manifest that gives Open Design marketplace metadata, inputs, previews, pipelines, and capability declarations. Jump straight to a category:"
+                  - table [ref=e1780]:
+                    - rowgroup [ref=e1781]:
+                      - row "Category Count Contents" [ref=e1782]:
+                        - columnheader "Category" [ref=e1783]
+                        - columnheader "Count" [ref=e1784]
+                        - columnheader "Contents" [ref=e1785]
+                    - rowgroup [ref=e1786]:
+                      - row "scenarios/ 11 Complete design scenarios — od-default, od-design-refine, od-figma-migration, od-code-migration, od-react-export, od-nextjs-export, od-vue-export, od-media-generation, od-new-generation, od-tune-collab, od-plugin-authoring" [ref=e1787]:
+                        - cell "scenarios/" [ref=e1788]:
+                          - link "scenarios/" [ref=e1789] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios
+                            - code [ref=e1790]: scenarios/
+                        - cell "11" [ref=e1791]
+                        - cell "Complete design scenarios — od-default, od-design-refine, od-figma-migration, od-code-migration, od-react-export, od-nextjs-export, od-vue-export, od-media-generation, od-new-generation, od-tune-collab, od-plugin-authoring" [ref=e1792]:
+                          - text: Complete design scenarios —
+                          - link "od-default" [ref=e1793] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios/od-default
+                            - code [ref=e1794]: od-default
+                          - text: ","
+                          - link "od-design-refine" [ref=e1795] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios/od-design-refine
+                            - code [ref=e1796]: od-design-refine
+                          - text: ","
+                          - link "od-figma-migration" [ref=e1797] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios/od-figma-migration
+                            - code [ref=e1798]: od-figma-migration
+                          - text: ","
+                          - link "od-code-migration" [ref=e1799] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios/od-code-migration
+                            - code [ref=e1800]: od-code-migration
+                          - text: ","
+                          - link "od-react-export" [ref=e1801] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios/od-react-export
+                            - code [ref=e1802]: od-react-export
+                          - text: ","
+                          - link "od-nextjs-export" [ref=e1803] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios/od-nextjs-export
+                            - code [ref=e1804]: od-nextjs-export
+                          - text: ","
+                          - link "od-vue-export" [ref=e1805] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios/od-vue-export
+                            - code [ref=e1806]: od-vue-export
+                          - text: ","
+                          - link "od-media-generation" [ref=e1807] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios/od-media-generation
+                            - code [ref=e1808]: od-media-generation
+                          - text: ","
+                          - link "od-new-generation" [ref=e1809] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios/od-new-generation
+                            - code [ref=e1810]: od-new-generation
+                          - text: ","
+                          - link "od-tune-collab" [ref=e1811] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios/od-tune-collab
+                            - code [ref=e1812]: od-tune-collab
+                          - text: ","
+                          - link "od-plugin-authoring" [ref=e1813] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios/od-plugin-authoring
+                            - code [ref=e1814]: od-plugin-authoring
+                      - row "image-templates/ 45 One-shot image prompts — editorial, cinematic, product, portrait" [ref=e1815]:
+                        - cell "image-templates/" [ref=e1816]:
+                          - link "image-templates/" [ref=e1817] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/image-templates
+                            - code [ref=e1818]: image-templates/
+                        - cell "45" [ref=e1819]
+                        - cell "One-shot image prompts — editorial, cinematic, product, portrait" [ref=e1820]
+                      - row "video-templates/ 50 HyperFrames / Seedance / Veo motion templates" [ref=e1821]:
+                        - cell "video-templates/" [ref=e1822]:
+                          - link "video-templates/" [ref=e1823] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/video-templates
+                            - code [ref=e1824]: video-templates/
+                        - cell "50" [ref=e1825]
+                        - cell "HyperFrames / Seedance / Veo motion templates" [ref=e1826]
+                      - row "design-systems/ 142 Brand DESIGN.md wrapped as plugins" [ref=e1827]:
+                        - cell "design-systems/" [ref=e1828]:
+                          - link "design-systems/" [ref=e1829] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/design-systems
+                            - code [ref=e1830]: design-systems/
+                        - cell "142" [ref=e1831]
+                        - cell "Brand DESIGN.md wrapped as plugins" [ref=e1832]:
+                          - text: Brand
+                          - code [ref=e1833]: DESIGN.md
+                          - text: wrapped as plugins
+                      - row "atoms/ 13 Reusable UI fragments (buttons, heroes, KPI cards)" [ref=e1834]:
+                        - cell "atoms/" [ref=e1835]:
+                          - link "atoms/" [ref=e1836] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/atoms
+                            - code [ref=e1837]: atoms/
+                        - cell "13" [ref=e1838]
+                        - cell "Reusable UI fragments (buttons, heroes, KPI cards)" [ref=e1839]
+                      - row "examples/ 140 Remixable reference outputs" [ref=e1840]:
+                        - cell "examples/" [ref=e1841]:
+                          - link "examples/" [ref=e1842] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/_official/examples
+                            - code [ref=e1843]: examples/
+                        - cell "140" [ref=e1844]
+                        - cell "Remixable reference outputs" [ref=e1845]
+                  - paragraph [ref=e1846]:
+                    - text: Also
+                    - link "plugins/community/" [ref=e1847] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/plugins/community
+                      - code [ref=e1848]: plugins/community/
+                    - text: for community plugins and
+                    - link "plugins/registry/" [ref=e1849] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/plugins/registry
+                      - code [ref=e1850]: plugins/registry/
+                    - text: for the publishing flow.
+                  - generic [ref=e1851]:
+                    - heading "What plugins can do" [level=3] [ref=e1852]
+                    - 'link "Permalink: What plugins can do" [ref=e1853] [cursor=pointer]':
+                      - /url: "#what-plugins-can-do"
+                      - img [ref=e1854]
+                  - list [ref=e1856]:
+                    - listitem [ref=e1857]:
+                      - text: 🤖
+                      - strong [ref=e1858]: Run in any coding agent
+                      - text: —
+                      - link "Claude Code" [ref=e1859] [cursor=pointer]:
+                        - /url: /nexu-io/open-design/blob/main/docs/agent-adapters.md
+                      - text: ", Codex, Cursor, Copilot,"
+                      - link "OpenClaw" [ref=e1860] [cursor=pointer]:
+                        - /url: https://github.com/openclaw/openclaw
+                      - text: ","
+                      - link "Antigravity" [ref=e1861] [cursor=pointer]:
+                        - /url: https://antigravity.google
+                      - text: ", Hermes, Kimi… through the same skill protocol the agent already knows."
+                    - listitem [ref=e1862]:
+                      - text: 🔁
+                      - strong [ref=e1863]: Migrate Figma / Pencil workflows
+                      - text: → React, Next.js, or Vue source. See
+                      - link "od-figma-migration" [ref=e1864] [cursor=pointer]:
+                        - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios/od-figma-migration
+                        - code [ref=e1865]: od-figma-migration
+                      - text: .
+                    - listitem [ref=e1866]:
+                      - text: 🛠️
+                      - strong [ref=e1867]: Refresh an existing codebase to a brand spec
+                      - text: — point a plugin at a
+                      - code [ref=e1868]: git
+                      - text: repo +
+                      - code [ref=e1869]: DESIGN.md
+                      - text: ", get a PR. See"
+                      - link "od-code-migration" [ref=e1870] [cursor=pointer]:
+                        - /url: /nexu-io/open-design/blob/main/plugins/_official/scenarios/od-code-migration
+                        - code [ref=e1871]: od-code-migration
+                      - text: .
+                    - listitem [ref=e1872]:
+                      - text: 💾
+                      - strong [ref=e1873]: Persist custom workflows
+                      - text: — your team's reusable templates sit next to the shipped ones.
+                  - generic [ref=e1874]:
+                    - heading "Using plugins" [level=3] [ref=e1875]
+                    - 'link "Permalink: Using plugins" [ref=e1876] [cursor=pointer]':
+                      - /url: "#using-plugins"
+                      - img [ref=e1877]
+                  - paragraph [ref=e1879]:
+                    - text: Plugins are at full parity across the
+                    - strong [ref=e1880]: web UI
+                    - text: and the
+                    - strong [ref=e1881]:
+                      - code [ref=e1882]: od
+                      - text: CLI
+                    - text: — same
+                    - code [ref=e1883]: /api/plugins
+                    - text: endpoints, pick whichever fits.
+                  - paragraph [ref=e1884]:
+                    - strong [ref=e1885]: "In the desktop / web app:"
+                    - text: open the
+                    - strong [ref=e1886]: Plugin
+                    - text: page to browse the marketplace and click
+                    - strong [ref=e1887]: Install
+                    - text: ; inside a project's Studio, plugins appear as composer chips you click to apply (with the inputs they declare).
+                  - paragraph [ref=e1888]:
+                    - strong [ref=e1889]: On the command line
+                    - text: "(runs without a UI — this is the path external agents use):"
+                  - generic [ref=e1890]:
+                    - generic [ref=e1891]:
+                      - text: od plugin list
+                      - generic [ref=e1892]: "# list installed plugins (--task-kind / --mode / --tag filters)"
+                      - text: od plugin search
+                      - generic [ref=e1893]: "\"landing page\""
+                      - generic [ref=e1894]: "# search by keyword"
+                      - text: od plugin info od-default
+                      - generic [ref=e1895]: "# inspect a plugin's metadata, inputs, capabilities"
+                      - text: od plugin install od-figma-migration
+                      - generic [ref=e1896]: "# install from a registry; also accepts ./local-folder or an https://… link"
+                      - text: od plugin apply od-default --input brief=
+                      - generic [ref=e1897]: "\"a one-page pitch for our seed round\""
+                      - text: od plugin upgrade od-default
+                      - generic [ref=e1898]: "# upgrade"
+                      - text: od plugin uninstall od-default
+                      - generic [ref=e1899]: "# uninstall"
+                    - button "Copy code to clipboard" [ref=e1901] [cursor=pointer]:
+                      - img [ref=e1902]
+                  - paragraph [ref=e1905]:
+                    - text: Every command supports
+                    - code [ref=e1906]: "--json"
+                    - text: ", so you can pipe it through"
+                    - code [ref=e1907]: jq
+                    - text: /
+                    - code [ref=e1908]: xargs
+                    - text: into automation.
+                  - generic [ref=e1909]:
+                    - heading "Building a plugin" [level=3] [ref=e1910]
+                    - 'link "Permalink: Building a plugin" [ref=e1911] [cursor=pointer]':
+                      - /url: "#building-a-plugin"
+                      - img [ref=e1912]
+                  - paragraph [ref=e1914]:
+                    - text: A plugin
+                    - strong [ref=e1915]:
+                      - text: needs only a
+                      - code [ref=e1916]: SKILL.md
+                      - text: at minimum
+                    - text: ; to list it in the Open Design marketplace, add an
+                    - code [ref=e1917]: open-design.json
+                    - text: ":"
+                  - generic [ref=e1918]:
+                    - code [ref=e1920]: "my-plugin/ ├── SKILL.md ← required: YAML frontmatter (name · description) + trigger phrasing + workflow (aim for < 500 lines) ├── open-design.json ← needed to list: marketplace metadata + inputs + pipeline + capabilities ├── README.md ← optional: usage, install, registry links ├── preview/ ← optional: index.html / poster.png (strongly recommended for visual plugins) └── examples/ ← optional: concrete use cases"
+                    - button "Copy code to clipboard" [ref=e1922] [cursor=pointer]:
+                      - img [ref=e1923]
+                  - paragraph [ref=e1926]:
+                    - text: Core
+                    - code [ref=e1927]: open-design.json
+                    - text: "fields:"
+                    - code [ref=e1928]: specVersion
+                    - text: (currently
+                    - code [ref=e1929]: 1.0.0
+                    - text: ),
+                    - code [ref=e1930]: name
+                    - text: (stable ID),
+                    - code [ref=e1931]: version
+                    - text: (semver),
+                    - code [ref=e1932]: compat.agentSkills[].path
+                    - text: (points at
+                    - code [ref=e1933]: ./SKILL.md
+                    - text: ),
+                    - code [ref=e1934]: od.kind
+                    - text: (
+                    - code [ref=e1935]: skill
+                    - text: /
+                    - code [ref=e1936]: scenario
+                    - text: /
+                    - code [ref=e1937]: atom
+                    - text: /
+                    - code [ref=e1938]: bundle
+                    - text: ),
+                    - code [ref=e1939]: od.taskKind
+                    - text: (
+                    - code [ref=e1940]: new-generation
+                    - text: /
+                    - code [ref=e1941]: figma-migration
+                    - text: /
+                    - code [ref=e1942]: code-migration
+                    - text: /
+                    - code [ref=e1943]: tune-collab
+                    - text: ),
+                    - code [ref=e1944]: od.mode
+                    - text: (the output surface, e.g.
+                    - code [ref=e1945]: prototype
+                    - text: /
+                    - code [ref=e1946]: deck
+                    - text: /
+                    - code [ref=e1947]: live-artifact
+                    - text: /
+                    - code [ref=e1948]: image
+                    - text: /
+                    - code [ref=e1949]: video
+                    - text: /
+                    - code [ref=e1950]: hyperframes
+                    - text: /
+                    - code [ref=e1951]: audio
+                    - text: /
+                    - code [ref=e1952]: design-system
+                    - text: /
+                    - code [ref=e1953]: scenario
+                    - text: ),
+                    - code [ref=e1954]: od.capabilities[]
+                    - text: (
+                    - strong [ref=e1955]: declare the minimum
+                    - text: — a restricted install grants only
+                    - code [ref=e1956]: prompt:inject
+                    - text: by default),
+                    - code [ref=e1957]: od.inputs[]
+                    - text: (apply-time parameters).
+                  - paragraph [ref=e1958]: "Scaffold + validate locally:"
+                  - generic [ref=e1959]:
+                    - generic [ref=e1960]:
+                      - text: od plugin scaffold --id my-plugin --title
+                      - generic [ref=e1961]: "\"My Plugin\""
+                      - generic [ref=e1962]: "# generate the skeleton"
+                      - text: od plugin validate ./my-plugin
+                      - generic [ref=e1963]: "# check manifest / file layout"
+                      - text: pnpm guard && pnpm --filter @open-design/plugin-runtime typecheck
+                    - button "Copy code to clipboard" [ref=e1965] [cursor=pointer]:
+                      - img [ref=e1966]
+                  - paragraph [ref=e1969]:
+                    - text: Full field set and runtime contract →
+                    - link "plugins/spec/SPEC.md" [ref=e1970] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/plugins/spec/SPEC.md
+                      - code [ref=e1971]: plugins/spec/SPEC.md
+                    - text: ; developing a plugin with a coding agent →
+                    - link "plugins/spec/AGENT-DEVELOPMENT.md" [ref=e1972] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/plugins/spec/AGENT-DEVELOPMENT.md
+                      - code [ref=e1973]: plugins/spec/AGENT-DEVELOPMENT.md
+                    - text: ; copy-paste minimal templates →
+                    - link "plugins/spec/examples/" [ref=e1974] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/plugins/spec/examples
+                      - code [ref=e1975]: plugins/spec/examples/
+                    - text: .
+                  - generic [ref=e1976]:
+                    - heading "Contributing a plugin" [level=3] [ref=e1977]
+                    - 'link "Permalink: Contributing a plugin" [ref=e1978] [cursor=pointer]':
+                      - /url: "#contributing-a-plugin"
+                      - img [ref=e1979]
+                  - list [ref=e1981]:
+                    - listitem [ref=e1982]:
+                      - text: Drop the plugin folder into
+                      - link "plugins/community/" [ref=e1983] [cursor=pointer]:
+                        - /url: /nexu-io/open-design/blob/main/plugins/community
+                        - code [ref=e1984]: plugins/community/
+                      - text: (third-party plugins), or — to ship it bundled with Open Design — into the matching tier of
+                      - link "plugins/_official/" [ref=e1985] [cursor=pointer]:
+                        - /url: /nexu-io/open-design/blob/main/plugins/_official
+                        - code [ref=e1986]: plugins/_official/
+                      - text: .
+                    - listitem [ref=e1987]:
+                      - text: "Pass validation:"
+                      - code [ref=e1988]: od plugin validate
+                      - text: ","
+                      - code [ref=e1989]: pnpm guard
+                      - text: ","
+                      - code [ref=e1990]: pnpm --filter @open-design/plugin-runtime typecheck
+                      - text: .
+                    - listitem [ref=e1991]:
+                      - text: Fill the PR using the template in
+                      - link "plugins/spec/CONTRIBUTING.md" [ref=e1992] [cursor=pointer]:
+                        - /url: /nexu-io/open-design/blob/main/plugins/spec/CONTRIBUTING.md
+                        - code [ref=e1993]: plugins/spec/CONTRIBUTING.md
+                      - text: (ID, version, lane, mode, capabilities, trigger examples; attach a screenshot / preview for visual plugins).
+                    - listitem [ref=e1994]:
+                      - text: To publish to an external registry (skills.sh / ClawHub / standalone GitHub) →
+                      - link "plugins/spec/PUBLISHING-REGISTRIES.md" [ref=e1995] [cursor=pointer]:
+                        - /url: /nexu-io/open-design/blob/main/plugins/spec/PUBLISHING-REGISTRIES.md
+                        - code [ref=e1996]: plugins/spec/PUBLISHING-REGISTRIES.md
+                      - text: .
+                  - paragraph [ref=e1997]:
+                    - text: "Plugin registry endpoint:"
+                    - code [ref=e1998]: GET /api/plugins
+                    - text: . Directory overview →
+                    - link "plugins/README.md" [ref=e1999] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/plugins/README.md
+                      - code [ref=e2000]: plugins/README.md
+                    - text: (
+                    - link "简体中文" [ref=e2001] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/plugins/README.zh-CN.md
+                    - text: ).
+                  - separator [ref=e2002]
+                  - generic [ref=e2003]:
+                    - heading "Architecture" [level=2] [ref=e2004]
+                    - 'link "Permalink: Architecture" [ref=e2005] [cursor=pointer]':
+                      - /url: "#architecture"
+                      - img [ref=e2006]
+                  - generic [ref=e2008]:
+                    - code [ref=e2010]: "┌────────────────── browser (Next.js 16) / Electron shell ──────────────┐ │ chat · file workspace · iframe preview · settings · import · MCP │ └──────────────┬─────────────────────────────────────┬─────────────────┘ │ /api/* │ ▼ ▼ ┌─────────────────────────────────┐ /api/proxy/{provider}/stream (SSE) │ local daemon (Express+SQLite) │ ─→ any OpenAI-compatible BYOK, │ │ SSRF-guarded at the edge │ /api/skills /api/plugins │ │ /api/design-systems │ │ /api/chat (SSE) /api/proxy/* │ │ /api/projects/:id/files/... │ │ /api/artifacts/{save,lint} │ │ /api/import/claude-design │ │ MCP stdio server │ └─────────┬───────────────────────┘ │ spawn(cli, [...], { cwd: managed project cwd }) ▼ ┌──────────────────────────────────────────────────────────────────┐ │ claude · codex · cursor-agent · copilot · openclaw · antigravity ·│ │ gemini · opencode · qwen · qoder · hermes (ACP) · kimi (ACP) · │ │ pi (RPC) · kiro · kilo · vibe (ACP) · cline · trae · deepseek │ │ reads SKILL.md + DESIGN.md, writes artifacts to disk │ └──────────────────────────────────────────────────────────────────┘"
+                    - button "Copy code to clipboard" [ref=e2012] [cursor=pointer]:
+                      - img [ref=e2013]
+                  - table [ref=e2017]:
+                    - rowgroup [ref=e2018]:
+                      - row "Layer Stack" [ref=e2019]:
+                        - columnheader "Layer" [ref=e2020]
+                        - columnheader "Stack" [ref=e2021]
+                    - rowgroup [ref=e2022]:
+                      - row "Frontend Next.js 16 App Router + React 18 + TypeScript" [ref=e2023]:
+                        - cell "Frontend" [ref=e2024]
+                        - cell "Next.js 16 App Router + React 18 + TypeScript" [ref=e2025]
+                      - row "Daemon Node 24 · Express · SSE streaming · better-sqlite3" [ref=e2026]:
+                        - cell "Daemon" [ref=e2027]
+                        - cell "Node 24 · Express · SSE streaming · better-sqlite3" [ref=e2028]:
+                          - text: Node 24 · Express · SSE streaming ·
+                          - code [ref=e2029]: better-sqlite3
+                      - row "Storage Before changing or documenting daemon storage paths, you MUST read AGENTS.md → Daemon data directory contract. This README MUST NOT restate it." [ref=e2030]:
+                        - cell "Storage" [ref=e2031]
+                        - cell "Before changing or documenting daemon storage paths, you MUST read AGENTS.md → Daemon data directory contract. This README MUST NOT restate it." [ref=e2032]:
+                          - text: Before changing or documenting daemon storage paths, you MUST read
+                          - code [ref=e2033]: AGENTS.md
+                          - text: →
+                          - strong [ref=e2034]: Daemon data directory contract
+                          - text: . This README MUST NOT restate it.
+                      - row "Preview Sandboxed srcdoc iframe + streaming <artifact> parser" [ref=e2035]:
+                        - cell "Preview" [ref=e2036]
+                        - cell "Sandboxed srcdoc iframe + streaming <artifact> parser" [ref=e2037]:
+                          - text: Sandboxed
+                          - code [ref=e2038]: srcdoc
+                          - text: iframe + streaming
+                          - code [ref=e2039]: <artifact>
+                          - text: parser
+                      - row "Export HTML (inlined) · PDF (browser print) · PPTX (agent-driven) · ZIP · Markdown · MP4 (HyperFrames)" [ref=e2040]:
+                        - cell "Export" [ref=e2041]
+                        - cell "HTML (inlined) · PDF (browser print) · PPTX (agent-driven) · ZIP · Markdown · MP4 (HyperFrames)" [ref=e2042]
+                      - row "Desktop Electron shell + sandboxed renderer + sidecar IPC (STATUS · EVAL · SCREENSHOT · CONSOLE · CLICK · SHUTDOWN)" [ref=e2043]:
+                        - cell "Desktop" [ref=e2044]
+                        - cell "Electron shell + sandboxed renderer + sidecar IPC (STATUS · EVAL · SCREENSHOT · CONSOLE · CLICK · SHUTDOWN)" [ref=e2045]
+                      - 'row "Lifecycle One entry point: pnpm tools-dev (start / stop / run / status / logs / inspect / check)" [ref=e2046]':
+                        - cell "Lifecycle" [ref=e2047]
+                        - 'cell "One entry point: pnpm tools-dev (start / stop / run / status / logs / inspect / check)" [ref=e2048]':
+                          - text: "One entry point:"
+                          - code [ref=e2049]: pnpm tools-dev
+                          - text: (start / stop / run / status / logs / inspect / check)
+                  - paragraph [ref=e2050]:
+                    - text: Full architecture →
+                    - link "docs/architecture.md" [ref=e2051] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/architecture.md
+                      - code [ref=e2052]: docs/architecture.md
+                    - text: . Skill protocol →
+                    - link "docs/skills-protocol.md" [ref=e2053] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/skills-protocol.md
+                      - code [ref=e2054]: docs/skills-protocol.md
+                    - text: . Agent adapter contract →
+                    - link "docs/agent-adapters.md" [ref=e2055] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/agent-adapters.md
+                      - code [ref=e2056]: docs/agent-adapters.md
+                    - text: .
+                  - separator [ref=e2057]
+                  - generic [ref=e2058]:
+                    - heading "Roadmap" [level=2] [ref=e2059]
+                    - 'link "Permalink: Roadmap" [ref=e2060] [cursor=pointer]':
+                      - /url: "#roadmap"
+                      - img [ref=e2061]
+                  - list [ref=e2063]:
+                    - listitem [ref=e2064]:
+                      - checkbox "Completed task" [checked] [disabled] [ref=e2065]
+                      - text: Daemon + 22 coding-agent CLI adapters + skill registry + design-system catalog
+                    - listitem [ref=e2066]:
+                      - checkbox "Completed task" [checked] [disabled] [ref=e2067]
+                      - text: Web app + chat + question form + 5-direction picker + todo progress + sandboxed preview
+                    - listitem [ref=e2068]:
+                      - checkbox "Completed task" [checked] [disabled] [ref=e2069]
+                      - text: 100+ skills · 150 design systems · 5 visual directions · 5 device frames
+                    - listitem [ref=e2070]:
+                      - checkbox "Completed task" [checked] [disabled] [ref=e2071]
+                      - text: SQLite-backed projects · conversations · messages · tabs · templates
+                    - listitem [ref=e2072]:
+                      - checkbox "Completed task" [checked] [disabled] [ref=e2073]
+                      - text: Multi-provider BYOK proxy (
+                      - code [ref=e2074]: "/api/proxy/{anthropic,openai,azure,google,ollama,senseaudio}/stream"
+                      - text: ) + SSRF guard
+                    - listitem [ref=e2075]:
+                      - checkbox "Completed task" [checked] [disabled] [ref=e2076]
+                      - text: Claude Design ZIP import (
+                      - code [ref=e2077]: /api/import/claude-design
+                      - text: )
+                    - listitem [ref=e2078]:
+                      - checkbox "Completed task" [checked] [disabled] [ref=e2079]
+                      - text: Sidecar protocol + Electron desktop + IPC automation
+                    - listitem [ref=e2080]:
+                      - checkbox "Completed task" [checked] [disabled] [ref=e2081]
+                      - text: Artifact lint API + 5-dim self-critique pre-emit gate
+                    - listitem [ref=e2082]:
+                      - checkbox "Completed task" [checked] [disabled] [ref=e2083]
+                      - strong [ref=e2084]: 0.8.0
+                      - text: — plugin marketplace infrastructure (261 official plugins, manifest spec, per-agent install scripts)
+                    - listitem [ref=e2085]:
+                      - checkbox "Completed task" [checked] [disabled] [ref=e2086]
+                      - strong [ref=e2087]: 0.9.0
+                      - text: "— Open Design AMR (official Model Router built into the app: zero config, one-click sign-in)"
+                    - listitem [ref=e2088]:
+                      - checkbox "Completed task" [checked] [disabled] [ref=e2089]
+                      - text: Packaged Electron builds — macOS (Apple Silicon + Intel) + Windows (x64) + Linux AppImage (optional lane)
+                    - listitem [ref=e2090]:
+                      - checkbox "Incomplete task" [disabled] [ref=e2091]
+                      - text: Comment-mode surgical edits — partially shipped; reliable targeted patching in progress
+                    - listitem [ref=e2092]:
+                      - checkbox "Incomplete task" [disabled] [ref=e2093]
+                      - text: AI-emitted tweaks panel UX — not yet implemented
+                    - listitem [ref=e2094]:
+                      - checkbox "Incomplete task" [disabled] [ref=e2095]
+                      - code [ref=e2096]: npx od init
+                      - text: to scaffold a project with
+                      - code [ref=e2097]: DESIGN.md
+                    - listitem [ref=e2098]:
+                      - checkbox "Incomplete task" [disabled] [ref=e2099]
+                      - text: Plugin SDK +
+                      - code [ref=e2100]: "od plugin {add,list,remove,test,publish}"
+                      - text: CLI
+                    - listitem [ref=e2101]:
+                      - checkbox "Incomplete task" [disabled] [ref=e2102]
+                      - text: Figma / Pencil → React / Next / Vue migration plugins (alpha)
+                    - listitem [ref=e2103]:
+                      - checkbox "Incomplete task" [disabled] [ref=e2104]
+                      - text: Refresh-existing-codebase plugin (point at a git repo +
+                      - code [ref=e2105]: DESIGN.md
+                      - text: )
+                  - paragraph [ref=e2106]:
+                    - text: Phased delivery →
+                    - link "docs/roadmap.md" [ref=e2107] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/roadmap.md
+                      - code [ref=e2108]: docs/roadmap.md
+                    - text: .
+                  - separator [ref=e2109]
+                  - generic [ref=e2110]:
+                    - heading "Community" [level=2] [ref=e2111]
+                    - 'link "Permalink: Community" [ref=e2112] [cursor=pointer]':
+                      - /url: "#community"
+                      - img [ref=e2113]
+                  - paragraph [ref=e2115]: Real people behind every channel.
+                  - list [ref=e2116]:
+                    - listitem [ref=e2117]:
+                      - text: 💬
+                      - strong [ref=e2118]: Discord
+                      - text: — daily chat, plugin sharing, questions →
+                      - link "discord.gg/9ptkbbqRu" [ref=e2119] [cursor=pointer]:
+                        - /url: https://discord.gg/9ptkbbqRu
+                        - strong [ref=e2120]: discord.gg/9ptkbbqRu
+                    - listitem [ref=e2121]:
+                      - text: 🐦
+                      - strong [ref=e2122]: X / Twitter
+                      - text: — release notes, milestones, behind the scenes →
+                      - link "@OpenDesignHQ" [ref=e2123] [cursor=pointer]:
+                        - /url: https://x.com/OpenDesignHQ
+                        - strong [ref=e2124]: "@OpenDesignHQ"
+                    - listitem [ref=e2125]:
+                      - text: 🗣️
+                      - strong [ref=e2126]: GitHub Discussions
+                      - text: — deep Q&A, RFCs, "show your work" →
+                      - link "Discussions" [ref=e2127] [cursor=pointer]:
+                        - /url: https://github.com/nexu-io/open-design/discussions
+                        - strong [ref=e2128]: Discussions
+                    - listitem [ref=e2129]:
+                      - text: 🐛
+                      - strong [ref=e2130]: GitHub Issues
+                      - text: — bug reports, feature requests →
+                      - link "Issues" [ref=e2131] [cursor=pointer]:
+                        - /url: https://github.com/nexu-io/open-design/issues
+                        - strong [ref=e2132]: Issues
+                  - paragraph [ref=e2133]:
+                    - text: The
+                    - link "good-first-issue" [ref=e2134] [cursor=pointer]:
+                      - /url: https://github.com/nexu-io/open-design/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+                      - code [ref=e2135]: good-first-issue
+                    - text: and
+                    - link "help-wanted" [ref=e2136] [cursor=pointer]:
+                      - /url: https://github.com/nexu-io/open-design/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+                      - code [ref=e2137]: help-wanted
+                    - text: labels are the easiest way in.
+                  - separator [ref=e2138]
+                  - generic [ref=e2139]:
+                    - heading "Contributing" [level=2] [ref=e2140]
+                    - 'link "Permalink: Contributing" [ref=e2141] [cursor=pointer]':
+                      - /url: "#contributing"
+                      - img [ref=e2142]
+                  - paragraph [ref=e2144]: Open Design keeps moving because contributors — designers, engineers, prompt authors — keep showing up. Many of the most-used skills, design systems, and plugins were written by people outside the core team.
+                  - generic [ref=e2145]:
+                    - heading "🎯 Where to start (max leverage, min change)" [level=3] [ref=e2146]
+                    - 'link "Permalink: 🎯 Where to start (max leverage, min change)" [ref=e2147] [cursor=pointer]':
+                      - /url: "#-where-to-start-max-leverage-min-change"
+                      - img [ref=e2148]
+                  - table [ref=e2151]:
+                    - rowgroup [ref=e2152]:
+                      - row "Want to ship… How Where" [ref=e2153]:
+                        - columnheader "Want to ship…" [ref=e2154]
+                        - columnheader "How" [ref=e2155]
+                        - columnheader "Where" [ref=e2156]
+                    - rowgroup [ref=e2157]:
+                      - row "A new skill Drop a folder with SKILL.md + assets/ + references/ skills/ · spec in docs/skills-protocol.md" [ref=e2158]:
+                        - cell "A new skill" [ref=e2159]:
+                          - text: A new
+                          - strong [ref=e2160]: skill
+                        - cell "Drop a folder with SKILL.md + assets/ + references/" [ref=e2161]:
+                          - text: Drop a folder with
+                          - code [ref=e2162]: SKILL.md
+                          - text: +
+                          - code [ref=e2163]: assets/
+                          - text: +
+                          - code [ref=e2164]: references/
+                        - cell "skills/ · spec in docs/skills-protocol.md" [ref=e2165]:
+                          - link "skills/" [ref=e2166] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/skills
+                            - code [ref=e2167]: skills/
+                          - text: · spec in
+                          - link "docs/skills-protocol.md" [ref=e2168] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/docs/skills-protocol.md
+                            - code [ref=e2169]: docs/skills-protocol.md
+                      - row "A new design system Drop a DESIGN.md using the 9-section schema design-systems/<brand>/" [ref=e2170]:
+                        - cell "A new design system" [ref=e2171]:
+                          - text: A new
+                          - strong [ref=e2172]: design system
+                        - cell "Drop a DESIGN.md using the 9-section schema" [ref=e2173]:
+                          - text: Drop a
+                          - code [ref=e2174]: DESIGN.md
+                          - text: using the 9-section schema
+                        - cell "design-systems/<brand>/" [ref=e2175]:
+                          - link "design-systems/<brand>/" [ref=e2176] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-systems
+                            - code [ref=e2177]: design-systems/<brand>/
+                      - row "A new plugin Drop open-design.json + manifest under a category folder plugins/community/ · spec in plugins/spec/SPEC.md · agent dev guide in plugins/spec/AGENT-DEVELOPMENT.md" [ref=e2178]:
+                        - cell "A new plugin" [ref=e2179]:
+                          - text: A new
+                          - strong [ref=e2180]: plugin
+                        - cell "Drop open-design.json + manifest under a category folder" [ref=e2181]:
+                          - text: Drop
+                          - code [ref=e2182]: open-design.json
+                          - text: + manifest under a category folder
+                        - cell "plugins/community/ · spec in plugins/spec/SPEC.md · agent dev guide in plugins/spec/AGENT-DEVELOPMENT.md" [ref=e2183]:
+                          - link "plugins/community/" [ref=e2184] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/community
+                            - code [ref=e2185]: plugins/community/
+                          - text: · spec in
+                          - link "plugins/spec/SPEC.md" [ref=e2186] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/spec/SPEC.md
+                            - code [ref=e2187]: plugins/spec/SPEC.md
+                          - text: · agent dev guide in
+                          - link "plugins/spec/AGENT-DEVELOPMENT.md" [ref=e2188] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/plugins/spec/AGENT-DEVELOPMENT.md
+                            - code [ref=e2189]: plugins/spec/AGENT-DEVELOPMENT.md
+                      - row "Support a new coding-agent CLI One adapter entry + stream parser apps/daemon/src/agents.ts" [ref=e2190]:
+                        - cell "Support a new coding-agent CLI" [ref=e2191]:
+                          - text: Support a new
+                          - strong [ref=e2192]: coding-agent CLI
+                        - cell "One adapter entry + stream parser" [ref=e2193]
+                        - cell "apps/daemon/src/agents.ts" [ref=e2194]:
+                          - link "apps/daemon/src/agents.ts" [ref=e2195] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/apps/daemon/src/agents.ts
+                            - code [ref=e2196]: apps/daemon/src/agents.ts
+                      - row "Fix a bug or polish UI Browse the good-first-issue label Issues →" [ref=e2197]:
+                        - cell "Fix a bug or polish UI" [ref=e2198]
+                        - cell "Browse the good-first-issue label" [ref=e2199]:
+                          - text: Browse the
+                          - link "good-first-issue" [ref=e2200] [cursor=pointer]:
+                            - /url: https://github.com/nexu-io/open-design/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+                            - code [ref=e2201]: good-first-issue
+                          - text: label
+                        - cell "Issues →" [ref=e2202]:
+                          - link "Issues →" [ref=e2203] [cursor=pointer]:
+                            - /url: https://github.com/nexu-io/open-design/issues
+                      - row "Translate the docs Update the README.<lang>.md files TRANSLATIONS.md" [ref=e2204]:
+                        - cell "Translate the docs" [ref=e2205]
+                        - cell "Update the README.<lang>.md files" [ref=e2206]:
+                          - text: Update the
+                          - code [ref=e2207]: README.<lang>.md
+                          - text: files
+                        - cell "TRANSLATIONS.md" [ref=e2208]:
+                          - link "TRANSLATIONS.md" [ref=e2209] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/TRANSLATIONS.md
+                            - code [ref=e2210]: TRANSLATIONS.md
+                  - generic [ref=e2211]:
+                    - heading "🤖 Contributing as an agent" [level=3] [ref=e2212]
+                    - 'link "Permalink: 🤖 Contributing as an agent" [ref=e2213] [cursor=pointer]':
+                      - /url: "#-contributing-as-an-agent"
+                      - img [ref=e2214]
+                  - paragraph [ref=e2216]:
+                    - text: If
+                    - emphasis [ref=e2217]: you are the agent reading this
+                    - text: ", the fastest path is:"
+                  - generic [ref=e2218]:
+                    - generic [ref=e2219]:
+                      - generic [ref=e2220]: "# 1. Boot locally"
+                      - text: git clone https://github.com/nexu-io/open-design.git cd open-design && corepack enable && pnpm install pnpm tools-dev run web
+                      - generic [ref=e2221]: "# 2. Find a good-first-issue and assign yourself"
+                      - text: gh issue list --label
+                      - generic [ref=e2222]: "\"good first issue\""
+                      - text: "--state open --limit 20 gh issue develop <number>"
+                      - generic [ref=e2223]: "# create a branch and worktree"
+                      - generic [ref=e2224]: "# 3. Make the change, run the checks"
+                      - text: pnpm guard && pnpm typecheck pnpm --filter @open-design/<package> test
+                      - generic [ref=e2225]: "# 4. Open the PR"
+                      - text: gh pr create --fill
+                    - button "Copy code to clipboard" [ref=e2227] [cursor=pointer]:
+                      - img [ref=e2228]
+                  - paragraph [ref=e2231]:
+                    - text: Full agent-friendly contribution flow, code style, and PR bar →
+                    - link "CONTRIBUTING.md" [ref=e2232] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/CONTRIBUTING.md
+                      - code [ref=e2233]: CONTRIBUTING.md
+                    - text: (
+                    - link "Deutsch" [ref=e2234] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/CONTRIBUTING.de.md
+                    - text: ·
+                    - link "Français" [ref=e2235] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/CONTRIBUTING.fr.md
+                    - text: ·
+                    - link "简体中文" [ref=e2236] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/CONTRIBUTING.zh-CN.md
+                    - text: ·
+                    - link "日本語" [ref=e2237] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/CONTRIBUTING.ja-JP.md
+                    - text: ·
+                    - link "Português" [ref=e2238] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/CONTRIBUTING.pt-BR.md
+                    - text: ).
+                  - generic [ref=e2239]:
+                    - heading "🏅 Open Design Fellow program" [level=3] [ref=e2240]
+                    - 'link "Permalink: 🏅 Open Design Fellow program" [ref=e2241] [cursor=pointer]':
+                      - /url: "#-open-design-fellow-program"
+                      - img [ref=e2242]
+                  - paragraph [ref=e2244]:
+                    - text: We're recruiting
+                    - strong [ref=e2245]: Open Design Fellows
+                    - text: around the world — Fellows shape the product alongside the core team, represent Open Design officially in their region, and grow the community locally, backed by funded support ($1,000 / MR), free LLM credits, and a direct review track. Details →
+                    - link "MAINTAINERS.md" [ref=e2246] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/MAINTAINERS.md
+                      - code [ref=e2247]: MAINTAINERS.md
+                    - text: and the announcement on
+                    - link "Discord" [ref=e2248] [cursor=pointer]:
+                      - /url: https://discord.gg/9ptkbbqRu
+                    - text: .
+                  - separator [ref=e2249]
+                  - generic [ref=e2250]:
+                    - heading "Maintainers" [level=2] [ref=e2251]
+                    - 'link "Permalink: Maintainers" [ref=e2252] [cursor=pointer]':
+                      - /url: "#maintainers"
+                      - img [ref=e2253]
+                  - paragraph [ref=e2255]: They carry a lot of the load — daily maintenance, review, and community support.
+                  - table [ref=e2257]:
+                    - rowgroup [ref=e2258]:
+                      - row "@Nagendhra-web @Nagendhra-web Maintainer @Sid-Qin @Sid-Qin Maintainer @YOMXXX @YOMXXX Maintainer" [ref=e2259]:
+                        - cell "@Nagendhra-web @Nagendhra-web Maintainer" [ref=e2260]:
+                          - link "@Nagendhra-web @Nagendhra-web" [ref=e2261] [cursor=pointer]:
+                            - /url: https://github.com/Nagendhra-web
+                            - img "@Nagendhra-web" [ref=e2262]
+                            - subscript [ref=e2263]: "@Nagendhra-web"
+                          - subscript [ref=e2264]: Maintainer
+                        - cell "@Sid-Qin @Sid-Qin Maintainer" [ref=e2265]:
+                          - link "@Sid-Qin @Sid-Qin" [ref=e2266] [cursor=pointer]:
+                            - /url: https://github.com/Sid-Qin
+                            - img "@Sid-Qin" [ref=e2267]
+                            - subscript [ref=e2268]: "@Sid-Qin"
+                          - subscript [ref=e2269]: Maintainer
+                        - cell "@YOMXXX @YOMXXX Maintainer" [ref=e2270]:
+                          - link "@YOMXXX @YOMXXX" [ref=e2271] [cursor=pointer]:
+                            - /url: https://github.com/YOMXXX
+                            - img "@YOMXXX" [ref=e2272]
+                            - subscript [ref=e2273]: "@YOMXXX"
+                          - subscript [ref=e2274]: Maintainer
+                  - paragraph [ref=e2275]:
+                    - text: Maintainer rules, promotion criteria, and the exit protocol →
+                    - link "MAINTAINERS.md" [ref=e2276] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/MAINTAINERS.md
+                      - code [ref=e2277]: MAINTAINERS.md
+                    - text: (also
+                    - link "Deutsch" [ref=e2278] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/MAINTAINERS.de.md
+                    - text: ·
+                    - link "Français" [ref=e2279] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/MAINTAINERS.fr.md
+                    - text: ·
+                    - link "简体中文" [ref=e2280] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/MAINTAINERS.zh-CN.md
+                    - text: ·
+                    - link "日本語" [ref=e2281] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/MAINTAINERS.ja-JP.md
+                    - text: ·
+                    - link "Português" [ref=e2282] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/i18n/MAINTAINERS.pt-BR.md
+                    - text: ).
+                  - generic [ref=e2283]:
+                    - heading "Contributors" [level=2] [ref=e2284]
+                    - 'link "Permalink: Contributors" [ref=e2285] [cursor=pointer]':
+                      - /url: "#contributors"
+                      - img [ref=e2286]
+                  - paragraph [ref=e2288]: Thanks to everyone who has taken part — code, docs, feedback, a sharp issue, a new skill, a new design system.
+                  - link "Open Design contributors" [ref=e2289] [cursor=pointer]:
+                    - /url: https://github.com/nexu-io/open-design/graphs/contributors
+                    - img "Open Design contributors" [ref=e2290]
+                  - separator [ref=e2291]
+                  - generic [ref=e2292]:
+                    - heading "Repository activity" [level=2] [ref=e2293]
+                    - 'link "Permalink: Repository activity" [ref=e2294] [cursor=pointer]':
+                      - /url: "#repository-activity"
+                      - img [ref=e2295]
+                  - img "Open Design — repository metrics" [ref=e2299]
+                  - paragraph [ref=e2300]:
+                    - text: The SVG above is regenerated daily by
+                    - link ".github/workflows/metrics.yml" [ref=e2301] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/.github/workflows/metrics.yml
+                      - code [ref=e2302]: .github/workflows/metrics.yml
+                    - text: using
+                    - link "lowlighter/metrics" [ref=e2303] [cursor=pointer]:
+                      - /url: https://github.com/lowlighter/metrics
+                      - code [ref=e2304]: lowlighter/metrics
+                    - text: .
+                  - separator [ref=e2305]
+                  - generic [ref=e2306]:
+                    - heading "Star us" [level=2] [ref=e2307]
+                    - 'link "Permalink: Star us" [ref=e2308] [cursor=pointer]':
+                      - /url: "#star-us"
+                      - img [ref=e2309]
+                  - paragraph [ref=e2311]:
+                    - link "Star Open Design on GitHub — github.com/nexu-io/open-design" [ref=e2312] [cursor=pointer]:
+                      - /url: https://github.com/nexu-io/open-design
+                      - img "Star Open Design on GitHub — github.com/nexu-io/open-design" [ref=e2313]
+                  - paragraph [ref=e2314]: If this saved you thirty minutes, give it a ★. Stars don't pay rent — but they tell the next designer, agent, and contributor that this experiment is worth their attention. One click, three seconds, a real signal.
+                  - link "Open Design star history" [ref=e2315] [cursor=pointer]:
+                    - /url: https://star-history.com/#nexu-io/open-design&Date
+                    - img "Open Design star history" [ref=e2318]
+                  - separator [ref=e2319]
+                  - generic [ref=e2320]:
+                    - heading "References & lineage" [level=2] [ref=e2321]
+                    - 'link "Permalink: References & lineage" [ref=e2322] [cursor=pointer]':
+                      - /url: "#references--lineage"
+                      - img [ref=e2323]
+                  - table [ref=e2326]:
+                    - rowgroup [ref=e2327]:
+                      - row "Project Role" [ref=e2328]:
+                        - columnheader "Project" [ref=e2329]
+                        - columnheader "Role" [ref=e2330]
+                    - rowgroup [ref=e2331]:
+                      - row "Claude Design The closed-source product this repo is the open-source alternative to." [ref=e2332]:
+                        - cell "Claude Design" [ref=e2333]:
+                          - link "Claude Design" [ref=e2334] [cursor=pointer]:
+                            - /url: https://x.com/claudeai/status/2045156267690213649
+                        - cell "The closed-source product this repo is the open-source alternative to." [ref=e2335]
+                      - row "alchaincyf/huashu-design The design-philosophy compass — junior-designer workflow, brand-asset protocol, anti-AI-slop checklist, five-dimensional critique." [ref=e2336]:
+                        - cell "alchaincyf/huashu-design" [ref=e2337]:
+                          - link "alchaincyf/huashu-design" [ref=e2338] [cursor=pointer]:
+                            - /url: https://github.com/alchaincyf/huashu-design
+                            - code [ref=e2339]: alchaincyf/huashu-design
+                        - cell "The design-philosophy compass — junior-designer workflow, brand-asset protocol, anti-AI-slop checklist, five-dimensional critique." [ref=e2340]
+                      - row "op7418/guizang-ppt-skill The magazine-style web PPT skill, bundled verbatim under design-templates/guizang-ppt/. Default for deck mode." [ref=e2341]:
+                        - cell "op7418/guizang-ppt-skill" [ref=e2342]:
+                          - link "op7418/guizang-ppt-skill" [ref=e2343] [cursor=pointer]:
+                            - /url: https://github.com/op7418/guizang-ppt-skill
+                            - code [ref=e2344]: op7418/guizang-ppt-skill
+                        - cell "The magazine-style web PPT skill, bundled verbatim under design-templates/guizang-ppt/. Default for deck mode." [ref=e2345]:
+                          - text: The magazine-style web PPT skill, bundled verbatim under
+                          - link "design-templates/guizang-ppt/" [ref=e2346] [cursor=pointer]:
+                            - /url: /nexu-io/open-design/blob/main/design-templates/guizang-ppt
+                            - code [ref=e2347]: design-templates/guizang-ppt/
+                          - text: . Default for deck mode.
+                      - row "lewislulu/html-ppt-skill The HTML PPT Studio family — 15 deck templates, 36 themes, 31 page layouts, animation runtime, magnetic-card presenter mode." [ref=e2348]:
+                        - cell "lewislulu/html-ppt-skill" [ref=e2349]:
+                          - link "lewislulu/html-ppt-skill" [ref=e2350] [cursor=pointer]:
+                            - /url: https://github.com/lewislulu/html-ppt-skill
+                            - code [ref=e2351]: lewislulu/html-ppt-skill
+                        - cell "The HTML PPT Studio family — 15 deck templates, 36 themes, 31 page layouts, animation runtime, magnetic-card presenter mode." [ref=e2352]
+                      - row "OpenCoworkAI/open-codesign The first open-source Claude Design alternative; UX patterns we borrow (streaming-artifact loop, sandboxed iframe, live agent panel)." [ref=e2353]:
+                        - cell "OpenCoworkAI/open-codesign" [ref=e2354]:
+                          - link "OpenCoworkAI/open-codesign" [ref=e2355] [cursor=pointer]:
+                            - /url: https://github.com/OpenCoworkAI/open-codesign
+                            - code [ref=e2356]: OpenCoworkAI/open-codesign
+                        - cell "The first open-source Claude Design alternative; UX patterns we borrow (streaming-artifact loop, sandboxed iframe, live agent panel)." [ref=e2357]
+                      - row "multica-ai/multica The daemon + adapter architecture — PATH-scan agent detection, local daemon as the only privileged process." [ref=e2358]:
+                        - cell "multica-ai/multica" [ref=e2359]:
+                          - link "multica-ai/multica" [ref=e2360] [cursor=pointer]:
+                            - /url: https://github.com/multica-ai/multica
+                            - code [ref=e2361]: multica-ai/multica
+                        - cell "The daemon + adapter architecture — PATH-scan agent detection, local daemon as the only privileged process." [ref=e2362]
+                      - row "VoltAgent/awesome-design-md Source of the 9-section DESIGN.md schema and 70 product systems." [ref=e2363]:
+                        - cell "VoltAgent/awesome-design-md" [ref=e2364]:
+                          - link "VoltAgent/awesome-design-md" [ref=e2365] [cursor=pointer]:
+                            - /url: https://github.com/VoltAgent/awesome-design-md
+                            - code [ref=e2366]: VoltAgent/awesome-design-md
+                        - cell "Source of the 9-section DESIGN.md schema and 70 product systems." [ref=e2367]:
+                          - text: Source of the 9-section
+                          - code [ref=e2368]: DESIGN.md
+                          - text: schema and 70 product systems.
+                      - row "bergside/awesome-design-skills Source of the 57 design skills added under design-systems/." [ref=e2369]:
+                        - cell "bergside/awesome-design-skills" [ref=e2370]:
+                          - link "bergside/awesome-design-skills" [ref=e2371] [cursor=pointer]:
+                            - /url: https://github.com/bergside/awesome-design-skills
+                            - code [ref=e2372]: bergside/awesome-design-skills
+                        - cell "Source of the 57 design skills added under design-systems/." [ref=e2373]:
+                          - text: Source of the 57 design skills added under
+                          - code [ref=e2374]: design-systems/
+                          - text: .
+                      - row "heygen-com/hyperframes The HTML→MP4 motion-graphics framework, integrated as the first-class hyperframes-html in Open Design." [ref=e2375]:
+                        - cell "heygen-com/hyperframes" [ref=e2376]:
+                          - link "heygen-com/hyperframes" [ref=e2377] [cursor=pointer]:
+                            - /url: https://github.com/heygen-com/hyperframes
+                            - code [ref=e2378]: heygen-com/hyperframes
+                        - cell "The HTML→MP4 motion-graphics framework, integrated as the first-class hyperframes-html in Open Design." [ref=e2379]:
+                          - text: The HTML→MP4 motion-graphics framework, integrated as the first-class
+                          - code [ref=e2380]: hyperframes-html
+                          - text: in Open Design.
+                      - row "Claude Code skills The SKILL.md convention we adopt verbatim." [ref=e2381]:
+                        - cell "Claude Code skills" [ref=e2382]:
+                          - link "Claude Code skills" [ref=e2383] [cursor=pointer]:
+                            - /url: https://docs.anthropic.com/en/docs/claude-code/skills
+                        - cell "The SKILL.md convention we adopt verbatim." [ref=e2384]:
+                          - text: The
+                          - code [ref=e2385]: SKILL.md
+                          - text: convention we adopt verbatim.
+                  - paragraph [ref=e2386]:
+                    - text: Detailed provenance →
+                    - link "docs/references.md" [ref=e2387] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/docs/references.md
+                      - code [ref=e2388]: docs/references.md
+                    - text: .
+                  - generic [ref=e2389]:
+                    - heading "License" [level=2] [ref=e2390]
+                    - 'link "Permalink: License" [ref=e2391] [cursor=pointer]':
+                      - /url: "#license"
+                      - img [ref=e2392]
+                  - paragraph [ref=e2394]:
+                    - text: Apache-2.0. The bundled
+                    - code [ref=e2395]: design-templates/guizang-ppt/
+                    - text: retains its original
+                    - link "LICENSE" [ref=e2396] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/design-templates/guizang-ppt/LICENSE
+                    - text: (MIT,
+                    - link "@op7418" [ref=e2397] [cursor=pointer]:
+                      - /url: https://github.com/op7418
+                    - text: ). The bundled
+                    - code [ref=e2398]: design-templates/html-ppt/
+                    - text: retains its original
+                    - link "LICENSE" [ref=e2399] [cursor=pointer]:
+                      - /url: /nexu-io/open-design/blob/main/design-templates/html-ppt/LICENSE
+                    - text: (MIT,
+                    - link "@lewislulu" [ref=e2400] [cursor=pointer]:
+                      - /url: https://github.com/lewislulu
+                    - text: ).
+  - alert [ref=e2404]
