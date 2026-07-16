@@ -250,6 +250,104 @@
     }
     .card p { font-size: .9rem; color: var(--muted); }
 
+    /* ── Цены ── */
+    .pricing-intro {
+      max-width: 720px;
+      margin-top: -1.5rem;
+      margin-bottom: 2.5rem;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--gap);
+      align-items: start;
+    }
+    .price-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: border-color .25s, transform .25s;
+    }
+    .price-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-4px);
+    }
+    .price-card-header {
+      padding: 1.5rem 1.5rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .price-card-kicker {
+      display: block;
+      margin-bottom: .45rem;
+      color: var(--accent);
+      font-size: .75rem;
+      font-weight: 500;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .price-card h3 {
+      font-size: 1.2rem;
+      line-height: 1.3;
+    }
+    .price-list { list-style: none; }
+    .price-item {
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .price-item:last-child { border-bottom: 0; }
+    .price-item-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: .45rem;
+    }
+    .price-item-title {
+      font-size: .94rem;
+      font-weight: 600;
+      line-height: 1.35;
+    }
+    .price-amount {
+      flex-shrink: 0;
+      color: var(--accent);
+      font-size: .92rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .price-item p {
+      color: var(--muted);
+      font-size: .84rem;
+      line-height: 1.55;
+    }
+    .price-note {
+      margin: 1.25rem 1.5rem 1.5rem;
+      padding: 1rem;
+      border: 1px solid rgba(124,106,247,.24);
+      border-radius: 9px;
+      background: rgba(124,106,247,.07);
+      color: var(--muted);
+      font-size: .84rem;
+      line-height: 1.55;
+    }
+    .pricing-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+      padding: 1.5rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
+    .pricing-footer p {
+      color: var(--muted);
+      font-size: .92rem;
+    }
+
     /* ── Процесс ── */
     #process { }
     .process-steps {
@@ -458,10 +556,21 @@
       .hero-cta { justify-content: center; }
       .hero-photo-wrap { order: -1; margin-inline: auto; }
       .hero-photo { width: 220px; height: 250px; }
+      .pricing-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 600px) {
       .nav-links { display: none; }
       .services-grid { grid-template-columns: 1fr; }
+      .price-item-top {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: .35rem;
+      }
+      .pricing-footer {
+        align-items: stretch;
+        flex-direction: column;
+      }
+      .pricing-footer .btn { justify-content: center; }
     }
     /* ── Стек ── */
     #stack { background: var(--surface); padding-block: 1.5rem; border-bottom: 1px solid var(--border); }
@@ -582,6 +691,7 @@
     <div class="nav-logo">max<span>.</span>tech</div>
     <ul class="nav-links">
       <li><a href="#services">Услуги</a></li>
+      <li><a href="#pricing">Цены</a></li>
       <li><a href="#process">Процесс</a></li>
       <li><a href="#cases">Кейсы</a></li>
       <li><a href="#book">Консультация</a></li>
@@ -724,6 +834,146 @@
         <p>3–5k в месяц, я слежу чтобы всё работало. Мелкие апдейты, новые функции, консультации — вы не думаете о технике.</p>
       </div>
 
+    </div>
+  </div>
+</section>
+
+<!-- ─────────── ЦЕНЫ ─────────── -->
+<section id="pricing" class="section">
+  <div class="container">
+    <div class="section-label">Стоимость разработки</div>
+    <h2 class="section-title">Цены</h2>
+    <p class="pricing-intro">
+      Диапазон зависит от числа сценариев, интеграций и объёма нестандартной логики.
+      Точную оценку дам после короткого разбора задачи.
+    </p>
+
+    <div class="pricing-grid">
+
+      <article class="price-card">
+        <div class="price-card-header">
+          <span class="price-card-kicker">Низкий входной билет</span>
+          <h3>Лендинг с нестандартной логикой</h3>
+        </div>
+        <ul class="price-list">
+          <li class="price-item">
+            <div class="price-item-top">
+              <span class="price-item-title">Простой одностраничник</span>
+              <span class="price-amount">20–30 тыс. ₽</span>
+            </div>
+            <p>Лендинг по типу landing-tehspec.</p>
+          </li>
+          <li class="price-item">
+            <div class="price-item-top">
+              <span class="price-item-title">С формой и интеграцией</span>
+              <span class="price-amount">30–40 тыс. ₽</span>
+            </div>
+            <p>Форма заявки с отправкой данных в Telegram.</p>
+          </li>
+          <li class="price-item">
+            <div class="price-item-top">
+              <span class="price-item-title">С калькулятором или квизом</span>
+              <span class="price-amount">40–60 тыс. ₽</span>
+            </div>
+            <p>Расчёт стоимости или пошаговый сценарий подбора.</p>
+          </li>
+          <li class="price-item">
+            <div class="price-item-top">
+              <span class="price-item-title">Многоэкранная воронка</span>
+              <span class="price-amount">60–80 тыс. ₽</span>
+            </div>
+            <p>Несколько экранов с разной логикой переходов.</p>
+          </li>
+        </ul>
+        <p class="price-note">
+          Лендинги — самая доступная категория. С них удобно начать проект,
+          а затем перейти к автоматизации и более сложным задачам.
+        </p>
+      </article>
+
+      <article class="price-card">
+        <div class="price-card-header">
+          <span class="price-card-kicker">Большинство задач</span>
+          <h3>Telegram-боты</h3>
+        </div>
+        <ul class="price-list">
+          <li class="price-item">
+            <div class="price-item-top">
+              <span class="price-item-title">Простой бот</span>
+              <span class="price-amount">30–50 тыс. ₽</span>
+            </div>
+            <p>Приём заявок, FSM-сценарии и уведомления администратору.</p>
+          </li>
+          <li class="price-item">
+            <div class="price-item-top">
+              <span class="price-item-title">С базой данных и админкой</span>
+              <span class="price-amount">50–70 тыс. ₽</span>
+            </div>
+            <p>История заявок, статусы и фильтры.</p>
+          </li>
+          <li class="price-item">
+            <div class="price-item-top">
+              <span class="price-item-title">Бот с интеграцией</span>
+              <span class="price-amount">60–100 тыс. ₽</span>
+            </div>
+            <p>Подключение CRM, эквайринга или рассылок.</p>
+          </li>
+          <li class="price-item">
+            <div class="price-item-top">
+              <span class="price-item-title">Сложный бот</span>
+              <span class="price-amount">100–150 тыс. ₽</span>
+            </div>
+            <p>Несколько ролей, многошаговые сценарии и аналитика.</p>
+          </li>
+        </ul>
+        <p class="price-note">
+          Около 80% задач укладываются в диапазон 30–70 тыс. ₽.
+          Проекты дороже 150 тыс. ₽ обычно уже требуют корпоративного формата и команды.
+        </p>
+      </article>
+
+      <article class="price-card">
+        <div class="price-card-header">
+          <span class="price-card-kicker">Автоматизация процессов</span>
+          <h3>Интеграции и связки</h3>
+        </div>
+        <ul class="price-list">
+          <li class="price-item">
+            <div class="price-item-top">
+              <span class="price-item-title">Простая связка двух сервисов</span>
+              <span class="price-amount">30–50 тыс. ₽</span>
+            </div>
+            <p>Например, уведомление в Telegram после события в GetCourse.</p>
+          </li>
+          <li class="price-item">
+            <div class="price-item-top">
+              <span class="price-item-title">Полноценный webhook-сервис</span>
+              <span class="price-amount">50–100 тыс. ₽</span>
+            </div>
+            <p>Приём, проверка и передача событий между системами.</p>
+          </li>
+          <li class="price-item">
+            <div class="price-item-top">
+              <span class="price-item-title">Связка с обработкой данных</span>
+              <span class="price-amount">80–150 тыс. ₽</span>
+            </div>
+            <p>Агрегация, фильтрация, расчёты и передача результата.</p>
+          </li>
+          <li class="price-item">
+            <div class="price-item-top">
+              <span class="price-item-title">Сложная многосервисная схема</span>
+              <span class="price-amount">150–300 тыс. ₽</span>
+            </div>
+            <p>Редкий случай: несколько сервисов и зависимых процессов.</p>
+          </li>
+        </ul>
+      </article>
+
+    </div>
+
+    <div class="pricing-footer">
+      <p>Опишите задачу — определю подходящий формат и назову точную стоимость.</p>
+      <a href="#book" class="btn">Получить оценку</a>
     </div>
   </div>
 </section>

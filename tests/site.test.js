@@ -154,12 +154,42 @@ test('основная структура страницы остаётся до
     .map(match => match[1] ?? match[2]);
   assert.equal(new Set(ids).size, ids.length, 'id элементов не должны повторяться');
 
-  for (const requiredId of ['hero', 'services', 'process', 'cases', 'book', 'contacts']) {
+  for (const requiredId of ['hero', 'services', 'pricing', 'process', 'cases', 'book', 'contacts']) {
     assert.ok(ids.includes(requiredId), `Отсутствует ключевой раздел #${requiredId}`);
   }
 
   assert.match(html, /<script\s+src="site\.js"><\/script>/i);
   assert.ok(fs.existsSync(path.join(projectRoot, 'site.js')), 'Не найден подключённый site.js');
+});
+
+test('раздел цен содержит все категории и диапазоны', () => {
+  const pricing = html.match(/<section id="pricing"[^>]*>([\s\S]*?)<\/section>/i)?.[1];
+  assert.ok(pricing, 'Не найден раздел #pricing');
+
+  for (const category of [
+    'Лендинг с нестандартной логикой',
+    'Telegram-боты',
+    'Интеграции и связки',
+  ]) {
+    assert.ok(pricing.includes(category), `Не найдена категория «${category}»`);
+  }
+
+  const amounts = [...pricing.matchAll(/class="price-amount">\s*([^<]+?)\s*<\/span>/gi)]
+    .map(match => match[1]);
+  assert.deepEqual(amounts, [
+    '20–30 тыс. ₽',
+    '30–40 тыс. ₽',
+    '40–60 тыс. ₽',
+    '60–80 тыс. ₽',
+    '30–50 тыс. ₽',
+    '50–70 тыс. ₽',
+    '60–100 тыс. ₽',
+    '100–150 тыс. ₽',
+    '30–50 тыс. ₽',
+    '50–100 тыс. ₽',
+    '80–150 тыс. ₽',
+    '150–300 тыс. ₽',
+  ]);
 });
 
 test('внутренние ссылки ведут на существующие разделы', () => {
