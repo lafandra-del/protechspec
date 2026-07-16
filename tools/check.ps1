@@ -29,11 +29,27 @@ $requiredFiles = @(
   "commit.md",
   ".gitignore",
   ".editorconfig",
-  "tools/check.ps1"
+  "tools/check.ps1",
+  "site.js",
+  "tests/site.test.js"
 )
 
 foreach ($requiredFile in $requiredFiles) {
   Test-RequiredFile -Path $requiredFile
+}
+
+if (Test-Path -LiteralPath "tests/site.test.js") {
+  $node = Get-Command node -ErrorAction SilentlyContinue
+  if ($null -eq $node) {
+    Add-Failure "Node.js 22+ is required to run site behavior tests."
+  } else {
+    Write-Host "Running site behavior tests..."
+    & node --test --test-isolation=none "tests/site.test.js"
+    if ($LASTEXITCODE -ne 0) {
+      Add-Failure "Site behavior tests failed."
+    }
+    Write-Host ""
+  }
 }
 
 $forbiddenNames = @("desktop.ini", "Thumbs.db")

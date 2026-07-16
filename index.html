@@ -932,62 +932,7 @@
   </div>
 </footer>
 
-<script>
-  // Подсветка активного пункта навигации при скролле
-  const sections = document.querySelectorAll('section[id]');
-  const navLinks = document.querySelectorAll('.nav-links a');
-
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        navLinks.forEach(a => a.classList.remove('active'));
-        const link = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
-        if (link) link.classList.add('active');
-      }
-    });
-  }, { rootMargin: '-40% 0px -55% 0px' });
-
-  sections.forEach(s => observer.observe(s));
-
-  // Форма записи на консультацию
-  const bookForm    = document.getElementById('bookForm');
-  const bookSuccess = document.getElementById('bookSuccess');
-
-  bookForm.addEventListener('submit', e => {
-    e.preventDefault();
-    let valid = true;
-
-    const nameField = document.getElementById('field-name');
-    const nameVal   = document.getElementById('book-name').value.trim();
-    if (!nameVal) {
-      nameField.classList.add('has-error');
-      valid = false;
-    } else {
-      nameField.classList.remove('has-error');
-    }
-
-    const tgField = document.getElementById('field-tg');
-    const tgVal   = document.getElementById('book-tg').value.trim();
-    if (!tgVal) {
-      tgField.classList.add('has-error');
-      valid = false;
-    } else {
-      tgField.classList.remove('has-error');
-    }
-
-    if (!valid) return;
-
-    console.log('Заявка на консультацию:', {
-      name:        nameVal,
-      telegram:    tgVal,
-      description: document.getElementById('book-desc').value.trim(),
-      support:     document.getElementById('book-support').checked,
-    });
-
-    bookForm.hidden    = true;
-    bookSuccess.hidden = false;
-  });
-</script>
+<script src="site.js"></script>
 
 </body>
 </html>

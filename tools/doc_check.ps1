@@ -46,6 +46,8 @@ $required = @(
     'log_project.md',
     'commit.md',
     'index.html',
+    'site.js',
+    'tests/site.test.js',
     '.gitignore',
     '.editorconfig',
     'photo.jpg',
