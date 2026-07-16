@@ -22,7 +22,7 @@ jobs:
           host: 155.212.216.124
           username: deploy
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          fingerprint: SHA256:RYwgwO0oYC9mVzC/m1laCVuC+eiDPqP5wnWiiBFDtLY
+          fingerprint: SHA256:mWHE95RoPW7vUOS1eug2Wf9eXxJ04Cjc3rmfLuaBCK0
           command_timeout: 2m
           script_stop: true
           script: /usr/local/sbin/deploy-landing
