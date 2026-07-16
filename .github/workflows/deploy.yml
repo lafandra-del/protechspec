@@ -1,20 +1,28 @@
 name: Deploy
 
+permissions:
+  contents: read
+
 on:
   push:
     branches: [master]
 
+concurrency:
+  group: production-deploy
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: production
     steps:
       - name: Deploy to VPS
-        uses: appleboy/ssh-action@v1.0.3
+        uses: appleboy/ssh-action@029f5b4aeeeb58fdfe1410a5d17f967dacf36262
         with:
           host: 155.212.216.124
-          username: root
+          username: deploy
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            cd /var/www/landing-tehspec
-            git pull
-            chown -R www-data:www-data .
+          fingerprint: SHA256:RYwgwO0oYC9mVzC/m1laCVuC+eiDPqP5wnWiiBFDtLY
+          command_timeout: 2m
+          script_stop: true
+          script: /usr/local/sbin/deploy-landing

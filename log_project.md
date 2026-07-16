@@ -17,6 +17,24 @@
 - `git diff --check`: ошибок пробельного форматирования нет.
 - `index.html` проверен в Chromium при ширине 1440 px и 390 px: карточки, навигация и адаптивная раскладка отображаются корректно.
 
+### Усиление CI и деплоя
+
+- Убрана несовместимая с Node.js 22 опция `--test-isolation=none`.
+- GitHub Actions закреплены на полных commit SHA и ограничены разрешением `contents: read`.
+- Deploy workflow переведён с root на отдельного пользователя `deploy`, production environment, проверку SSH fingerprint и последовательные деплои.
+- Добавлены воспроизводимые конфигурации deploy-команды, sudoers и security-заголовков Nginx.
+- Приватный SSH-ключ не хранится в репозитории и должен быть добавлен только в GitHub Environment Secret.
+
+### Проверки усиления
+
+- `pwsh -NoProfile -File tools/check.ps1`: выход 0, пройдено 11 из 11 тестов.
+- `pwsh -NoProfile -File tools/doc_check.ps1`: выход 0, обязательных ошибок нет.
+- Deploy-ключ проверен попыткой выполнить произвольную команду: SSH принудительно выполнил только `/usr/local/sbin/deploy-landing`.
+- `visudo -cf`: правило для пользователя `deploy` корректно.
+- `nginx -t`: конфигурация корректна; Nginx успешно перезагружен.
+- Живой сайт возвращает все пять настроенных security-заголовков и сохраняет HTTP 200.
+- Автоматический deploy будет проверен после добавления `SSH_PRIVATE_KEY` в GitHub Environment `production`.
+
 ## 2026-07-16
 
 ### Поведенческие тесты лендинга

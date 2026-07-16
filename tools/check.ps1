@@ -44,7 +44,7 @@ if (Test-Path -LiteralPath "tests/site.test.js") {
     Add-Failure "Node.js 22+ is required to run site behavior tests."
   } else {
     Write-Host "Running site behavior tests..."
-    & node --test --test-isolation=none "tests/site.test.js"
+    & node --test "tests/site.test.js"
     if ($LASTEXITCODE -ne 0) {
       Add-Failure "Site behavior tests failed."
     }

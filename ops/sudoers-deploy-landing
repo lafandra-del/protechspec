@@ -1,0 +1,1 @@
+deploy ALL=(www-data) NOPASSWD: /usr/bin/git -C /var/www/landing-tehspec pull --ff-only origin master
