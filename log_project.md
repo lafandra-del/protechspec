@@ -33,9 +33,11 @@
 - `visudo -cf`: правило для пользователя `deploy` корректно.
 - `nginx -t`: конфигурация корректна; Nginx успешно перезагружен.
 - Живой сайт возвращает все пять настроенных security-заголовков и сохраняет HTTP 200.
-- Автоматический deploy будет проверен после добавления `SSH_PRIVATE_KEY` в GitHub Environment `production`.
+- `SSH_PRIVATE_KEY` добавлен в GitHub Environment `production`; доступ к production ограничен веткой `master`.
 - Первый запуск Deploy для `a8e430b` выявил несовпадение host fingerprint: `drone-ssh 1.7.3` согласовал ECDSA-ключ VPS, а workflow проверял ED25519-ключ.
 - В workflow закреплён проверенный ECDSA SHA256 fingerprint сервера; приватные ключи не изменялись и не выводились.
+- GitHub Actions для `d261555`: `repo-check #25` и `Deploy #10` завершились успешно; VPS выполнил fast-forward с `ec9c48e` до `d261555`.
+- Финальный smoke-тест production: HTTP 200, секции `#services` и `#pricing`, все 12 ценовых диапазонов, `site.js` и `photo.jpg` доступны; настроенные security-заголовки присутствуют.
 
 ## 2026-07-16
 
