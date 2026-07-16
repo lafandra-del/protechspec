@@ -40,8 +40,11 @@ function Write-Detail([string]$label, [string]$value) {
 Write-Section '1. Обязательные файлы'
 
 $required = @(
+    'AGENTS.md',
     'README.md',
     'CHANGELOG.md',
+    'log_project.md',
+    'commit.md',
     'index.html',
     '.gitignore',
     '.editorconfig',
@@ -194,8 +197,8 @@ if (Test-Path 'index.html') {
 
 Write-Section '4. Файловая структура — оптимизация'
 
-# 4.1 .md в корне (кроме README.md)
-$conventionalRoots = @('README.md', 'CHANGELOG.md', 'CONTRIBUTING.md', 'LICENSE.md', 'CLAUDE.md', 'CLAUDE.MD')
+# 4.1 .md в корне (кроме служебных файлов проекта)
+$conventionalRoots = @('AGENTS.md', 'README.md', 'CHANGELOG.md', 'CONTRIBUTING.md', 'LICENSE.md', 'CLAUDE.md', 'CLAUDE.MD', 'commit.md', 'log_project.md')
 $rootMds = @(Get-ChildItem -File -Filter '*.md' | Where-Object { $_.Name -notin $conventionalRoots })
 foreach ($f in $rootMds) {
     Add-Info "/$($f.Name) — при росте проекта перенести в docs/"
@@ -204,7 +207,7 @@ if ($rootMds.Count -eq 0) { Write-OK 'корень: лишних .md нет' }
 
 # 4.2 Kebab-case для md-файлов
 # conventional uppercase names are excluded from kebab-case check
-$conventionalNames = @('README', 'CHANGELOG', 'CONTRIBUTING', 'LICENSE', 'CLAUDE', 'CODEOWNERS')
+$conventionalNames = @('AGENTS', 'README', 'CHANGELOG', 'CONTRIBUTING', 'LICENSE', 'CLAUDE', 'CODEOWNERS', 'COMMIT', 'LOG_PROJECT')
 $badNames = @(Get-ChildItem -Recurse -File -Filter '*.md' |
              Where-Object { $_.FullName -notmatch [regex]::Escape("$root\.git") -and
                             ($_.BaseName -cmatch '[A-Z]' -or $_.BaseName -match '[_ ]') -and
@@ -216,9 +219,9 @@ foreach ($f in $badNames) {
 if ($badNames.Count -eq 0) { Write-OK 'именование .md: kebab-case OK' }
 
 # 4.3 Untracked файлы вне .gitignore
-$untracked = git status --porcelain 2>$null |
+$untracked = @(git status --porcelain 2>$null |
              Where-Object { $_ -match '^\?\? ' } |
-             ForEach-Object { $_ -replace '^\?\? ', '' }
+             ForEach-Object { $_ -replace '^\?\? ', '' })
 foreach ($u in $untracked) {
     Add-Info "Untracked: $($u.Trim())"
 }
